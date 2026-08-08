@@ -17,6 +17,24 @@ export const metadata: Metadata = {
   title: "TechPaila",
   description:
     "Interactive map of the schools offering technical and vocational education in Nepal.",
+  icons: {
+    icon: [{ url: "/techpaila-icon.svg", type: "image/svg+xml" }],
+    apple: [{ url: "/techpaila-icon.svg", type: "image/svg+xml" }],
+    shortcut: "/techpaila-icon.svg",
+  },
+  openGraph: {
+    title: "TechPaila",
+    description:
+      "Interactive map of the schools offering technical and vocational education in Nepal.",
+    images: [{ url: "/techpaila-icon.svg", width: 240, height: 240, alt: "TechPaila" }],
+  },
+  twitter: {
+    card: "summary",
+    title: "TechPaila",
+    description:
+      "Interactive map of the schools offering technical and vocational education in Nepal.",
+    images: ["/techpaila-icon.svg"],
+  },
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

@@ -47,21 +47,15 @@ export default function MapExplorer() {
   return (
     <div className="explorer">
       <header className="explorer-header">
-        <div className="brand">
+        <a href="/" className="brand" aria-label="TechPaila home">
           <img
-            src="/logo-icon.svg"
-            alt=""
-            width={36}
-            height={36}
+            src="/techpaila-icon.svg"
+            alt="TechPaila"
+            width={40}
+            height={40}
             className="brand-icon"
           />
-          <div className="brand-text">
-            <p className="brand-name">TechPaila</p>
-            <p className="brand-tagline">
-              Technical &amp; vocational schools across Nepal
-            </p>
-          </div>
-        </div>
+        </a>
         <Controls
           provinceId={provinceId}
           districtName={districtName}

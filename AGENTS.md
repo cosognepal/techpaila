@@ -70,3 +70,12 @@ Phase unclear (post-compact, mid-task): `zerops_workflow action="status"`. Retur
 
 Shape: `{code, error, suggestion?, apiCode?, diagnostic?, apiMeta?, checks?, recovery?}`. `code`+`error` always present. `recovery` set → call before retry/ask. Absent → fall back to `zerops_workflow action="status"`. `checks` = multi-check failures (`kind` + optional `preAttestCmd`/`expectedExit`).
 <!-- ZCP:END -->
+
+<!-- ZEROPS:REFLOG -->
+### 2026-08-08 — Bootstrap: Adopt existing nodejs service to update Tailwind theme colors and fonts
+
+- **Runtime:** nodejs (ubuntu/nodejs@24, dev)
+- **Session:** 2250e3f4591a9dbd
+
+> This is a historical record. Verify current state via `zerops_discover`.
+<!-- /ZEROPS:REFLOG -->

@@ -14,15 +14,18 @@ const MapView = dynamic(() => import("@/components/MapView"), {
 export default function MapExplorer() {
   const [provinceId, setProvinceId] = useState<number | null>(null);
   const [districtName, setDistrictName] = useState<string | null>(null);
+  const [municipalityId, setMunicipalityId] = useState<string | null>(null);
 
   const handleProvinceChange = useCallback((next: number | null) => {
     setProvinceId(next);
     setDistrictName(null);
+    setMunicipalityId(null);
   }, []);
 
   const handleDistrictChange = useCallback(
     (next: string | null) => {
       setDistrictName(next);
+      setMunicipalityId(null);
       if (next) {
         const match = districts.find((d) => d.DISTRICT === next);
         if (match && match.PROVINCE !== provinceId) {
@@ -33,15 +36,25 @@ export default function MapExplorer() {
     [provinceId],
   );
 
+  const handleMunicipalityChange = useCallback((next: string | null) => {
+    setMunicipalityId(next);
+  }, []);
+
   const handleProvinceSelect = useCallback((id: number) => {
     setProvinceId(id);
     setDistrictName(null);
+    setMunicipalityId(null);
   }, []);
 
   const handleDistrictSelect = useCallback((name: string) => {
     const match = districts.find((d) => d.DISTRICT === name);
     if (match) setProvinceId(match.PROVINCE);
     setDistrictName(name);
+    setMunicipalityId(null);
+  }, []);
+
+  const handleMunicipalitySelect = useCallback((id: string) => {
+    setMunicipalityId(id);
   }, []);
 
   return (
@@ -59,8 +72,10 @@ export default function MapExplorer() {
         <Controls
           provinceId={provinceId}
           districtName={districtName}
+          municipalityId={municipalityId}
           onProvinceChange={handleProvinceChange}
           onDistrictChange={handleDistrictChange}
+          onMunicipalityChange={handleMunicipalityChange}
         />
       </header>
 
@@ -69,11 +84,17 @@ export default function MapExplorer() {
           <MapView
             provinceId={provinceId}
             districtName={districtName}
+            municipalityId={municipalityId}
             onProvinceSelect={handleProvinceSelect}
             onDistrictSelect={handleDistrictSelect}
+            onMunicipalitySelect={handleMunicipalitySelect}
           />
         </div>
-        <Schools districtName={districtName} />
+        <Schools
+          provinceId={provinceId}
+          districtName={districtName}
+          municipalityId={municipalityId}
+        />
       </div>
     </div>
   );

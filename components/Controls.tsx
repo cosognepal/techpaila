@@ -2,24 +2,35 @@
 
 import provinces from "@/data/provinces.json";
 import districts from "@/data/districts.json";
-import { titleCaseDistrict } from "@/lib/map";
+import municipalities from "@/data/municipalities.json";
+import { districtMatchesMesaugat, titleCaseDistrict } from "@/lib/map";
 
 type ControlsProps = {
   provinceId: number | null;
   districtName: string | null;
+  municipalityId: string | null;
   onProvinceChange: (provinceId: number | null) => void;
   onDistrictChange: (districtName: string | null) => void;
+  onMunicipalityChange: (municipalityId: string | null) => void;
 };
 
 export default function Controls({
   provinceId,
   districtName,
+  municipalityId,
   onProvinceChange,
   onDistrictChange,
+  onMunicipalityChange,
 }: ControlsProps) {
   const districtOptions = districts.filter((d) =>
     provinceId == null ? true : d.PROVINCE === provinceId,
   );
+
+  const municipalityOptions = districtName
+    ? municipalities.filter((m) =>
+        districtMatchesMesaugat(districtName, m.district),
+      )
+    : [];
 
   return (
     <div className="controls">
@@ -57,6 +68,28 @@ export default function Controls({
           {districtOptions.map((d) => (
             <option key={d.DISTRICT} value={d.DISTRICT}>
               {titleCaseDistrict(d.DISTRICT)}
+            </option>
+          ))}
+        </select>
+      </label>
+
+      <label className="control-field">
+        <span className="control-label">Municipality</span>
+        <select
+          value={municipalityId ?? ""}
+          disabled={!districtName}
+          onChange={(e) => {
+            const value = e.target.value;
+            onMunicipalityChange(value === "" ? null : value);
+          }}
+        >
+          <option value="">
+            {!districtName ? "Select a district first" : "All municipalities"}
+          </option>
+          {municipalityOptions.map((m) => (
+            <option key={m.id} value={m.id}>
+              {m.name}
+              {m.level ? ` (${m.level})` : ""}
             </option>
           ))}
         </select>

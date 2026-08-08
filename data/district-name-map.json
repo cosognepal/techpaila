@@ -1,0 +1,97 @@
+{
+  "toOur": {
+    "Achham": "ACHHAM",
+    "Arghakhanchi": "ARGHAKHANCHI",
+    "Baglung": "BAGLUNG",
+    "Baitadi": "BAITADI",
+    "Bajhang": "BAJHANG",
+    "Bajura": "BAJURA",
+    "Banke": "BANKE",
+    "Bara": "BARA",
+    "Bardiya": "BARDIYA",
+    "Bhaktapur": "BHAKTAPUR",
+    "Bhojpur": "BHOJPUR",
+    "Chitwan": "CHITWAN",
+    "Dadeldhura": "DADELDHURA",
+    "Dailekh": "DAILEKH",
+    "Dang": "DANG",
+    "Darchula": "DARCHULA",
+    "Dhading": "DHADING",
+    "Dhankuta": "DHANKUTA",
+    "Dhanusa": "DHANUSA",
+    "Dolakha": "DOLAKHA",
+    "Dolpa": "DOLPA",
+    "Doti": "DOTI",
+    "Gorkha": "GORKHA",
+    "Gulmi": "GULMI",
+    "Humla": "HUMLA",
+    "Ilam": "ILAM",
+    "Jajarkot": "JAJARKOT",
+    "Jhapa": "JHAPA",
+    "Jumla": "JUMLA",
+    "Kailali": "KAILALI",
+    "Kalikot": "KALIKOT",
+    "Kanchanpur": "KANCHANPUR",
+    "Kapilbastu": "KAPILVASTU",
+    "Kaski": "KASKI",
+    "Kathmandu": "KATHMANDU",
+    "Kavrepalanchok": "KAVREPALANCHOWK",
+    "Khotang": "KHOTANG",
+    "Lalitpur": "LALITPUR",
+    "Lamjung": "LAMJUNG",
+    "Mahottari": "MAHOTTARI",
+    "Makwanpur": "MAKWANPUR",
+    "Manag": "MANANG",
+    "Morang": "MORANG",
+    "Mugu": "MUGU",
+    "Mustang": "MUSTANG",
+    "Myagdi": "MYAGDI",
+    "Nuwakot": "NUWAKOT",
+    "Okhaldhunga": "OKHALDHUNGA",
+    "Palpa": "PALPA",
+    "Panchthar": "PANCHTHAR",
+    "Parbat": "PARBAT",
+    "Parsa": "PARSA",
+    "Pyuthan": "PYUTHAN",
+    "Ramechhap": "RAMECHHAP",
+    "Rasuwa": "RASUWA",
+    "Rautahat": "RAUTAHAT",
+    "Rolpa": "ROLPA",
+    "Rupandehi": "RUPANDEHI",
+    "Salyan": "SALYAN",
+    "Sankhuwasabha": "SANKHUWASABHA",
+    "Saptari": "SAPTARI",
+    "Sarlahi": "SARLAHI",
+    "Sindhuli": "SINDHULI",
+    "Sindhupalchowk": "SINDHUPALCHOK",
+    "Siraha": "SIRAHA",
+    "Solukhumbu": "SOLUKHUMBU",
+    "Sunsari": "SUNSARI",
+    "Surkhet": "SURKHET",
+    "Syangja": "SYANGJA",
+    "Tanahun": "TANAHU",
+    "Taplejung": "TAPLEJUNG",
+    "Terathum": "TEHRATHUM",
+    "Udayapur": "UDAYAPUR"
+  },
+  "ourToTheirsExtras": {
+    "NAWALPUR": [
+      "Nawalparasi"
+    ],
+    "PARASI": [
+      "Nawalparasi"
+    ],
+    "EASTERN RUKUM": [
+      "Rukum"
+    ],
+    "WESTERN RUKUM": [
+      "Rukum"
+    ],
+    "EASTERN-RUKUM": [
+      "Rukum"
+    ],
+    "WESTERN-RUKUM": [
+      "Rukum"
+    ]
+  }
+}

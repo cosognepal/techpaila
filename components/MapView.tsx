@@ -1,21 +1,13 @@
 "use client";
 
-import { useEffect, useMemo, useState } from "react";
-import {
-  GeoJSON,
-  MapContainer,
-  TileLayer,
-  useMap,
-} from "react-leaflet";
-import type {
-  Feature,
-  FeatureCollection,
-  Geometry,
-} from "geojson";
+import { useEffect, useMemo, useRef, useState } from "react";
+import { GeoJSON, MapContainer, TileLayer, useMap } from "react-leaflet";
+import type { Feature, FeatureCollection, Geometry } from "geojson";
 import type { Layer, Path } from "leaflet";
 import L from "leaflet";
 import {
   DISTRICTS_GEOJSON_URL,
+  MUNICIPALITIES_GEOJSON_URL,
   NEPAL_CENTER,
   NEPAL_ZOOM,
   OSM_ATTRIBUTION,
@@ -24,43 +16,68 @@ import {
   districtHoverStyle,
   districtStyle,
   filterDistrictsByProvince,
+  filterMunicipalitiesByDistrict,
   findDistrictFeature,
+  findMunicipalityFeature,
   findProvinceFeature,
+  municipalityHoverStyle,
+  municipalityIdFromProps,
+  municipalityStyle,
   provinceHoverStyle,
   provinceStyle,
   titleCaseDistrict,
   type DistrictFeatureProps,
+  type MunicipalityFeatureProps,
   type ProvinceFeatureProps,
 } from "@/lib/map";
 
 type MapViewProps = {
   provinceId: number | null;
   districtName: string | null;
+  municipalityId: string | null;
   onProvinceSelect: (provinceId: number) => void;
   onDistrictSelect: (districtName: string) => void;
+  onMunicipalitySelect: (municipalityId: string) => void;
 };
 
 function FitSelection({
   provinces,
   districts,
+  municipalities,
   provinceId,
   districtName,
+  municipalityId,
 }: {
   provinces: FeatureCollection<Geometry, ProvinceFeatureProps> | null;
   districts: FeatureCollection<Geometry, DistrictFeatureProps> | null;
+  municipalities: FeatureCollection<Geometry, MunicipalityFeatureProps> | null;
   provinceId: number | null;
   districtName: string | null;
+  municipalityId: string | null;
 }) {
   const map = useMap();
 
   useEffect(() => {
     if (!provinces) return;
 
+    if (municipalityId && municipalities) {
+      const feature = findMunicipalityFeature(municipalities, municipalityId);
+      if (feature) {
+        map.fitBounds(L.geoJSON(feature).getBounds(), {
+          padding: [36, 36],
+          maxZoom: 12,
+        });
+        return;
+      }
+    }
+
     if (districtName && districts) {
       const feature = findDistrictFeature(districts, districtName);
       if (feature) {
-        const layer = L.geoJSON(feature);
-        map.fitBounds(layer.getBounds(), { padding: [40, 40], maxZoom: 11 });
+        map.fitBounds(L.geoJSON(feature).getBounds(), {
+          padding: [40, 40],
+          maxZoom: 11,
+        });
         return;
       }
     }
@@ -68,8 +85,10 @@ function FitSelection({
     if (provinceId != null) {
       const feature = findProvinceFeature(provinces, provinceId);
       if (feature) {
-        const layer = L.geoJSON(feature);
-        map.fitBounds(layer.getBounds(), { padding: [36, 36], maxZoom: 9 });
+        map.fitBounds(L.geoJSON(feature).getBounds(), {
+          padding: [36, 36],
+          maxZoom: 9,
+        });
         return;
       }
     }
@@ -81,7 +100,15 @@ function FitSelection({
       ],
       { padding: [24, 24] },
     );
-  }, [map, provinces, districts, provinceId, districtName]);
+  }, [
+    map,
+    provinces,
+    districts,
+    municipalities,
+    provinceId,
+    districtName,
+    municipalityId,
+  ]);
 
   return null;
 }
@@ -105,8 +132,10 @@ function InvalidateSize() {
 export default function MapView({
   provinceId,
   districtName,
+  municipalityId,
   onProvinceSelect,
   onDistrictSelect,
+  onMunicipalitySelect,
 }: MapViewProps) {
   const [provinces, setProvinces] = useState<FeatureCollection<
     Geometry,
@@ -116,11 +145,16 @@ export default function MapView({
     Geometry,
     DistrictFeatureProps
   > | null>(null);
+  const [municipalities, setMunicipalities] = useState<FeatureCollection<
+    Geometry,
+    MunicipalityFeatureProps
+  > | null>(null);
+  const muniLoaded = useRef(false);
 
   useEffect(() => {
     let cancelled = false;
 
-    async function load() {
+    async function loadBase() {
       const [provRes, distRes] = await Promise.all([
         fetch(PROVINCES_GEOJSON_URL),
         fetch(DISTRICTS_GEOJSON_URL),
@@ -135,16 +169,40 @@ export default function MapView({
       }
     }
 
-    load().catch(console.error);
+    loadBase().catch(console.error);
     return () => {
       cancelled = true;
     };
   }, []);
 
+  useEffect(() => {
+    if (!districtName || muniLoaded.current) return;
+    let cancelled = false;
+
+    async function loadMunicipalities() {
+      const res = await fetch(MUNICIPALITIES_GEOJSON_URL);
+      const data = await res.json();
+      if (!cancelled) {
+        setMunicipalities(data);
+        muniLoaded.current = true;
+      }
+    }
+
+    loadMunicipalities().catch(console.error);
+    return () => {
+      cancelled = true;
+    };
+  }, [districtName]);
+
   const districtLayer = useMemo(() => {
-    if (!districts || provinceId == null) return null;
+    if (!districts || provinceId == null || districtName) return null;
     return filterDistrictsByProvince(districts, provinceId);
-  }, [districts, provinceId]);
+  }, [districts, provinceId, districtName]);
+
+  const municipalityLayer = useMemo(() => {
+    if (!municipalities || !districtName) return null;
+    return filterMunicipalitiesByDistrict(municipalities, districtName);
+  }, [municipalities, districtName]);
 
   const onEachProvince = (
     feature: Feature<Geometry, ProvinceFeatureProps>,
@@ -175,10 +233,29 @@ export default function MapView({
 
     path.on({
       mouseover: () => path.setStyle(districtHoverStyle),
-      mouseout: () =>
-        path.setStyle(districtStyle(districtName === name)),
+      mouseout: () => path.setStyle(districtStyle(districtName === name)),
       click: () => {
         if (name) onDistrictSelect(name);
+      },
+    });
+  };
+
+  const onEachMunicipality = (
+    feature: Feature<Geometry, MunicipalityFeatureProps>,
+    layer: Layer,
+  ) => {
+    const path = layer as Path;
+    const id = municipalityIdFromProps(feature.properties);
+    const label = feature.properties?.NAME ?? "Municipality";
+    const level = feature.properties?.LEVEL;
+    path.bindTooltip(level ? `${label} (${level})` : label, { sticky: true });
+
+    path.on({
+      mouseover: () => path.setStyle(municipalityHoverStyle),
+      mouseout: () =>
+        path.setStyle(municipalityStyle(municipalityId === id)),
+      click: () => {
+        if (id) onMunicipalitySelect(id);
       },
     });
   };
@@ -196,8 +273,10 @@ export default function MapView({
       <FitSelection
         provinces={provinces}
         districts={districts}
+        municipalities={municipalities}
         provinceId={provinceId}
         districtName={districtName}
+        municipalityId={municipalityId}
       />
 
       {provinceId == null && provinces && (
@@ -214,14 +293,27 @@ export default function MapView({
         />
       )}
 
-      {provinceId != null && districtLayer && (
+      {provinceId != null && !districtName && districtLayer && (
         <GeoJSON
-          key={`districts-${provinceId}-${districtName ?? "all"}`}
+          key={`districts-${provinceId}`}
           data={districtLayer}
           style={(feature) =>
             districtStyle(feature?.properties?.DISTRICT === districtName)
           }
           onEachFeature={onEachDistrict}
+        />
+      )}
+
+      {districtName && municipalityLayer && (
+        <GeoJSON
+          key={`muni-${districtName}-${municipalityId ?? "all"}`}
+          data={municipalityLayer}
+          style={(feature) =>
+            municipalityStyle(
+              municipalityIdFromProps(feature?.properties) === municipalityId,
+            )
+          }
+          onEachFeature={onEachMunicipality}
         />
       )}
     </MapContainer>

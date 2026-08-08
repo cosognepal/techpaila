@@ -1,0 +1,5364 @@
+[
+  {
+    "id": "bannigadi -jayagadh-achh",
+    "name": "Bannigadi Jayagadh",
+    "level": "Gaunpalika",
+    "district": "Achham",
+    "fId": 12
+  },
+  {
+    "id": "chaurpati-achham",
+    "name": "Chaurpati",
+    "level": "Gaunpalika",
+    "district": "Achham",
+    "fId": 15
+  },
+  {
+    "id": "dhakari-achham",
+    "name": "Dhakari",
+    "level": "Gaunpalika",
+    "district": "Achham",
+    "fId": 17
+  },
+  {
+    "id": "kamalbazar-achham",
+    "name": "Kamalbazar",
+    "level": "Nagarpalika",
+    "district": "Achham",
+    "fId": 19
+  },
+  {
+    "id": "khaptad -national -park-",
+    "name": "Khaptad National Park",
+    "level": "national-park",
+    "district": "Achham",
+    "fId": 21
+  },
+  {
+    "id": "mangalsen-achham",
+    "name": "Mangalsen",
+    "level": "Nagarpalika",
+    "district": "Achham",
+    "fId": 16
+  },
+  {
+    "id": "mellekh-achham",
+    "name": "Mellekh",
+    "level": "Gaunpalika",
+    "district": "Achham",
+    "fId": 13
+  },
+  {
+    "id": "panchadewal -binayak-ach",
+    "name": "Panchadewal Binayak",
+    "level": "Nagarpalika",
+    "district": "Achham",
+    "fId": 18
+  },
+  {
+    "id": "ramaroshan-achham",
+    "name": "Ramaroshan",
+    "level": "Gaunpalika",
+    "district": "Achham",
+    "fId": 14
+  },
+  {
+    "id": "sanphebagar-achham",
+    "name": "Sanphebagar",
+    "level": "Nagarpalika",
+    "district": "Achham",
+    "fId": 11
+  },
+  {
+    "id": "turmakhad-achham",
+    "name": "Turmakhad",
+    "level": "Gaunpalika",
+    "district": "Achham",
+    "fId": 20
+  },
+  {
+    "id": "bhumikasthan-arghakhanch",
+    "name": "Bhumikasthan",
+    "level": "Nagarpalika",
+    "district": "Arghakhanchi",
+    "fId": 22
+  },
+  {
+    "id": "chattradev-arghakhanchi",
+    "name": "Chattradev",
+    "level": "Gaunpalika",
+    "district": "Arghakhanchi",
+    "fId": 24
+  },
+  {
+    "id": "malarani-arghakhanchi",
+    "name": "Malarani",
+    "level": "Gaunpalika",
+    "district": "Arghakhanchi",
+    "fId": 23
+  },
+  {
+    "id": "panini-arghakhanchi",
+    "name": "Panini",
+    "level": "Gaunpalika",
+    "district": "Arghakhanchi",
+    "fId": 25
+  },
+  {
+    "id": "sandhikharka-arghakhanch",
+    "name": "Sandhikharka",
+    "level": "Nagarpalika",
+    "district": "Arghakhanchi",
+    "fId": 27
+  },
+  {
+    "id": "sitaganga-arghakhanchi",
+    "name": "Sitaganga",
+    "level": "Nagarpalika",
+    "district": "Arghakhanchi",
+    "fId": 26
+  },
+  {
+    "id": "badigad-baglung",
+    "name": "Badigad",
+    "level": "Gaunpalika",
+    "district": "Baglung",
+    "fId": 28
+  },
+  {
+    "id": "baglung-baglung",
+    "name": "Baglung",
+    "level": "Nagarpalika",
+    "district": "Baglung",
+    "fId": 33
+  },
+  {
+    "id": "dhorpatan-baglung",
+    "name": "Dhorpatan",
+    "level": "Nagarpalika",
+    "district": "Baglung",
+    "fId": 35
+  },
+  {
+    "id": "dhorpatan -hunting -rese",
+    "name": "Dhorpatan Hunting Reserve",
+    "level": "hungint-reserve",
+    "district": "Baglung",
+    "fId": 37
+  },
+  {
+    "id": "galkot-baglung",
+    "name": "Galkot",
+    "level": "Nagarpalika",
+    "district": "Baglung",
+    "fId": 29
+  },
+  {
+    "id": "jaimuni-baglung",
+    "name": "Jaimuni",
+    "level": "Nagarpalika",
+    "district": "Baglung",
+    "fId": 38
+  },
+  {
+    "id": "kathekhola-baglung",
+    "name": "Kathekhola",
+    "level": "Gaunpalika",
+    "district": "Baglung",
+    "fId": 32
+  },
+  {
+    "id": "nisikhola-baglung",
+    "name": "Nisikhola",
+    "level": "Gaunpalika",
+    "district": "Baglung",
+    "fId": 36
+  },
+  {
+    "id": "tamankhola-baglung",
+    "name": "Tamankhola",
+    "level": "Gaunpalika",
+    "district": "Baglung",
+    "fId": 34
+  },
+  {
+    "id": "tarakhola-baglung",
+    "name": "Tarakhola",
+    "level": "Gaunpalika",
+    "district": "Baglung",
+    "fId": 30
+  },
+  {
+    "id": "woreng-baglung",
+    "name": "Woreng",
+    "level": "Gaunpalika",
+    "district": "Baglung",
+    "fId": 31
+  },
+  {
+    "id": "dasarathchand-baitadi",
+    "name": "Dasarathchand",
+    "level": "Nagarpalika",
+    "district": "Baitadi",
+    "fId": 43
+  },
+  {
+    "id": "dilasaini-baitadi",
+    "name": "Dilasaini",
+    "level": "Gaunpalika",
+    "district": "Baitadi",
+    "fId": 40
+  },
+  {
+    "id": "dogadakedar-baitadi",
+    "name": "Dogadakedar",
+    "level": "Gaunpalika",
+    "district": "Baitadi",
+    "fId": 44
+  },
+  {
+    "id": "melauli-baitadi",
+    "name": "Melauli",
+    "level": "Nagarpalika",
+    "district": "Baitadi",
+    "fId": 48
+  },
+  {
+    "id": "pancheswar-baitadi",
+    "name": "Pancheswar",
+    "level": "Gaunpalika",
+    "district": "Baitadi",
+    "fId": 47
+  },
+  {
+    "id": "patan-baitadi",
+    "name": "Patan",
+    "level": "Nagarpalika",
+    "district": "Baitadi",
+    "fId": 41
+  },
+  {
+    "id": "purchaudi-baitadi",
+    "name": "Purchaudi",
+    "level": "Nagarpalika",
+    "district": "Baitadi",
+    "fId": 39
+  },
+  {
+    "id": "shivanath-baitadi",
+    "name": "Shivanath",
+    "level": "Gaunpalika",
+    "district": "Baitadi",
+    "fId": 42
+  },
+  {
+    "id": "sigas-baitadi",
+    "name": "Sigas",
+    "level": "Gaunpalika",
+    "district": "Baitadi",
+    "fId": 46
+  },
+  {
+    "id": "surnaya-baitadi",
+    "name": "Surnaya",
+    "level": "Gaunpalika",
+    "district": "Baitadi",
+    "fId": 45
+  },
+  {
+    "id": "bithadchir-bajhang",
+    "name": "Bithadchir",
+    "level": "Gaunpalika",
+    "district": "Bajhang",
+    "fId": 51
+  },
+  {
+    "id": "bungal-bajhang",
+    "name": "Bungal",
+    "level": "Nagarpalika",
+    "district": "Bajhang",
+    "fId": 50
+  },
+  {
+    "id": "chabispathivera-bajhang",
+    "name": "Chabispathivera",
+    "level": "Gaunpalika",
+    "district": "Bajhang",
+    "fId": 55
+  },
+  {
+    "id": "durgathali-bajhang",
+    "name": "Durgathali",
+    "level": "Gaunpalika",
+    "district": "Bajhang",
+    "fId": 54
+  },
+  {
+    "id": "jayaprithivi-bajhang",
+    "name": "Jayaprithivi",
+    "level": "Nagarpalika",
+    "district": "Bajhang",
+    "fId": 56
+  },
+  {
+    "id": "kanda-bajhang",
+    "name": "Kanda",
+    "level": "Gaunpalika",
+    "district": "Bajhang",
+    "fId": 61
+  },
+  {
+    "id": "kedarseu-bajhang",
+    "name": "Kedarseu",
+    "level": "Gaunpalika",
+    "district": "Bajhang",
+    "fId": 53
+  },
+  {
+    "id": "khaptachhanna-bajhang",
+    "name": "Khaptachhanna",
+    "level": "Gaunpalika",
+    "district": "Bajhang",
+    "fId": 59
+  },
+  {
+    "id": "khaptad -national -park-",
+    "name": "Khaptad National Park",
+    "level": "national-park",
+    "district": "Bajhang",
+    "fId": 60
+  },
+  {
+    "id": "masta-bajhang",
+    "name": "Masta",
+    "level": "Gaunpalika",
+    "district": "Bajhang",
+    "fId": 57
+  },
+  {
+    "id": "surma-bajhang",
+    "name": "Surma",
+    "level": "Gaunpalika",
+    "district": "Bajhang",
+    "fId": 49
+  },
+  {
+    "id": "talkot-bajhang",
+    "name": "Talkot",
+    "level": "Gaunpalika",
+    "district": "Bajhang",
+    "fId": 58
+  },
+  {
+    "id": "thalara-bajhang",
+    "name": "Thalara",
+    "level": "Gaunpalika",
+    "district": "Bajhang",
+    "fId": 52
+  },
+  {
+    "id": "badimalika-bajura",
+    "name": "Badimalika",
+    "level": "Nagarpalika",
+    "district": "Bajura",
+    "fId": 65
+  },
+  {
+    "id": "budhiganga-bajura",
+    "name": "Budhiganga",
+    "level": "Nagarpalika",
+    "district": "Bajura",
+    "fId": 63
+  },
+  {
+    "id": "budhinanda-bajura",
+    "name": "Budhinanda",
+    "level": "Nagarpalika",
+    "district": "Bajura",
+    "fId": 69
+  },
+  {
+    "id": "chhededaha-bajura",
+    "name": "Chhededaha",
+    "level": "Gaunpalika",
+    "district": "Bajura",
+    "fId": 62
+  },
+  {
+    "id": "gaumul-bajura",
+    "name": "Gaumul",
+    "level": "Gaunpalika",
+    "district": "Bajura",
+    "fId": 70
+  },
+  {
+    "id": "himali-bajura",
+    "name": "Himali",
+    "level": "Gaunpalika",
+    "district": "Bajura",
+    "fId": 68
+  },
+  {
+    "id": "pandav -ghupa-bajura",
+    "name": "Pandav Ghupa",
+    "level": "Gaunpalika",
+    "district": "Bajura",
+    "fId": 66
+  },
+  {
+    "id": "swami -kartik-bajura",
+    "name": "Swami Kartik",
+    "level": "Gaunpalika",
+    "district": "Bajura",
+    "fId": 67
+  },
+  {
+    "id": "tribeni-bajura",
+    "name": "Tribeni",
+    "level": "Nagarpalika",
+    "district": "Bajura",
+    "fId": 64
+  },
+  {
+    "id": "baijanath-banke",
+    "name": "Baijanath",
+    "level": "Gaunpalika",
+    "district": "Banke",
+    "fId": 71
+  },
+  {
+    "id": "duduwa-banke",
+    "name": "Duduwa",
+    "level": "Gaunpalika",
+    "district": "Banke",
+    "fId": 78
+  },
+  {
+    "id": "janaki-banke",
+    "name": "Janaki",
+    "level": "Gaunpalika",
+    "district": "Banke",
+    "fId": 73
+  },
+  {
+    "id": "khajura-banke",
+    "name": "Khajura",
+    "level": "Gaunpalika",
+    "district": "Banke",
+    "fId": 72
+  },
+  {
+    "id": "kohalpur-banke",
+    "name": "Kohalpur",
+    "level": "Nagarpalika",
+    "district": "Banke",
+    "fId": 75
+  },
+  {
+    "id": "narainapur-banke",
+    "name": "Narainapur",
+    "level": "Gaunpalika",
+    "district": "Banke",
+    "fId": 74
+  },
+  {
+    "id": "nepalganj-banke",
+    "name": "Nepalganj",
+    "level": "Upamahanagarpalika",
+    "district": "Banke",
+    "fId": 77
+  },
+  {
+    "id": "raptisonari-banke",
+    "name": "Raptisonari",
+    "level": "Gaunpalika",
+    "district": "Banke",
+    "fId": 76
+  },
+  {
+    "id": "adarshkotwal-bara",
+    "name": "Adarshkotwal",
+    "level": "Gaunpalika",
+    "district": "Bara",
+    "fId": 89
+  },
+  {
+    "id": "baragadhi-bara",
+    "name": "Baragadhi",
+    "level": "Gaunpalika",
+    "district": "Bara",
+    "fId": 84
+  },
+  {
+    "id": "devtal-bara",
+    "name": "Devtal",
+    "level": "Gaunpalika",
+    "district": "Bara",
+    "fId": 82
+  },
+  {
+    "id": "jitpur -simara-bara",
+    "name": "Jitpur Simara",
+    "level": "Upamahanagarpalika",
+    "district": "Bara",
+    "fId": 85
+  },
+  {
+    "id": "kaliya-bara",
+    "name": "Kaliya",
+    "level": "Upamahanagarpalika",
+    "district": "Bara",
+    "fId": 93
+  },
+  {
+    "id": "karaiyamai-bara",
+    "name": "Karaiyamai",
+    "level": "Gaunpalika",
+    "district": "Bara",
+    "fId": 87
+  },
+  {
+    "id": "kolhabi-bara",
+    "name": "Kolhabi",
+    "level": "Gaunpalika",
+    "district": "Bara",
+    "fId": 88
+  },
+  {
+    "id": "mahagadhimai-bara",
+    "name": "Mahagadhimai",
+    "level": "Nagarpalika",
+    "district": "Bara",
+    "fId": 83
+  },
+  {
+    "id": "nijgadh-bara",
+    "name": "Nijgadh",
+    "level": "Nagarpalika",
+    "district": "Bara",
+    "fId": 86
+  },
+  {
+    "id": "pacharauta-bara",
+    "name": "Pacharauta",
+    "level": "Gaunpalika",
+    "district": "Bara",
+    "fId": 79
+  },
+  {
+    "id": "parwanipur-bara",
+    "name": "Parwanipur",
+    "level": "Gaunpalika",
+    "district": "Bara",
+    "fId": 90
+  },
+  {
+    "id": "pheta-bara",
+    "name": "Pheta",
+    "level": "Gaunpalika",
+    "district": "Bara",
+    "fId": 92
+  },
+  {
+    "id": "prasauni-bara",
+    "name": "Prasauni",
+    "level": "Gaunpalika",
+    "district": "Bara",
+    "fId": 91
+  },
+  {
+    "id": "simraungadh-bara",
+    "name": "Simraungadh",
+    "level": "Nagarpalika",
+    "district": "Bara",
+    "fId": 80
+  },
+  {
+    "id": "suwarna-bara",
+    "name": "Suwarna",
+    "level": "Gaunpalika",
+    "district": "Bara",
+    "fId": 81
+  },
+  {
+    "id": "badhaiyatal-bardiya",
+    "name": "Badhaiyatal",
+    "level": "Gaunpalika",
+    "district": "Bardiya",
+    "fId": 96
+  },
+  {
+    "id": "bansagadhi-bardiya",
+    "name": "Bansagadhi",
+    "level": "Nagarpalika",
+    "district": "Bardiya",
+    "fId": 102
+  },
+  {
+    "id": "bansagadhi-bardiya",
+    "name": "Bansagadhi",
+    "level": "Nagarpalika",
+    "district": "Bardiya",
+    "fId": 103
+  },
+  {
+    "id": "barbardiya-bardiya",
+    "name": "Barbardiya",
+    "level": "Nagarpalika",
+    "district": "Bardiya",
+    "fId": 101
+  },
+  {
+    "id": "bardiya-bardiya",
+    "name": "Bardiya",
+    "level": "national-park",
+    "district": "Bardiya",
+    "fId": 94
+  },
+  {
+    "id": "geruwa-bardiya",
+    "name": "Geruwa",
+    "level": "Gaunpalika",
+    "district": "Bardiya",
+    "fId": 100
+  },
+  {
+    "id": "gulariya-bardiya",
+    "name": "Gulariya",
+    "level": "Nagarpalika",
+    "district": "Bardiya",
+    "fId": 95
+  },
+  {
+    "id": "madhuwan-bardiya",
+    "name": "Madhuwan",
+    "level": "Nagarpalika",
+    "district": "Bardiya",
+    "fId": 97
+  },
+  {
+    "id": "rajapur-bardiya",
+    "name": "Rajapur",
+    "level": "Nagarpalika",
+    "district": "Bardiya",
+    "fId": 99
+  },
+  {
+    "id": "thakurbaba-bardiya",
+    "name": "Thakurbaba",
+    "level": "Nagarpalika",
+    "district": "Bardiya",
+    "fId": 98
+  },
+  {
+    "id": "bhaktapur-bhaktapur",
+    "name": "Bhaktapur",
+    "level": "Nagarpalika",
+    "district": "Bhaktapur",
+    "fId": 104
+  },
+  {
+    "id": "changunarayan-bhaktapur",
+    "name": "Changunarayan",
+    "level": "Nagarpalika",
+    "district": "Bhaktapur",
+    "fId": 106
+  },
+  {
+    "id": "madhyapur -thimi-bhaktap",
+    "name": "Madhyapur Thimi",
+    "level": "Nagarpalika",
+    "district": "Bhaktapur",
+    "fId": 105
+  },
+  {
+    "id": "suryabinayak-bhaktapur",
+    "name": "Suryabinayak",
+    "level": "Nagarpalika",
+    "district": "Bhaktapur",
+    "fId": 107
+  },
+  {
+    "id": "aamchowk-bhojpur",
+    "name": "Aamchowk",
+    "level": "Gaunpalika",
+    "district": "Bhojpur",
+    "fId": 112
+  },
+  {
+    "id": "arun-bhojpur",
+    "name": "Arun",
+    "level": "Gaunpalika",
+    "district": "Bhojpur",
+    "fId": 110
+  },
+  {
+    "id": "bhojpur-bhojpur",
+    "name": "Bhojpur",
+    "level": "Nagarpalika",
+    "district": "Bhojpur",
+    "fId": 114
+  },
+  {
+    "id": "hatuwagadhi-bhojpur",
+    "name": "Hatuwagadhi",
+    "level": "Gaunpalika",
+    "district": "Bhojpur",
+    "fId": 113
+  },
+  {
+    "id": "pauwadungma-bhojpur",
+    "name": "Pauwadungma",
+    "level": "Gaunpalika",
+    "district": "Bhojpur",
+    "fId": 116
+  },
+  {
+    "id": "ramprasad -rai-bhojpur",
+    "name": "Ramprasad Rai",
+    "level": "Gaunpalika",
+    "district": "Bhojpur",
+    "fId": 111
+  },
+  {
+    "id": "salpasilichho-bhojpur",
+    "name": "Salpasilichho",
+    "level": "Gaunpalika",
+    "district": "Bhojpur",
+    "fId": 108
+  },
+  {
+    "id": "shadananda-bhojpur",
+    "name": "Shadananda",
+    "level": "Nagarpalika",
+    "district": "Bhojpur",
+    "fId": 109
+  },
+  {
+    "id": "tyamkemaiyung-bhojpur",
+    "name": "Tyamkemaiyung",
+    "level": "Gaunpalika",
+    "district": "Bhojpur",
+    "fId": 115
+  },
+  {
+    "id": "bharatpur-chitwan",
+    "name": "Bharatpur",
+    "level": "Mahanagarpalika",
+    "district": "Chitwan",
+    "fId": 122
+  },
+  {
+    "id": "chitwan -national -park-",
+    "name": "Chitwan National Park",
+    "level": "national-park",
+    "district": "Chitwan",
+    "fId": 123
+  },
+  {
+    "id": "ichchhyakamana-chitwan",
+    "name": "Ichchhyakamana",
+    "level": "Gaunpalika",
+    "district": "Chitwan",
+    "fId": 117
+  },
+  {
+    "id": "kalika-chitwan",
+    "name": "Kalika",
+    "level": "Nagarpalika",
+    "district": "Chitwan",
+    "fId": 121
+  },
+  {
+    "id": "khairahani-chitwan",
+    "name": "Khairahani",
+    "level": "Nagarpalika",
+    "district": "Chitwan",
+    "fId": 119
+  },
+  {
+    "id": "madi-chitwan",
+    "name": "Madi",
+    "level": "Nagarpalika",
+    "district": "Chitwan",
+    "fId": 124
+  },
+  {
+    "id": "rapti-chitwan",
+    "name": "Rapti",
+    "level": "Nagarpalika",
+    "district": "Chitwan",
+    "fId": 120
+  },
+  {
+    "id": "ratnanagar-chitwan",
+    "name": "Ratnanagar",
+    "level": "Nagarpalika",
+    "district": "Chitwan",
+    "fId": 118
+  },
+  {
+    "id": "ajaymeru-dadeldhura",
+    "name": "Ajaymeru",
+    "level": "Gaunpalika",
+    "district": "Dadeldhura",
+    "fId": 128
+  },
+  {
+    "id": "alital-dadeldhura",
+    "name": "Alital",
+    "level": "Gaunpalika",
+    "district": "Dadeldhura",
+    "fId": 130
+  },
+  {
+    "id": "amargadhi-dadeldhura",
+    "name": "Amargadhi",
+    "level": "Nagarpalika",
+    "district": "Dadeldhura",
+    "fId": 125
+  },
+  {
+    "id": "bhageshwar-dadeldhura",
+    "name": "Bhageshwar",
+    "level": "Gaunpalika",
+    "district": "Dadeldhura",
+    "fId": 129
+  },
+  {
+    "id": "ganyapadhura-dadeldhura",
+    "name": "Ganyapadhura",
+    "level": "Gaunpalika",
+    "district": "Dadeldhura",
+    "fId": 126
+  },
+  {
+    "id": "nawadurga-dadeldhura",
+    "name": "Nawadurga",
+    "level": "Gaunpalika",
+    "district": "Dadeldhura",
+    "fId": 127
+  },
+  {
+    "id": "parashuram-dadeldhura",
+    "name": "Parashuram",
+    "level": "Nagarpalika",
+    "district": "Dadeldhura",
+    "fId": 131
+  },
+  {
+    "id": "aathbis -nagarpalika-dai",
+    "name": "Aathbis Nagarpalika",
+    "level": "Nagarpalika",
+    "district": "Dailekh",
+    "fId": 132
+  },
+  {
+    "id": "bhagawatimai-dailekh",
+    "name": "Bhagawatimai",
+    "level": "Gaunpalika",
+    "district": "Dailekh",
+    "fId": 134
+  },
+  {
+    "id": "bhairabi-dailekh",
+    "name": "Bhairabi",
+    "level": "Gaunpalika",
+    "district": "Dailekh",
+    "fId": 141
+  },
+  {
+    "id": "chamunda -bindrasaini-da",
+    "name": "Chamunda Bindrasaini",
+    "level": "Nagarpalika",
+    "district": "Dailekh",
+    "fId": 139
+  },
+  {
+    "id": "dullu-dailekh",
+    "name": "Dullu",
+    "level": "Nagarpalika",
+    "district": "Dailekh",
+    "fId": 137
+  },
+  {
+    "id": "dungeshwor-dailekh",
+    "name": "Dungeshwor",
+    "level": "Gaunpalika",
+    "district": "Dailekh",
+    "fId": 135
+  },
+  {
+    "id": "gurans-dailekh",
+    "name": "Gurans",
+    "level": "Gaunpalika",
+    "district": "Dailekh",
+    "fId": 136
+  },
+  {
+    "id": "mahabu-dailekh",
+    "name": "Mahabu",
+    "level": "Gaunpalika",
+    "district": "Dailekh",
+    "fId": 142
+  },
+  {
+    "id": "narayan-dailekh",
+    "name": "Narayan",
+    "level": "Nagarpalika",
+    "district": "Dailekh",
+    "fId": 140
+  },
+  {
+    "id": "naumule-dailekh",
+    "name": "Naumule",
+    "level": "Gaunpalika",
+    "district": "Dailekh",
+    "fId": 133
+  },
+  {
+    "id": "thantikandh -gaunpalika-",
+    "name": "Thantikandh Gaunpalika",
+    "level": "Gaunpalika",
+    "district": "Dailekh",
+    "fId": 138
+  },
+  {
+    "id": "babai-dang",
+    "name": "Babai",
+    "level": "Gaunpalika",
+    "district": "Dang",
+    "fId": 145
+  },
+  {
+    "id": "banglachuli-dang",
+    "name": "Banglachuli",
+    "level": "Gaunpalika",
+    "district": "Dang",
+    "fId": 151
+  },
+  {
+    "id": "dangisharan-dang",
+    "name": "Dangisharan",
+    "level": "Gaunpalika",
+    "district": "Dang",
+    "fId": 147
+  },
+  {
+    "id": "gadwa-dang",
+    "name": "Gadwa",
+    "level": "Gaunpalika",
+    "district": "Dang",
+    "fId": 144
+  },
+  {
+    "id": "ghorahi-dang",
+    "name": "Ghorahi",
+    "level": "Upamahanagarpalika",
+    "district": "Dang",
+    "fId": 149
+  },
+  {
+    "id": "lamhi-dang",
+    "name": "Lamhi",
+    "level": "Nagarpalika",
+    "district": "Dang",
+    "fId": 150
+  },
+  {
+    "id": "rajpur-dang",
+    "name": "Rajpur",
+    "level": "Gaunpalika",
+    "district": "Dang",
+    "fId": 143
+  },
+  {
+    "id": "rapti-dang",
+    "name": "Rapti",
+    "level": "Gaunpalika",
+    "district": "Dang",
+    "fId": 152
+  },
+  {
+    "id": "shantinagar-dang",
+    "name": "Shantinagar",
+    "level": "Gaunpalika",
+    "district": "Dang",
+    "fId": 146
+  },
+  {
+    "id": "tulsipur-dang",
+    "name": "Tulsipur",
+    "level": "Upamahanagarpalika",
+    "district": "Dang",
+    "fId": 148
+  },
+  {
+    "id": "apihimal-darchula",
+    "name": "Apihimal",
+    "level": "Gaunpalika",
+    "district": "Darchula",
+    "fId": 161
+  },
+  {
+    "id": "byas-darchula",
+    "name": "Byas",
+    "level": "Gaunpalika",
+    "district": "Darchula",
+    "fId": 153
+  },
+  {
+    "id": "dunhu-darchula",
+    "name": "Dunhu",
+    "level": "Gaunpalika",
+    "district": "Darchula",
+    "fId": 156
+  },
+  {
+    "id": "lekam-darchula",
+    "name": "Lekam",
+    "level": "Gaunpalika",
+    "district": "Darchula",
+    "fId": 158
+  },
+  {
+    "id": "mahakali-darchula",
+    "name": "Mahakali",
+    "level": "Nagarpalika",
+    "district": "Darchula",
+    "fId": 155
+  },
+  {
+    "id": "malikarjun-darchula",
+    "name": "Malikarjun",
+    "level": "Nagarpalika",
+    "district": "Darchula",
+    "fId": 157
+  },
+  {
+    "id": "marma-darchula",
+    "name": "Marma",
+    "level": "Gaunpalika",
+    "district": "Darchula",
+    "fId": 160
+  },
+  {
+    "id": "naugad-darchula",
+    "name": "Naugad",
+    "level": "Gaunpalika",
+    "district": "Darchula",
+    "fId": 154
+  },
+  {
+    "id": "shailyashikhar-darchula",
+    "name": "Shailyashikhar",
+    "level": "Nagarpalika",
+    "district": "Darchula",
+    "fId": 159
+  },
+  {
+    "id": "benighat -rorang-dhading",
+    "name": "Benighat Rorang",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 166
+  },
+  {
+    "id": "dhunibesi-dhading",
+    "name": "Dhunibesi",
+    "level": "Nagarpalika",
+    "district": "Dhading",
+    "fId": 174
+  },
+  {
+    "id": "gajuri-dhading",
+    "name": "Gajuri",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 167
+  },
+  {
+    "id": "galchi-dhading",
+    "name": "Galchi",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 171
+  },
+  {
+    "id": "gangajamuna-dhading",
+    "name": "Gangajamuna",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 163
+  },
+  {
+    "id": "jwalamukhi-dhading",
+    "name": "Jwalamukhi",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 164
+  },
+  {
+    "id": "khaniyabas-dhading",
+    "name": "Khaniyabas",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 162
+  },
+  {
+    "id": "netrawati-dhading",
+    "name": "Netrawati",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 168
+  },
+  {
+    "id": "nilkantha-dhading",
+    "name": "Nilkantha",
+    "level": "Nagarpalika",
+    "district": "Dhading",
+    "fId": 172
+  },
+  {
+    "id": "rubi -valley-dhading",
+    "name": "Rubi Valley",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 173
+  },
+  {
+    "id": "siddhalek-dhading",
+    "name": "Siddhalek",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 165
+  },
+  {
+    "id": "thakre-dhading",
+    "name": "Thakre",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 170
+  },
+  {
+    "id": "tripurasundari-dhading",
+    "name": "Tripurasundari",
+    "level": "Gaunpalika",
+    "district": "Dhading",
+    "fId": 169
+  },
+  {
+    "id": "chaubise-dhankuta",
+    "name": "Chaubise",
+    "level": "Gaunpalika",
+    "district": "Dhankuta",
+    "fId": 181
+  },
+  {
+    "id": "chhathar -jorpati-dhanku",
+    "name": "Chhathar Jorpati",
+    "level": "Gaunpalika",
+    "district": "Dhankuta",
+    "fId": 179
+  },
+  {
+    "id": "dhankuta-dhankuta",
+    "name": "Dhankuta",
+    "level": "Nagarpalika",
+    "district": "Dhankuta",
+    "fId": 177
+  },
+  {
+    "id": "khalsa -chhintang -shahi",
+    "name": "Khalsa Chhintang Shahidbhumi",
+    "level": "Gaunpalika",
+    "district": "Dhankuta",
+    "fId": 178
+  },
+  {
+    "id": "mahalaxmi-dhankuta",
+    "name": "Mahalaxmi",
+    "level": "Nagarpalika",
+    "district": "Dhankuta",
+    "fId": 180
+  },
+  {
+    "id": "pakhribas-dhankuta",
+    "name": "Pakhribas",
+    "level": "Nagarpalika",
+    "district": "Dhankuta",
+    "fId": 175
+  },
+  {
+    "id": "sagurigadhi-dhankuta",
+    "name": "Sagurigadhi",
+    "level": "Gaunpalika",
+    "district": "Dhankuta",
+    "fId": 176
+  },
+  {
+    "id": "aaurahi-dhanusa",
+    "name": "Aaurahi",
+    "level": "Gaunpalika",
+    "district": "Dhanusa",
+    "fId": 187
+  },
+  {
+    "id": "bateshwor-dhanusa",
+    "name": "Bateshwor",
+    "level": "Gaunpalika",
+    "district": "Dhanusa",
+    "fId": 195
+  },
+  {
+    "id": "bideha-dhanusa",
+    "name": "Bideha",
+    "level": "Nagarpalika",
+    "district": "Dhanusa",
+    "fId": 186
+  },
+  {
+    "id": "chhireshwornath-dhanusa",
+    "name": "Chhireshwornath",
+    "level": "Nagarpalika",
+    "district": "Dhanusa",
+    "fId": 193
+  },
+  {
+    "id": "dhanusadham-dhanusa",
+    "name": "Dhanusadham",
+    "level": "Gaunpalika",
+    "district": "Dhanusa",
+    "fId": 198
+  },
+  {
+    "id": "ganeshman -charnath-dhan",
+    "name": "Ganeshman Charnath",
+    "level": "Nagarpalika",
+    "district": "Dhanusa",
+    "fId": 182
+  },
+  {
+    "id": "hansapur -kathapulla-dha",
+    "name": "Hansapur Kathapulla",
+    "level": "Gaunpalika",
+    "district": "Dhanusa",
+    "fId": 192
+  },
+  {
+    "id": "janaknandani-dhanusa",
+    "name": "Janaknandani",
+    "level": "Gaunpalika",
+    "district": "Dhanusa",
+    "fId": 185
+  },
+  {
+    "id": "janakpur-dhanusa",
+    "name": "Janakpur",
+    "level": "Upamahanagarpalika",
+    "district": "Dhanusa",
+    "fId": 194
+  },
+  {
+    "id": "kamala -siddhidatri-dhan",
+    "name": "Kamala Siddhidatri",
+    "level": "Gaunpalika",
+    "district": "Dhanusa",
+    "fId": 184
+  },
+  {
+    "id": "lakshminiya-dhanusa",
+    "name": "Lakshminiya",
+    "level": "Gaunpalika",
+    "district": "Dhanusa",
+    "fId": 190
+  },
+  {
+    "id": "mithila-dhanusa",
+    "name": "Mithila",
+    "level": "Nagarpalika",
+    "district": "Dhanusa",
+    "fId": 183
+  },
+  {
+    "id": "mithila -bihari-dhanusa",
+    "name": "Mithila Bihari",
+    "level": "Gaunpalika",
+    "district": "Dhanusa",
+    "fId": 191
+  },
+  {
+    "id": "mukhiyapatti -musarmiya-",
+    "name": "Mukhiyapatti Musarmiya",
+    "level": "Gaunpalika",
+    "district": "Dhanusa",
+    "fId": 189
+  },
+  {
+    "id": "nagarain-dhanusa",
+    "name": "Nagarain",
+    "level": "Nagarpalika",
+    "district": "Dhanusa",
+    "fId": 188
+  },
+  {
+    "id": "sabaila-dhanusa",
+    "name": "Sabaila",
+    "level": "Nagarpalika",
+    "district": "Dhanusa",
+    "fId": 196
+  },
+  {
+    "id": "sahidnagar-dhanusa",
+    "name": "Sahidnagar",
+    "level": "Nagarpalika",
+    "district": "Dhanusa",
+    "fId": 197
+  },
+  {
+    "id": "baiteshwor-dolakha",
+    "name": "Baiteshwor",
+    "level": "Gaunpalika",
+    "district": "Dolakha",
+    "fId": 207
+  },
+  {
+    "id": "bhimeshwor-dolakha",
+    "name": "Bhimeshwor",
+    "level": "Nagarpalika",
+    "district": "Dolakha",
+    "fId": 203
+  },
+  {
+    "id": "bigu-dolakha",
+    "name": "Bigu",
+    "level": "Gaunpalika",
+    "district": "Dolakha",
+    "fId": 199
+  },
+  {
+    "id": "gaurishankar-dolakha",
+    "name": "Gaurishankar",
+    "level": "Gaunpalika",
+    "district": "Dolakha",
+    "fId": 200
+  },
+  {
+    "id": "jiri-dolakha",
+    "name": "Jiri",
+    "level": "Nagarpalika",
+    "district": "Dolakha",
+    "fId": 201
+  },
+  {
+    "id": "kalinchok-dolakha",
+    "name": "Kalinchok",
+    "level": "Gaunpalika",
+    "district": "Dolakha",
+    "fId": 202
+  },
+  {
+    "id": "melung-dolakha",
+    "name": "Melung",
+    "level": "Gaunpalika",
+    "district": "Dolakha",
+    "fId": 205
+  },
+  {
+    "id": "sailung-dolakha",
+    "name": "Sailung",
+    "level": "Gaunpalika",
+    "district": "Dolakha",
+    "fId": 204
+  },
+  {
+    "id": "tamakoshi-dolakha",
+    "name": "Tamakoshi",
+    "level": "Gaunpalika",
+    "district": "Dolakha",
+    "fId": 206
+  },
+  {
+    "id": "chharka -tangsong-dolpa",
+    "name": "Chharka Tangsong",
+    "level": "Gaunpalika",
+    "district": "Dolpa",
+    "fId": 211
+  },
+  {
+    "id": "dolpo -buddha-dolpa",
+    "name": "Dolpo Buddha",
+    "level": "Gaunpalika",
+    "district": "Dolpa",
+    "fId": 210
+  },
+  {
+    "id": "jagadulla-dolpa",
+    "name": "Jagadulla",
+    "level": "Gaunpalika",
+    "district": "Dolpa",
+    "fId": 208
+  },
+  {
+    "id": "kaike-dolpa",
+    "name": "Kaike",
+    "level": "Gaunpalika",
+    "district": "Dolpa",
+    "fId": 212
+  },
+  {
+    "id": "mudkechula-dolpa",
+    "name": "Mudkechula",
+    "level": "Gaunpalika",
+    "district": "Dolpa",
+    "fId": 215
+  },
+  {
+    "id": "she -foksundo-dolpa",
+    "name": "She Foksundo",
+    "level": "Gaunpalika",
+    "district": "Dolpa",
+    "fId": 209
+  },
+  {
+    "id": "thuli -bheri-dolpa",
+    "name": "Thuli Bheri",
+    "level": "Nagarpalika",
+    "district": "Dolpa",
+    "fId": 213
+  },
+  {
+    "id": "tripurasundari-dolpa",
+    "name": "Tripurasundari",
+    "level": "Nagarpalika",
+    "district": "Dolpa",
+    "fId": 214
+  },
+  {
+    "id": "adharsha-doti",
+    "name": "Adharsha",
+    "level": "Gaunpalika",
+    "district": "Doti",
+    "fId": 222
+  },
+  {
+    "id": "badikedar-doti",
+    "name": "Badikedar",
+    "level": "Gaunpalika",
+    "district": "Doti",
+    "fId": 218
+  },
+  {
+    "id": "bogtan-doti",
+    "name": "Bogtan",
+    "level": "Gaunpalika",
+    "district": "Doti",
+    "fId": 219
+  },
+  {
+    "id": "dipayal -silgadi-doti",
+    "name": "Dipayal Silgadi",
+    "level": "Nagarpalika",
+    "district": "Doti",
+    "fId": 224
+  },
+  {
+    "id": "jorayal-doti",
+    "name": "Jorayal",
+    "level": "Gaunpalika",
+    "district": "Doti",
+    "fId": 217
+  },
+  {
+    "id": "khaptad -national -park-",
+    "name": "Khaptad National Park",
+    "level": "national-park",
+    "district": "Doti",
+    "fId": 216
+  },
+  {
+    "id": "purbichauki-doti",
+    "name": "Purbichauki",
+    "level": "Gaunpalika",
+    "district": "Doti",
+    "fId": 223
+  },
+  {
+    "id": "sayal-doti",
+    "name": "Sayal",
+    "level": "Gaunpalika",
+    "district": "Doti",
+    "fId": 225
+  },
+  {
+    "id": "shikhar-doti",
+    "name": "Shikhar",
+    "level": "Nagarpalika",
+    "district": "Doti",
+    "fId": 221
+  },
+  {
+    "id": "k -i -singh-doti",
+    "name": "k i Singh",
+    "level": "Gaunpalika",
+    "district": "Doti",
+    "fId": 220
+  },
+  {
+    "id": "aarughat-gorkha",
+    "name": "Aarughat",
+    "level": "Gaunpalika",
+    "district": "Gorkha",
+    "fId": 233
+  },
+  {
+    "id": "ajirkot-gorkha",
+    "name": "Ajirkot",
+    "level": "Gaunpalika",
+    "district": "Gorkha",
+    "fId": 228
+  },
+  {
+    "id": "bhimsen-gorkha",
+    "name": "Bhimsen",
+    "level": "Gaunpalika",
+    "district": "Gorkha",
+    "fId": 232
+  },
+  {
+    "id": "chumnuwri-gorkha",
+    "name": "Chumnuwri",
+    "level": "Gaunpalika",
+    "district": "Gorkha",
+    "fId": 226
+  },
+  {
+    "id": "dharche-gorkha",
+    "name": "Dharche",
+    "level": "Gaunpalika",
+    "district": "Gorkha",
+    "fId": 227
+  },
+  {
+    "id": "gandaki-gorkha",
+    "name": "Gandaki",
+    "level": "Gaunpalika",
+    "district": "Gorkha",
+    "fId": 231
+  },
+  {
+    "id": "gorkha-gorkha",
+    "name": "Gorkha",
+    "level": "Nagarpalika",
+    "district": "Gorkha",
+    "fId": 235
+  },
+  {
+    "id": "palungtar-gorkha",
+    "name": "Palungtar",
+    "level": "Nagarpalika",
+    "district": "Gorkha",
+    "fId": 229
+  },
+  {
+    "id": "sahid -lakhan-gorkha",
+    "name": "Sahid Lakhan",
+    "level": "Gaunpalika",
+    "district": "Gorkha",
+    "fId": 236
+  },
+  {
+    "id": "siranchok-gorkha",
+    "name": "Siranchok",
+    "level": "Gaunpalika",
+    "district": "Gorkha",
+    "fId": 230
+  },
+  {
+    "id": "sulikot-gorkha",
+    "name": "Sulikot",
+    "level": "Gaunpalika",
+    "district": "Gorkha",
+    "fId": 234
+  },
+  {
+    "id": "chandrakot-gulmi",
+    "name": "Chandrakot",
+    "level": "Gaunpalika",
+    "district": "Gulmi",
+    "fId": 240
+  },
+  {
+    "id": "chatrakot-gulmi",
+    "name": "Chatrakot",
+    "level": "Gaunpalika",
+    "district": "Gulmi",
+    "fId": 238
+  },
+  {
+    "id": "dhurkot-gulmi",
+    "name": "Dhurkot",
+    "level": "Gaunpalika",
+    "district": "Gulmi",
+    "fId": 247
+  },
+  {
+    "id": "gulmidarbar-gulmi",
+    "name": "Gulmidarbar",
+    "level": "Gaunpalika",
+    "district": "Gulmi",
+    "fId": 243
+  },
+  {
+    "id": "isma-gulmi",
+    "name": "Isma",
+    "level": "Gaunpalika",
+    "district": "Gulmi",
+    "fId": 244
+  },
+  {
+    "id": "kaligandaki-gulmi",
+    "name": "Kaligandaki",
+    "level": "Gaunpalika",
+    "district": "Gulmi",
+    "fId": 242
+  },
+  {
+    "id": "madane-gulmi",
+    "name": "Madane",
+    "level": "Gaunpalika",
+    "district": "Gulmi",
+    "fId": 237
+  },
+  {
+    "id": "malika-gulmi",
+    "name": "Malika",
+    "level": "Gaunpalika",
+    "district": "Gulmi",
+    "fId": 246
+  },
+  {
+    "id": "musikot-gulmi",
+    "name": "Musikot",
+    "level": "Nagarpalika",
+    "district": "Gulmi",
+    "fId": 245
+  },
+  {
+    "id": "resunga-gulmi",
+    "name": "Resunga",
+    "level": "Nagarpalika",
+    "district": "Gulmi",
+    "fId": 248
+  },
+  {
+    "id": "ruru-gulmi",
+    "name": "Ruru",
+    "level": "Gaunpalika",
+    "district": "Gulmi",
+    "fId": 239
+  },
+  {
+    "id": "satyawati-gulmi",
+    "name": "Satyawati",
+    "level": "Gaunpalika",
+    "district": "Gulmi",
+    "fId": 241
+  },
+  {
+    "id": "adanchuli-humla",
+    "name": "Adanchuli",
+    "level": "Gaunpalika",
+    "district": "Humla",
+    "fId": 249
+  },
+  {
+    "id": "chankheli-humla",
+    "name": "Chankheli",
+    "level": "Gaunpalika",
+    "district": "Humla",
+    "fId": 251
+  },
+  {
+    "id": "kharpunath-humla",
+    "name": "Kharpunath",
+    "level": "Gaunpalika",
+    "district": "Humla",
+    "fId": 253
+  },
+  {
+    "id": "namkha-humla",
+    "name": "Namkha",
+    "level": "Gaunpalika",
+    "district": "Humla",
+    "fId": 254
+  },
+  {
+    "id": "sarkegad-humla",
+    "name": "Sarkegad",
+    "level": "Gaunpalika",
+    "district": "Humla",
+    "fId": 252
+  },
+  {
+    "id": "simkot-humla",
+    "name": "Simkot",
+    "level": "Gaunpalika",
+    "district": "Humla",
+    "fId": 255
+  },
+  {
+    "id": "tanjakot-humla",
+    "name": "Tanjakot",
+    "level": "Gaunpalika",
+    "district": "Humla",
+    "fId": 250
+  },
+  {
+    "id": "chulachuli-ilam",
+    "name": "Chulachuli",
+    "level": "Gaunpalika",
+    "district": "Ilam",
+    "fId": 256
+  },
+  {
+    "id": "deumai-ilam",
+    "name": "Deumai",
+    "level": "Nagarpalika",
+    "district": "Ilam",
+    "fId": 260
+  },
+  {
+    "id": "fakphokthum-ilam",
+    "name": "Fakphokthum",
+    "level": "Gaunpalika",
+    "district": "Ilam",
+    "fId": 265
+  },
+  {
+    "id": "ilam-ilam",
+    "name": "Ilam",
+    "level": "Nagarpalika",
+    "district": "Ilam",
+    "fId": 263
+  },
+  {
+    "id": "mai-ilam",
+    "name": "Mai",
+    "level": "Nagarpalika",
+    "district": "Ilam",
+    "fId": 262
+  },
+  {
+    "id": "maijogmai-ilam",
+    "name": "Maijogmai",
+    "level": "Gaunpalika",
+    "district": "Ilam",
+    "fId": 261
+  },
+  {
+    "id": "mangsebung-ilam",
+    "name": "Mangsebung",
+    "level": "Gaunpalika",
+    "district": "Ilam",
+    "fId": 257
+  },
+  {
+    "id": "rong-ilam",
+    "name": "Rong",
+    "level": "Gaunpalika",
+    "district": "Ilam",
+    "fId": 258
+  },
+  {
+    "id": "sandakpur-ilam",
+    "name": "Sandakpur",
+    "level": "Gaunpalika",
+    "district": "Ilam",
+    "fId": 259
+  },
+  {
+    "id": "suryodaya-ilam",
+    "name": "Suryodaya",
+    "level": "Nagarpalika",
+    "district": "Ilam",
+    "fId": 264
+  },
+  {
+    "id": "barekot -gaunpalika-jaja",
+    "name": "Barekot Gaunpalika",
+    "level": "Gaunpalika",
+    "district": "Jajarkot",
+    "fId": 266
+  },
+  {
+    "id": "bheri-jajarkot",
+    "name": "Bheri",
+    "level": "Nagarpalika",
+    "district": "Jajarkot",
+    "fId": 270
+  },
+  {
+    "id": "chhedagad-jajarkot",
+    "name": "Chhedagad",
+    "level": "Nagarpalika",
+    "district": "Jajarkot",
+    "fId": 272
+  },
+  {
+    "id": "junichande-jajarkot",
+    "name": "Junichande",
+    "level": "Gaunpalika",
+    "district": "Jajarkot",
+    "fId": 268
+  },
+  {
+    "id": "kuse-jajarkot",
+    "name": "Kuse",
+    "level": "Gaunpalika",
+    "district": "Jajarkot",
+    "fId": 271
+  },
+  {
+    "id": "shiwalaya-jajarkot",
+    "name": "Shiwalaya",
+    "level": "Gaunpalika",
+    "district": "Jajarkot",
+    "fId": 269
+  },
+  {
+    "id": "tribeni -nalagad-jajarko",
+    "name": "Tribeni Nalagad",
+    "level": "Nagarpalika",
+    "district": "Jajarkot",
+    "fId": 267
+  },
+  {
+    "id": "arjundhara-jhapa",
+    "name": "Arjundhara",
+    "level": "Nagarpalika",
+    "district": "Jhapa",
+    "fId": 282
+  },
+  {
+    "id": "bhadrapur-jhapa",
+    "name": "Bhadrapur",
+    "level": "Nagarpalika",
+    "district": "Jhapa",
+    "fId": 279
+  },
+  {
+    "id": "birtamod-jhapa",
+    "name": "Birtamod",
+    "level": "Nagarpalika",
+    "district": "Jhapa",
+    "fId": 281
+  },
+  {
+    "id": "buddhashanti-jhapa",
+    "name": "Buddhashanti",
+    "level": "Gaunpalika",
+    "district": "Jhapa",
+    "fId": 284
+  },
+  {
+    "id": "damak-jhapa",
+    "name": "Damak",
+    "level": "Nagarpalika",
+    "district": "Jhapa",
+    "fId": 273
+  },
+  {
+    "id": "garhadashi-jhapa",
+    "name": "Garhadashi",
+    "level": "Gaunpalika",
+    "district": "Jhapa",
+    "fId": 287
+  },
+  {
+    "id": "gauradhaha-jhapa",
+    "name": "Gauradhaha",
+    "level": "Nagarpalika",
+    "district": "Jhapa",
+    "fId": 274
+  },
+  {
+    "id": "gauriganj-jhapa",
+    "name": "Gauriganj",
+    "level": "Gaunpalika",
+    "district": "Jhapa",
+    "fId": 275
+  },
+  {
+    "id": "haldibari-jhapa",
+    "name": "Haldibari",
+    "level": "Gaunpalika",
+    "district": "Jhapa",
+    "fId": 280
+  },
+  {
+    "id": "jhapa-jhapa",
+    "name": "Jhapa",
+    "level": "Gaunpalika",
+    "district": "Jhapa",
+    "fId": 276
+  },
+  {
+    "id": "kachankawal-jhapa",
+    "name": "Kachankawal",
+    "level": "Gaunpalika",
+    "district": "Jhapa",
+    "fId": 278
+  },
+  {
+    "id": "kamal-jhapa",
+    "name": "Kamal",
+    "level": "Gaunpalika",
+    "district": "Jhapa",
+    "fId": 286
+  },
+  {
+    "id": "kankai-jhapa",
+    "name": "Kankai",
+    "level": "Gaunpalika",
+    "district": "Jhapa",
+    "fId": 285
+  },
+  {
+    "id": "mechinagar-jhapa",
+    "name": "Mechinagar",
+    "level": "Nagarpalika",
+    "district": "Jhapa",
+    "fId": 283
+  },
+  {
+    "id": "shivasataxi-jhapa",
+    "name": "Shivasataxi",
+    "level": "Nagarpalika",
+    "district": "Jhapa",
+    "fId": 277
+  },
+  {
+    "id": "chandannath-jumla",
+    "name": "Chandannath",
+    "level": "Nagarpalika",
+    "district": "Jumla",
+    "fId": 290
+  },
+  {
+    "id": "guthichaur-jumla",
+    "name": "Guthichaur",
+    "level": "Gaunpalika",
+    "district": "Jumla",
+    "fId": 295
+  },
+  {
+    "id": "hima-jumla",
+    "name": "Hima",
+    "level": "Gaunpalika",
+    "district": "Jumla",
+    "fId": 293
+  },
+  {
+    "id": "kankasundari -gaunpalika",
+    "name": "Kankasundari Gaunpalika",
+    "level": "Gaunpalika",
+    "district": "Jumla",
+    "fId": 288
+  },
+  {
+    "id": "patarasi-jumla",
+    "name": "Patarasi",
+    "level": "Gaunpalika",
+    "district": "Jumla",
+    "fId": 289
+  },
+  {
+    "id": "sinja-jumla",
+    "name": "Sinja",
+    "level": "Gaunpalika",
+    "district": "Jumla",
+    "fId": 294
+  },
+  {
+    "id": "tatopani-jumla",
+    "name": "Tatopani",
+    "level": "Gaunpalika",
+    "district": "Jumla",
+    "fId": 291
+  },
+  {
+    "id": "tatopani-jumla",
+    "name": "Tatopani",
+    "level": "Gaunpalika",
+    "district": "Jumla",
+    "fId": 292
+  },
+  {
+    "id": "bardagariya-kailali",
+    "name": "Bardagariya",
+    "level": "Gaunpalika",
+    "district": "Kailali",
+    "fId": 300
+  },
+  {
+    "id": "bhajani-kailali",
+    "name": "Bhajani",
+    "level": "Nagarpalika",
+    "district": "Kailali",
+    "fId": 303
+  },
+  {
+    "id": "chure-kailali",
+    "name": "Chure",
+    "level": "Gaunpalika",
+    "district": "Kailali",
+    "fId": 296
+  },
+  {
+    "id": "dhangadhi-kailali",
+    "name": "Dhangadhi",
+    "level": "Upamahanagarpalika",
+    "district": "Kailali",
+    "fId": 305
+  },
+  {
+    "id": "gadawari-kailali",
+    "name": "Gadawari",
+    "level": "Nagarpalika",
+    "district": "Kailali",
+    "fId": 306
+  },
+  {
+    "id": "gauriganga-kailali",
+    "name": "Gauriganga",
+    "level": "Nagarpalika",
+    "district": "Kailali",
+    "fId": 307
+  },
+  {
+    "id": "ghodaghodi-kailali",
+    "name": "Ghodaghodi",
+    "level": "Nagarpalika",
+    "district": "Kailali",
+    "fId": 298
+  },
+  {
+    "id": "janaki-kailali",
+    "name": "Janaki",
+    "level": "Gaunpalika",
+    "district": "Kailali",
+    "fId": 302
+  },
+  {
+    "id": "joshipur-kailali",
+    "name": "Joshipur",
+    "level": "Gaunpalika",
+    "district": "Kailali",
+    "fId": 304
+  },
+  {
+    "id": "kailari-kailali",
+    "name": "Kailari",
+    "level": "Gaunpalika",
+    "district": "Kailali",
+    "fId": 308
+  },
+  {
+    "id": "karnali-kailali",
+    "name": "Karnali",
+    "level": "Nagarpalika",
+    "district": "Kailali",
+    "fId": 299
+  },
+  {
+    "id": "mohanyal-kailali",
+    "name": "Mohanyal",
+    "level": "Gaunpalika",
+    "district": "Kailali",
+    "fId": 297
+  },
+  {
+    "id": "tikapur-kailali",
+    "name": "Tikapur",
+    "level": "Nagarpalika",
+    "district": "Kailali",
+    "fId": 301
+  },
+  {
+    "id": "kalika-kalikot",
+    "name": "Kalika",
+    "level": "Gaunpalika",
+    "district": "Kalikot",
+    "fId": 317
+  },
+  {
+    "id": "khandachakra-kalikot",
+    "name": "Khandachakra",
+    "level": "Nagarpalika",
+    "district": "Kalikot",
+    "fId": 316
+  },
+  {
+    "id": "mahawai-kalikot",
+    "name": "Mahawai",
+    "level": "Gaunpalika",
+    "district": "Kalikot",
+    "fId": 309
+  },
+  {
+    "id": "naraharinath-kalikot",
+    "name": "Naraharinath",
+    "level": "Gaunpalika",
+    "district": "Kalikot",
+    "fId": 311
+  },
+  {
+    "id": "pachaljharana-kalikot",
+    "name": "Pachaljharana",
+    "level": "Gaunpalika",
+    "district": "Kalikot",
+    "fId": 315
+  },
+  {
+    "id": "palata-kalikot",
+    "name": "Palata",
+    "level": "Gaunpalika",
+    "district": "Kalikot",
+    "fId": 314
+  },
+  {
+    "id": "raskot-kalikot",
+    "name": "Raskot",
+    "level": "Nagarpalika",
+    "district": "Kalikot",
+    "fId": 313
+  },
+  {
+    "id": "sanni -tribeni-kalikot",
+    "name": "Sanni Tribeni",
+    "level": "Gaunpalika",
+    "district": "Kalikot",
+    "fId": 312
+  },
+  {
+    "id": "tilagufa-kalikot",
+    "name": "Tilagufa",
+    "level": "Nagarpalika",
+    "district": "Kalikot",
+    "fId": 310
+  },
+  {
+    "id": "bedkot-kanchanpur",
+    "name": "Bedkot",
+    "level": "Nagarpalika",
+    "district": "Kanchanpur",
+    "fId": 319
+  },
+  {
+    "id": "belauri-kanchanpur",
+    "name": "Belauri",
+    "level": "Nagarpalika",
+    "district": "Kanchanpur",
+    "fId": 322
+  },
+  {
+    "id": "beldandi-kanchanpur",
+    "name": "Beldandi",
+    "level": "Gaunpalika",
+    "district": "Kanchanpur",
+    "fId": 321
+  },
+  {
+    "id": "bhimdatta-kanchanpur",
+    "name": "Bhimdatta",
+    "level": "Nagarpalika",
+    "district": "Kanchanpur",
+    "fId": 318
+  },
+  {
+    "id": "krishnapur-kanchanpur",
+    "name": "Krishnapur",
+    "level": "Nagarpalika",
+    "district": "Kanchanpur",
+    "fId": 326
+  },
+  {
+    "id": "laljhadi-kanchanpur",
+    "name": "Laljhadi",
+    "level": "Gaunpalika",
+    "district": "Kanchanpur",
+    "fId": 323
+  },
+  {
+    "id": "mahakali-kanchanpur",
+    "name": "Mahakali",
+    "level": "Nagarpalika",
+    "district": "Kanchanpur",
+    "fId": 320
+  },
+  {
+    "id": "punarbas-kanchanpur",
+    "name": "Punarbas",
+    "level": "Nagarpalika",
+    "district": "Kanchanpur",
+    "fId": 327
+  },
+  {
+    "id": "suklaphat-kanchanpur",
+    "name": "Suklaphat",
+    "level": "wildlife-reserve",
+    "district": "Kanchanpur",
+    "fId": 324
+  },
+  {
+    "id": "suklaphata-kanchanpur",
+    "name": "Suklaphata",
+    "level": "Nagarpalika",
+    "district": "Kanchanpur",
+    "fId": 325
+  },
+  {
+    "id": "banganga-kapilbastu",
+    "name": "Banganga",
+    "level": "Nagarpalika",
+    "district": "Kapilbastu",
+    "fId": 331
+  },
+  {
+    "id": "bijayanagar-kapilbastu",
+    "name": "Bijayanagar",
+    "level": "Gaunpalika",
+    "district": "Kapilbastu",
+    "fId": 328
+  },
+  {
+    "id": "buddhabhumi-kapilbastu",
+    "name": "Buddhabhumi",
+    "level": "Nagarpalika",
+    "district": "Kapilbastu",
+    "fId": 330
+  },
+  {
+    "id": "kapilvastu-kapilbastu",
+    "name": "Kapilvastu",
+    "level": "Nagarpalika",
+    "district": "Kapilbastu",
+    "fId": 332
+  },
+  {
+    "id": "krishnanagar-kapilbastu",
+    "name": "Krishnanagar",
+    "level": "Nagarpalika",
+    "district": "Kapilbastu",
+    "fId": 337
+  },
+  {
+    "id": "maharajgunj-kapilbastu",
+    "name": "Maharajgunj",
+    "level": "Nagarpalika",
+    "district": "Kapilbastu",
+    "fId": 336
+  },
+  {
+    "id": "mayadevi-kapilbastu",
+    "name": "Mayadevi",
+    "level": "Gaunpalika",
+    "district": "Kapilbastu",
+    "fId": 333
+  },
+  {
+    "id": "shivraj-kapilbastu",
+    "name": "Shivraj",
+    "level": "Nagarpalika",
+    "district": "Kapilbastu",
+    "fId": 329
+  },
+  {
+    "id": "suddhodhan-kapilbastu",
+    "name": "Suddhodhan",
+    "level": "Gaunpalika",
+    "district": "Kapilbastu",
+    "fId": 334
+  },
+  {
+    "id": "yashodhara-kapilbastu",
+    "name": "Yashodhara",
+    "level": "Gaunpalika",
+    "district": "Kapilbastu",
+    "fId": 335
+  },
+  {
+    "id": "annapurna-kaski",
+    "name": "Annapurna",
+    "level": "Gaunpalika",
+    "district": "Kaski",
+    "fId": 341
+  },
+  {
+    "id": "machhapuchchhre-kaski",
+    "name": "Machhapuchchhre",
+    "level": "Gaunpalika",
+    "district": "Kaski",
+    "fId": 342
+  },
+  {
+    "id": "madi-kaski",
+    "name": "Madi",
+    "level": "Gaunpalika",
+    "district": "Kaski",
+    "fId": 340
+  },
+  {
+    "id": "pokhara -lekhnath-kaski",
+    "name": "Pokhara Lekhnath",
+    "level": "Mahanagarpalika",
+    "district": "Kaski",
+    "fId": 339
+  },
+  {
+    "id": "rupa-kaski",
+    "name": "Rupa",
+    "level": "Gaunpalika",
+    "district": "Kaski",
+    "fId": 338
+  },
+  {
+    "id": "budhanilakantha-kathmand",
+    "name": "Budhanilakantha",
+    "level": "Nagarpalika",
+    "district": "Kathmandu",
+    "fId": 349
+  },
+  {
+    "id": "chandragiri-kathmandu",
+    "name": "Chandragiri",
+    "level": "Nagarpalika",
+    "district": "Kathmandu",
+    "fId": 345
+  },
+  {
+    "id": "dakshinkali-kathmandu",
+    "name": "Dakshinkali",
+    "level": "Nagarpalika",
+    "district": "Kathmandu",
+    "fId": 353
+  },
+  {
+    "id": "gokarneshwor-kathmandu",
+    "name": "Gokarneshwor",
+    "level": "Nagarpalika",
+    "district": "Kathmandu",
+    "fId": 350
+  },
+  {
+    "id": "kageshwori -manahora-kat",
+    "name": "Kageshwori Manahora",
+    "level": "Nagarpalika",
+    "district": "Kathmandu",
+    "fId": 351
+  },
+  {
+    "id": "kathmandu-kathmandu",
+    "name": "Kathmandu",
+    "level": "Mahanagarpalika",
+    "district": "Kathmandu",
+    "fId": 343
+  },
+  {
+    "id": "kirtipur-kathmandu",
+    "name": "Kirtipur",
+    "level": "Nagarpalika",
+    "district": "Kathmandu",
+    "fId": 344
+  },
+  {
+    "id": "nagarjun-kathmandu",
+    "name": "Nagarjun",
+    "level": "Nagarpalika",
+    "district": "Kathmandu",
+    "fId": 346
+  },
+  {
+    "id": "shankharapur-kathmandu",
+    "name": "Shankharapur",
+    "level": "Nagarpalika",
+    "district": "Kathmandu",
+    "fId": 352
+  },
+  {
+    "id": "tarakeshwor-kathmandu",
+    "name": "Tarakeshwor",
+    "level": "Nagarpalika",
+    "district": "Kathmandu",
+    "fId": 347
+  },
+  {
+    "id": "tokha-kathmandu",
+    "name": "Tokha",
+    "level": "Nagarpalika",
+    "district": "Kathmandu",
+    "fId": 348
+  },
+  {
+    "id": "banepa-kavrepalanchok",
+    "name": "Banepa",
+    "level": "Nagarpalika",
+    "district": "Kavrepalanchok",
+    "fId": 361
+  },
+  {
+    "id": "bethanchowk-kavrepalanch",
+    "name": "Bethanchowk",
+    "level": "Gaunpalika",
+    "district": "Kavrepalanchok",
+    "fId": 359
+  },
+  {
+    "id": "bhumlu-kavrepalanchok",
+    "name": "Bhumlu",
+    "level": "Gaunpalika",
+    "district": "Kavrepalanchok",
+    "fId": 356
+  },
+  {
+    "id": "chaurideurali-kavrepalan",
+    "name": "Chaurideurali",
+    "level": "Gaunpalika",
+    "district": "Kavrepalanchok",
+    "fId": 354
+  },
+  {
+    "id": "dhulikhel-kavrepalanchok",
+    "name": "Dhulikhel",
+    "level": "Nagarpalika",
+    "district": "Kavrepalanchok",
+    "fId": 362
+  },
+  {
+    "id": "khanikhola-kavrepalancho",
+    "name": "Khanikhola",
+    "level": "Gaunpalika",
+    "district": "Kavrepalanchok",
+    "fId": 360
+  },
+  {
+    "id": "mahabharat-kavrepalancho",
+    "name": "Mahabharat",
+    "level": "Gaunpalika",
+    "district": "Kavrepalanchok",
+    "fId": 366
+  },
+  {
+    "id": "mandandeupur-kavrepalanc",
+    "name": "Mandandeupur",
+    "level": "Nagarpalika",
+    "district": "Kavrepalanchok",
+    "fId": 357
+  },
+  {
+    "id": "namobuddha-kavrepalancho",
+    "name": "Namobuddha",
+    "level": "Nagarpalika",
+    "district": "Kavrepalanchok",
+    "fId": 364
+  },
+  {
+    "id": "panauti-kavrepalanchok",
+    "name": "Panauti",
+    "level": "Nagarpalika",
+    "district": "Kavrepalanchok",
+    "fId": 358
+  },
+  {
+    "id": "panchkhal-kavrepalanchok",
+    "name": "Panchkhal",
+    "level": "Nagarpalika",
+    "district": "Kavrepalanchok",
+    "fId": 363
+  },
+  {
+    "id": "roshi-kavrepalanchok",
+    "name": "Roshi",
+    "level": "Gaunpalika",
+    "district": "Kavrepalanchok",
+    "fId": 365
+  },
+  {
+    "id": "temal-kavrepalanchok",
+    "name": "Temal",
+    "level": "Gaunpalika",
+    "district": "Kavrepalanchok",
+    "fId": 355
+  },
+  {
+    "id": "ainselukharka-khotang",
+    "name": "Ainselukharka",
+    "level": "Gaunpalika",
+    "district": "Khotang",
+    "fId": 5
+  },
+  {
+    "id": "barahapokhari-khotang",
+    "name": "Barahapokhari",
+    "level": "Gaunpalika",
+    "district": "Khotang",
+    "fId": 9
+  },
+  {
+    "id": "diprung-khotang",
+    "name": "Diprung",
+    "level": "Gaunpalika",
+    "district": "Khotang",
+    "fId": 6
+  },
+  {
+    "id": "halesi -tuwachung-khotan",
+    "name": "Halesi Tuwachung",
+    "level": "Nagarpalika",
+    "district": "Khotang",
+    "fId": 1
+  },
+  {
+    "id": "jantedhunga-khotang",
+    "name": "Jantedhunga",
+    "level": "Gaunpalika",
+    "district": "Khotang",
+    "fId": 10
+  },
+  {
+    "id": "kepilasgadhi-khotang",
+    "name": "Kepilasgadhi",
+    "level": "Gaunpalika",
+    "district": "Khotang",
+    "fId": 3
+  },
+  {
+    "id": "khotehang-khotang",
+    "name": "Khotehang",
+    "level": "Gaunpalika",
+    "district": "Khotang",
+    "fId": 8
+  },
+  {
+    "id": "lamidanda-khotang",
+    "name": "Lamidanda",
+    "level": "Gaunpalika",
+    "district": "Khotang",
+    "fId": 4
+  },
+  {
+    "id": "rupakot -majhuwagadhi-kh",
+    "name": "Rupakot Majhuwagadhi",
+    "level": "Nagarpalika",
+    "district": "Khotang",
+    "fId": 2
+  },
+  {
+    "id": "sakela-khotang",
+    "name": "Sakela",
+    "level": "Gaunpalika",
+    "district": "Khotang",
+    "fId": 7
+  },
+  {
+    "id": "bagmati-lalitpur",
+    "name": "Bagmati",
+    "level": "Gaunpalika",
+    "district": "Lalitpur",
+    "fId": 367
+  },
+  {
+    "id": "godawari-lalitpur",
+    "name": "Godawari",
+    "level": "Nagarpalika",
+    "district": "Lalitpur",
+    "fId": 372
+  },
+  {
+    "id": "konjyosom-lalitpur",
+    "name": "Konjyosom",
+    "level": "Gaunpalika",
+    "district": "Lalitpur",
+    "fId": 368
+  },
+  {
+    "id": "lalitpur-lalitpur",
+    "name": "Lalitpur",
+    "level": "maha Nagarpalika",
+    "district": "Lalitpur",
+    "fId": 370
+  },
+  {
+    "id": "mahalaxmi-lalitpur",
+    "name": "Mahalaxmi",
+    "level": "Nagarpalika",
+    "district": "Lalitpur",
+    "fId": 371
+  },
+  {
+    "id": "mahankal-lalitpur",
+    "name": "Mahankal",
+    "level": "Gaunpalika",
+    "district": "Lalitpur",
+    "fId": 369
+  },
+  {
+    "id": "besishahar-lamjung",
+    "name": "Besishahar",
+    "level": "Nagarpalika",
+    "district": "Lamjung",
+    "fId": 378
+  },
+  {
+    "id": "dordi-lamjung",
+    "name": "Dordi",
+    "level": "Gaunpalika",
+    "district": "Lamjung",
+    "fId": 380
+  },
+  {
+    "id": "dudhpokhar-lamjung",
+    "name": "Dudhpokhar",
+    "level": "Gaunpalika",
+    "district": "Lamjung",
+    "fId": 373
+  },
+  {
+    "id": "kwholasothar-lamjung",
+    "name": "Kwholasothar",
+    "level": "Gaunpalika",
+    "district": "Lamjung",
+    "fId": 377
+  },
+  {
+    "id": "madhyanepal-lamjung",
+    "name": "Madhyanepal",
+    "level": "Nagarpalika",
+    "district": "Lamjung",
+    "fId": 375
+  },
+  {
+    "id": "marsyangdi -gaunpalika-l",
+    "name": "Marsyangdi Gaunpalika",
+    "level": "Gaunpalika",
+    "district": "Lamjung",
+    "fId": 379
+  },
+  {
+    "id": "rainas-lamjung",
+    "name": "Rainas",
+    "level": "Nagarpalika",
+    "district": "Lamjung",
+    "fId": 374
+  },
+  {
+    "id": "sundarbazar-lamjung",
+    "name": "Sundarbazar",
+    "level": "Nagarpalika",
+    "district": "Lamjung",
+    "fId": 376
+  },
+  {
+    "id": "aurahi-mahottari",
+    "name": "Aurahi",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 385
+  },
+  {
+    "id": "balwa-mahottari",
+    "name": "Balwa",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 393
+  },
+  {
+    "id": "bardibas-mahottari",
+    "name": "Bardibas",
+    "level": "Nagarpalika",
+    "district": "Mahottari",
+    "fId": 381
+  },
+  {
+    "id": "bhangaha-mahottari",
+    "name": "Bhangaha",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 386
+  },
+  {
+    "id": "ekdanra-mahottari",
+    "name": "Ekdanra",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 388
+  },
+  {
+    "id": "gaushala-mahottari",
+    "name": "Gaushala",
+    "level": "Nagarpalika",
+    "district": "Mahottari",
+    "fId": 382
+  },
+  {
+    "id": "jaleswor-mahottari",
+    "name": "Jaleswor",
+    "level": "Nagarpalika",
+    "district": "Mahottari",
+    "fId": 390
+  },
+  {
+    "id": "loharpatti-mahottari",
+    "name": "Loharpatti",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 394
+  },
+  {
+    "id": "mahottari-mahottari",
+    "name": "Mahottari",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 389
+  },
+  {
+    "id": "manra-mahottari",
+    "name": "Manra",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 387
+  },
+  {
+    "id": "matihani-mahottari",
+    "name": "Matihani",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 392
+  },
+  {
+    "id": "pipra-mahottari",
+    "name": "Pipra",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 391
+  },
+  {
+    "id": "ramgopalpur-mahottari",
+    "name": "Ramgopalpur",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 384
+  },
+  {
+    "id": "samsi-mahottari",
+    "name": "Samsi",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 395
+  },
+  {
+    "id": "sonama-mahottari",
+    "name": "Sonama",
+    "level": "Gaunpalika",
+    "district": "Mahottari",
+    "fId": 383
+  },
+  {
+    "id": "bagmati-makwanpur",
+    "name": "Bagmati",
+    "level": "Gaunpalika",
+    "district": "Makwanpur",
+    "fId": 407
+  },
+  {
+    "id": "bakaiya-makwanpur",
+    "name": "Bakaiya",
+    "level": "Gaunpalika",
+    "district": "Makwanpur",
+    "fId": 405
+  },
+  {
+    "id": "bhimphedi-makwanpur",
+    "name": "Bhimphedi",
+    "level": "Gaunpalika",
+    "district": "Makwanpur",
+    "fId": 401
+  },
+  {
+    "id": "chitwan -national -park-",
+    "name": "Chitwan National Park",
+    "level": "national-park",
+    "district": "Makwanpur",
+    "fId": 396
+  },
+  {
+    "id": "hetauda-makwanpur",
+    "name": "Hetauda",
+    "level": "Upamahanagarpalika",
+    "district": "Makwanpur",
+    "fId": 399
+  },
+  {
+    "id": "indrasarawor-makwanpur",
+    "name": "Indrasarawor",
+    "level": "Gaunpalika",
+    "district": "Makwanpur",
+    "fId": 404
+  },
+  {
+    "id": "kailash-makwanpur",
+    "name": "Kailash",
+    "level": "Gaunpalika",
+    "district": "Makwanpur",
+    "fId": 402
+  },
+  {
+    "id": "makwanpurgadhi-makwanpur",
+    "name": "Makwanpurgadhi",
+    "level": "Gaunpalika",
+    "district": "Makwanpur",
+    "fId": 400
+  },
+  {
+    "id": "manahari-makwanpur",
+    "name": "Manahari",
+    "level": "Gaunpalika",
+    "district": "Makwanpur",
+    "fId": 398
+  },
+  {
+    "id": "parsa -wildlife -reserve",
+    "name": "Parsa Wildlife Reserve",
+    "level": "wildlife-reserve",
+    "district": "Makwanpur",
+    "fId": 406
+  },
+  {
+    "id": "rakshirang-makwanpur",
+    "name": "Rakshirang",
+    "level": "Gaunpalika",
+    "district": "Makwanpur",
+    "fId": 397
+  },
+  {
+    "id": "thaha-makwanpur",
+    "name": "Thaha",
+    "level": "Nagarpalika",
+    "district": "Makwanpur",
+    "fId": 403
+  },
+  {
+    "id": "chame-manag",
+    "name": "Chame",
+    "level": "Gaunpalika",
+    "district": "Manag",
+    "fId": 410
+  },
+  {
+    "id": "narphu-manag",
+    "name": "Narphu",
+    "level": "Gaunpalika",
+    "district": "Manag",
+    "fId": 409
+  },
+  {
+    "id": "nashong-manag",
+    "name": "Nashong",
+    "level": "Gaunpalika",
+    "district": "Manag",
+    "fId": 411
+  },
+  {
+    "id": "neshang-manag",
+    "name": "Neshang",
+    "level": "Gaunpalika",
+    "district": "Manag",
+    "fId": 408
+  },
+  {
+    "id": "belbari-morang",
+    "name": "Belbari",
+    "level": "Nagarpalika",
+    "district": "Morang",
+    "fId": 413
+  },
+  {
+    "id": "biratnagar-morang",
+    "name": "Biratnagar",
+    "level": "Upamahanagarpalika",
+    "district": "Morang",
+    "fId": 426
+  },
+  {
+    "id": "budhiganga-morang",
+    "name": "Budhiganga",
+    "level": "Gaunpalika",
+    "district": "Morang",
+    "fId": 415
+  },
+  {
+    "id": "dhanpalthan-morang",
+    "name": "Dhanpalthan",
+    "level": "Gaunpalika",
+    "district": "Morang",
+    "fId": 418
+  },
+  {
+    "id": "gramthan-morang",
+    "name": "Gramthan",
+    "level": "Gaunpalika",
+    "district": "Morang",
+    "fId": 416
+  },
+  {
+    "id": "jahada-morang",
+    "name": "Jahada",
+    "level": "Gaunpalika",
+    "district": "Morang",
+    "fId": 424
+  },
+  {
+    "id": "kanepokhari-morang",
+    "name": "Kanepokhari",
+    "level": "Gaunpalika",
+    "district": "Morang",
+    "fId": 414
+  },
+  {
+    "id": "katahari-morang",
+    "name": "Katahari",
+    "level": "Gaunpalika",
+    "district": "Morang",
+    "fId": 417
+  },
+  {
+    "id": "kerabari-morang",
+    "name": "Kerabari",
+    "level": "Gaunpalika",
+    "district": "Morang",
+    "fId": 427
+  },
+  {
+    "id": "letang-morang",
+    "name": "Letang",
+    "level": "Nagarpalika",
+    "district": "Morang",
+    "fId": 428
+  },
+  {
+    "id": "miklajunga-morang",
+    "name": "Miklajunga",
+    "level": "Gaunpalika",
+    "district": "Morang",
+    "fId": 421
+  },
+  {
+    "id": "pathrisanishchare-morang",
+    "name": "Pathrisanishchare",
+    "level": "Nagarpalika",
+    "district": "Morang",
+    "fId": 420
+  },
+  {
+    "id": "rangeli-morang",
+    "name": "Rangeli",
+    "level": "Nagarpalika",
+    "district": "Morang",
+    "fId": 419
+  },
+  {
+    "id": "ratuwamai-morang",
+    "name": "Ratuwamai",
+    "level": "Nagarpalika",
+    "district": "Morang",
+    "fId": 423
+  },
+  {
+    "id": "sunawarshi-morang",
+    "name": "Sunawarshi",
+    "level": "Nagarpalika",
+    "district": "Morang",
+    "fId": 422
+  },
+  {
+    "id": "sundarharicha-morang",
+    "name": "Sundarharicha",
+    "level": "Nagarpalika",
+    "district": "Morang",
+    "fId": 412
+  },
+  {
+    "id": "uralabari-morang",
+    "name": "Uralabari",
+    "level": "Nagarpalika",
+    "district": "Morang",
+    "fId": 425
+  },
+  {
+    "id": "chhayanath -rara-mugu",
+    "name": "Chhayanath Rara",
+    "level": "Nagarpalika",
+    "district": "Mugu",
+    "fId": 429
+  },
+  {
+    "id": "khatyad-mugu",
+    "name": "Khatyad",
+    "level": "Gaunpalika",
+    "district": "Mugu",
+    "fId": 431
+  },
+  {
+    "id": "mugum -karmarong-mugu",
+    "name": "Mugum Karmarong",
+    "level": "Gaunpalika",
+    "district": "Mugu",
+    "fId": 430
+  },
+  {
+    "id": "soru-mugu",
+    "name": "Soru",
+    "level": "Gaunpalika",
+    "district": "Mugu",
+    "fId": 432
+  },
+  {
+    "id": "barhagaun -muktichhetra-",
+    "name": "Barhagaun Muktichhetra",
+    "level": "Gaunpalika",
+    "district": "Mustang",
+    "fId": 435
+  },
+  {
+    "id": "dalome-mustang",
+    "name": "Dalome",
+    "level": "Gaunpalika",
+    "district": "Mustang",
+    "fId": 434
+  },
+  {
+    "id": "gharapjhong-mustang",
+    "name": "Gharapjhong",
+    "level": "Gaunpalika",
+    "district": "Mustang",
+    "fId": 436
+  },
+  {
+    "id": "lomanthang-mustang",
+    "name": "Lomanthang",
+    "level": "Gaunpalika",
+    "district": "Mustang",
+    "fId": 433
+  },
+  {
+    "id": "thasang-mustang",
+    "name": "Thasang",
+    "level": "Gaunpalika",
+    "district": "Mustang",
+    "fId": 437
+  },
+  {
+    "id": "annapurna-myagdi",
+    "name": "Annapurna",
+    "level": "Gaunpalika",
+    "district": "Myagdi",
+    "fId": 438
+  },
+  {
+    "id": "beni-myagdi",
+    "name": "Beni",
+    "level": "Nagarpalika",
+    "district": "Myagdi",
+    "fId": 439
+  },
+  {
+    "id": "dhawalagiri -gaunpalika-",
+    "name": "Dhawalagiri Gaunpalika",
+    "level": "Gaunpalika",
+    "district": "Myagdi",
+    "fId": 444
+  },
+  {
+    "id": "dhorpatan -hunting -rese",
+    "name": "Dhorpatan Hunting Reserve",
+    "level": "hunting-reserve",
+    "district": "Myagdi",
+    "fId": 443
+  },
+  {
+    "id": "malika-myagdi",
+    "name": "Malika",
+    "level": "Gaunpalika",
+    "district": "Myagdi",
+    "fId": 440
+  },
+  {
+    "id": "mangala-myagdi",
+    "name": "Mangala",
+    "level": "Gaunpalika",
+    "district": "Myagdi",
+    "fId": 441
+  },
+  {
+    "id": "raghuganga-myagdi",
+    "name": "Raghuganga",
+    "level": "Gaunpalika",
+    "district": "Myagdi",
+    "fId": 442
+  },
+  {
+    "id": "bardaghat-nawalparasi",
+    "name": "Bardaghat",
+    "level": "Nagarpalika",
+    "district": "Nawalparasi",
+    "fId": 459
+  },
+  {
+    "id": "binayee-nawalparasi",
+    "name": "Binayee",
+    "level": "Gaunpalika",
+    "district": "Nawalparasi",
+    "fId": 460
+  },
+  {
+    "id": "bulingtar-nawalparasi",
+    "name": "Bulingtar",
+    "level": "Gaunpalika",
+    "district": "Nawalparasi",
+    "fId": 447
+  },
+  {
+    "id": "bungdikali-nawalparasi",
+    "name": "Bungdikali",
+    "level": "Gaunpalika",
+    "district": "Nawalparasi",
+    "fId": 446
+  },
+  {
+    "id": "chitwan -national -park-",
+    "name": "Chitwan National Park",
+    "level": "national-park",
+    "district": "Nawalparasi",
+    "fId": 445
+  },
+  {
+    "id": "devchuli-nawalparasi",
+    "name": "Devchuli",
+    "level": "Nagarpalika",
+    "district": "Nawalparasi",
+    "fId": 449
+  },
+  {
+    "id": "gaidakot-nawalparasi",
+    "name": "Gaidakot",
+    "level": "Nagarpalika",
+    "district": "Nawalparasi",
+    "fId": 448
+  },
+  {
+    "id": "hupsekot-nawalparasi",
+    "name": "Hupsekot",
+    "level": "Gaunpalika",
+    "district": "Nawalparasi",
+    "fId": 450
+  },
+  {
+    "id": "kawasoti-nawalparasi",
+    "name": "Kawasoti",
+    "level": "Nagarpalika",
+    "district": "Nawalparasi",
+    "fId": 451
+  },
+  {
+    "id": "madhyabindu-nawalparasi",
+    "name": "Madhyabindu",
+    "level": "Nagarpalika",
+    "district": "Nawalparasi",
+    "fId": 452
+  },
+  {
+    "id": "palhinandan-nawalparasi",
+    "name": "Palhinandan",
+    "level": "Gaunpalika",
+    "district": "Nawalparasi",
+    "fId": 454
+  },
+  {
+    "id": "pratappur-nawalparasi",
+    "name": "Pratappur",
+    "level": "Gaunpalika",
+    "district": "Nawalparasi",
+    "fId": 455
+  },
+  {
+    "id": "ramgram-nawalparasi",
+    "name": "Ramgram",
+    "level": "Nagarpalika",
+    "district": "Nawalparasi",
+    "fId": 456
+  },
+  {
+    "id": "sarawal-nawalparasi",
+    "name": "Sarawal",
+    "level": "Gaunpalika",
+    "district": "Nawalparasi",
+    "fId": 457
+  },
+  {
+    "id": "sunwal-nawalparasi",
+    "name": "Sunwal",
+    "level": "Nagarpalika",
+    "district": "Nawalparasi",
+    "fId": 453
+  },
+  {
+    "id": "tribenisusta-nawalparasi",
+    "name": "Tribenisusta",
+    "level": "Gaunpalika",
+    "district": "Nawalparasi",
+    "fId": 458
+  },
+  {
+    "id": "belkotgadhi-nuwakot",
+    "name": "Belkotgadhi",
+    "level": "Nagarpalika",
+    "district": "Nuwakot",
+    "fId": 470
+  },
+  {
+    "id": "bidur-nuwakot",
+    "name": "Bidur",
+    "level": "Nagarpalika",
+    "district": "Nuwakot",
+    "fId": 464
+  },
+  {
+    "id": "dupcheshwar-nuwakot",
+    "name": "Dupcheshwar",
+    "level": "Gaunpalika",
+    "district": "Nuwakot",
+    "fId": 466
+  },
+  {
+    "id": "kakani-nuwakot",
+    "name": "Kakani",
+    "level": "Gaunpalika",
+    "district": "Nuwakot",
+    "fId": 468
+  },
+  {
+    "id": "kispang-nuwakot",
+    "name": "Kispang",
+    "level": "Gaunpalika",
+    "district": "Nuwakot",
+    "fId": 461
+  },
+  {
+    "id": "likhu-nuwakot",
+    "name": "Likhu",
+    "level": "Gaunpalika",
+    "district": "Nuwakot",
+    "fId": 472
+  },
+  {
+    "id": "meghang-nuwakot",
+    "name": "Meghang",
+    "level": "Gaunpalika",
+    "district": "Nuwakot",
+    "fId": 462
+  },
+  {
+    "id": "panchakanya-nuwakot",
+    "name": "Panchakanya",
+    "level": "Gaunpalika",
+    "district": "Nuwakot",
+    "fId": 467
+  },
+  {
+    "id": "shivapuri-nuwakot",
+    "name": "Shivapuri",
+    "level": "Gaunpalika",
+    "district": "Nuwakot",
+    "fId": 469
+  },
+  {
+    "id": "suryagadhi-nuwakot",
+    "name": "Suryagadhi",
+    "level": "Gaunpalika",
+    "district": "Nuwakot",
+    "fId": 471
+  },
+  {
+    "id": "tadi-nuwakot",
+    "name": "Tadi",
+    "level": "Gaunpalika",
+    "district": "Nuwakot",
+    "fId": 465
+  },
+  {
+    "id": "tarkeshwar-nuwakot",
+    "name": "Tarkeshwar",
+    "level": "Gaunpalika",
+    "district": "Nuwakot",
+    "fId": 463
+  },
+  {
+    "id": "champadevi-okhaldhunga",
+    "name": "Champadevi",
+    "level": "Gaunpalika",
+    "district": "Okhaldhunga",
+    "fId": 473
+  },
+  {
+    "id": "chisankhugadi-okhaldhung",
+    "name": "Chisankhugadi",
+    "level": "Gaunpalika",
+    "district": "Okhaldhunga",
+    "fId": 476
+  },
+  {
+    "id": "khijidemba-okhaldhunga",
+    "name": "Khijidemba",
+    "level": "Gaunpalika",
+    "district": "Okhaldhunga",
+    "fId": 479
+  },
+  {
+    "id": "likhu-okhaldhunga",
+    "name": "Likhu",
+    "level": "Gaunpalika",
+    "district": "Okhaldhunga",
+    "fId": 478
+  },
+  {
+    "id": "manebhanjyang-okhaldhung",
+    "name": "Manebhanjyang",
+    "level": "Gaunpalika",
+    "district": "Okhaldhunga",
+    "fId": 475
+  },
+  {
+    "id": "molung-okhaldhunga",
+    "name": "Molung",
+    "level": "Gaunpalika",
+    "district": "Okhaldhunga",
+    "fId": 477
+  },
+  {
+    "id": "siddhicharan-okhaldhunga",
+    "name": "Siddhicharan",
+    "level": "Nagarpalika",
+    "district": "Okhaldhunga",
+    "fId": 480
+  },
+  {
+    "id": "sukoshi-okhaldhunga",
+    "name": "Sukoshi",
+    "level": "Gaunpalika",
+    "district": "Okhaldhunga",
+    "fId": 474
+  },
+  {
+    "id": "bagnaskali-palpa",
+    "name": "Bagnaskali",
+    "level": "Gaunpalika",
+    "district": "Palpa",
+    "fId": 485
+  },
+  {
+    "id": "mathagadhi-palpa",
+    "name": "Mathagadhi",
+    "level": "Gaunpalika",
+    "district": "Palpa",
+    "fId": 486
+  },
+  {
+    "id": "nisdi-palpa",
+    "name": "Nisdi",
+    "level": "Gaunpalika",
+    "district": "Palpa",
+    "fId": 488
+  },
+  {
+    "id": "purbakhola-palpa",
+    "name": "Purbakhola",
+    "level": "Gaunpalika",
+    "district": "Palpa",
+    "fId": 490
+  },
+  {
+    "id": "rainadevi -chahara-palpa",
+    "name": "Rainadevi Chahara",
+    "level": "Gaunpalika",
+    "district": "Palpa",
+    "fId": 481
+  },
+  {
+    "id": "rambha-palpa",
+    "name": "Rambha",
+    "level": "Gaunpalika",
+    "district": "Palpa",
+    "fId": 489
+  },
+  {
+    "id": "rampur-palpa",
+    "name": "Rampur",
+    "level": "Nagarpalika",
+    "district": "Palpa",
+    "fId": 487
+  },
+  {
+    "id": "ribdikot-palpa",
+    "name": "Ribdikot",
+    "level": "Gaunpalika",
+    "district": "Palpa",
+    "fId": 482
+  },
+  {
+    "id": "tansen-palpa",
+    "name": "Tansen",
+    "level": "Nagarpalika",
+    "district": "Palpa",
+    "fId": 484
+  },
+  {
+    "id": "tinau-palpa",
+    "name": "Tinau",
+    "level": "Gaunpalika",
+    "district": "Palpa",
+    "fId": 483
+  },
+  {
+    "id": "falelung-panchthar",
+    "name": "Falelung",
+    "level": "Gaunpalika",
+    "district": "Panchthar",
+    "fId": 496
+  },
+  {
+    "id": "galgunanda-panchthar",
+    "name": "Galgunanda",
+    "level": "Gaunpalika",
+    "district": "Panchthar",
+    "fId": 494
+  },
+  {
+    "id": "hilihang-panchthar",
+    "name": "Hilihang",
+    "level": "Gaunpalika",
+    "district": "Panchthar",
+    "fId": 497
+  },
+  {
+    "id": "kummayak-panchthar",
+    "name": "Kummayak",
+    "level": "Gaunpalika",
+    "district": "Panchthar",
+    "fId": 493
+  },
+  {
+    "id": "miklajung-panchthar",
+    "name": "Miklajung",
+    "level": "Gaunpalika",
+    "district": "Panchthar",
+    "fId": 491
+  },
+  {
+    "id": "phidim-panchthar",
+    "name": "Phidim",
+    "level": "Nagarpalika",
+    "district": "Panchthar",
+    "fId": 495
+  },
+  {
+    "id": "tumbewa-panchthar",
+    "name": "Tumbewa",
+    "level": "Gaunpalika",
+    "district": "Panchthar",
+    "fId": 492
+  },
+  {
+    "id": "yangwarak-panchthar",
+    "name": "Yangwarak",
+    "level": "Gaunpalika",
+    "district": "Panchthar",
+    "fId": 498
+  },
+  {
+    "id": "bihadi-parbat",
+    "name": "Bihadi",
+    "level": "Gaunpalika",
+    "district": "Parbat",
+    "fId": 502
+  },
+  {
+    "id": "falebas-parbat",
+    "name": "Falebas",
+    "level": "Nagarpalika",
+    "district": "Parbat",
+    "fId": 504
+  },
+  {
+    "id": "jaljala-parbat",
+    "name": "Jaljala",
+    "level": "Gaunpalika",
+    "district": "Parbat",
+    "fId": 499
+  },
+  {
+    "id": "kushma-parbat",
+    "name": "Kushma",
+    "level": "Nagarpalika",
+    "district": "Parbat",
+    "fId": 501
+  },
+  {
+    "id": "mahashila-parbat",
+    "name": "Mahashila",
+    "level": "Gaunpalika",
+    "district": "Parbat",
+    "fId": 505
+  },
+  {
+    "id": "modi-parbat",
+    "name": "Modi",
+    "level": "Gaunpalika",
+    "district": "Parbat",
+    "fId": 500
+  },
+  {
+    "id": "painyu-parbat",
+    "name": "Painyu",
+    "level": "Gaunpalika",
+    "district": "Parbat",
+    "fId": 503
+  },
+  {
+    "id": "bahudaramai-parsa",
+    "name": "Bahudaramai",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 511
+  },
+  {
+    "id": "belwa-parsa",
+    "name": "Belwa",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 509
+  },
+  {
+    "id": "bindabasini-parsa",
+    "name": "Bindabasini",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 512
+  },
+  {
+    "id": "birgunj-parsa",
+    "name": "Birgunj",
+    "level": "Upamahanagarpalika",
+    "district": "Parsa",
+    "fId": 510
+  },
+  {
+    "id": "chhipaharmai-parsa",
+    "name": "Chhipaharmai",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 514
+  },
+  {
+    "id": "chitwan -national -park-",
+    "name": "Chitwan National Park",
+    "level": "national-park",
+    "district": "Parsa",
+    "fId": 507
+  },
+  {
+    "id": "dhobini-parsa",
+    "name": "Dhobini",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 515
+  },
+  {
+    "id": "jagarnathpur-parsa",
+    "name": "Jagarnathpur",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 516
+  },
+  {
+    "id": "pakahamainpur-parsa",
+    "name": "Pakahamainpur",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 513
+  },
+  {
+    "id": "parsa-parsa",
+    "name": "Parsa",
+    "level": "wildlife-reserve",
+    "district": "Parsa",
+    "fId": 506
+  },
+  {
+    "id": "parsagadhi-parsa",
+    "name": "Parsagadhi",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 508
+  },
+  {
+    "id": "paterwasugauli-parsa",
+    "name": "Paterwasugauli",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 517
+  },
+  {
+    "id": "pokhariya-parsa",
+    "name": "Pokhariya",
+    "level": "Nagarpalika",
+    "district": "Parsa",
+    "fId": 519
+  },
+  {
+    "id": "sakhuwa -prasauni-parsa",
+    "name": "Sakhuwa Prasauni",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 518
+  },
+  {
+    "id": "subarnapur-parsa",
+    "name": "Subarnapur",
+    "level": "Gaunpalika",
+    "district": "Parsa",
+    "fId": 507
+  },
+  {
+    "id": "airawati-pyuthan",
+    "name": "Airawati",
+    "level": "Gaunpalika",
+    "district": "Pyuthan",
+    "fId": 526
+  },
+  {
+    "id": "gaumukhi-pyuthan",
+    "name": "Gaumukhi",
+    "level": "Gaunpalika",
+    "district": "Pyuthan",
+    "fId": 522
+  },
+  {
+    "id": "jhimruk-pyuthan",
+    "name": "Jhimruk",
+    "level": "Gaunpalika",
+    "district": "Pyuthan",
+    "fId": 528
+  },
+  {
+    "id": "mallarani-pyuthan",
+    "name": "Mallarani",
+    "level": "Gaunpalika",
+    "district": "Pyuthan",
+    "fId": 525
+  },
+  {
+    "id": "mandawi-pyuthan",
+    "name": "Mandawi",
+    "level": "Gaunpalika",
+    "district": "Pyuthan",
+    "fId": 523
+  },
+  {
+    "id": "naubahini-pyuthan",
+    "name": "Naubahini",
+    "level": "Gaunpalika",
+    "district": "Pyuthan",
+    "fId": 521
+  },
+  {
+    "id": "pyuthan-pyuthan",
+    "name": "Pyuthan",
+    "level": "Nagarpalika",
+    "district": "Pyuthan",
+    "fId": 527
+  },
+  {
+    "id": "sarumarani-pyuthan",
+    "name": "Sarumarani",
+    "level": "Gaunpalika",
+    "district": "Pyuthan",
+    "fId": 524
+  },
+  {
+    "id": "sworgadwari-pyuthan",
+    "name": "Sworgadwari",
+    "level": "Nagarpalika",
+    "district": "Pyuthan",
+    "fId": 520
+  },
+  {
+    "id": "doraamba-ramechhap",
+    "name": "Doraamba",
+    "level": "Gaunpalika",
+    "district": "Ramechhap",
+    "fId": 536
+  },
+  {
+    "id": "gokulganga-ramechhap",
+    "name": "Gokulganga",
+    "level": "Gaunpalika",
+    "district": "Ramechhap",
+    "fId": 535
+  },
+  {
+    "id": "khadadevi-ramechhap",
+    "name": "Khadadevi",
+    "level": "Gaunpalika",
+    "district": "Ramechhap",
+    "fId": 533
+  },
+  {
+    "id": "likhu-ramechhap",
+    "name": "Likhu",
+    "level": "Gaunpalika",
+    "district": "Ramechhap",
+    "fId": 530
+  },
+  {
+    "id": "manthali-ramechhap",
+    "name": "Manthali",
+    "level": "Nagarpalika",
+    "district": "Ramechhap",
+    "fId": 532
+  },
+  {
+    "id": "ramechhap-ramechhap",
+    "name": "Ramechhap",
+    "level": "Nagarpalika",
+    "district": "Ramechhap",
+    "fId": 531
+  },
+  {
+    "id": "sunapati-ramechhap",
+    "name": "Sunapati",
+    "level": "Gaunpalika",
+    "district": "Ramechhap",
+    "fId": 534
+  },
+  {
+    "id": "umakunda-ramechhap",
+    "name": "Umakunda",
+    "level": "Gaunpalika",
+    "district": "Ramechhap",
+    "fId": 529
+  },
+  {
+    "id": "gosaikunda-rasuwa",
+    "name": "Gosaikunda",
+    "level": "Gaunpalika",
+    "district": "Rasuwa",
+    "fId": 537
+  },
+  {
+    "id": "kalika-rasuwa",
+    "name": "Kalika",
+    "level": "Gaunpalika",
+    "district": "Rasuwa",
+    "fId": 540
+  },
+  {
+    "id": "naukunda-rasuwa",
+    "name": "Naukunda",
+    "level": "Gaunpalika",
+    "district": "Rasuwa",
+    "fId": 541
+  },
+  {
+    "id": "parwatikunda-rasuwa",
+    "name": "Parwatikunda",
+    "level": "Gaunpalika",
+    "district": "Rasuwa",
+    "fId": 538
+  },
+  {
+    "id": "uttargaya-rasuwa",
+    "name": "Uttargaya",
+    "level": "Gaunpalika",
+    "district": "Rasuwa",
+    "fId": 539
+  },
+  {
+    "id": "baudhimal-rautahat",
+    "name": "Baudhimal",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 548
+  },
+  {
+    "id": "birndaban-rautahat",
+    "name": "Birndaban",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 543
+  },
+  {
+    "id": "chandrapur-rautahat",
+    "name": "Chandrapur",
+    "level": "Nagarpalika",
+    "district": "Rautahat",
+    "fId": 542
+  },
+  {
+    "id": "dawahi -gonahi-rautahat",
+    "name": "Dawahi Gonahi",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 547
+  },
+  {
+    "id": "durga -bagwati-rautahat",
+    "name": "Durga Bagwati",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 556
+  },
+  {
+    "id": "gadhimai-rautahat",
+    "name": "Gadhimai",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 550
+  },
+  {
+    "id": "garuda-rautahat",
+    "name": "Garuda",
+    "level": "Nagarpalika",
+    "district": "Rautahat",
+    "fId": 550
+  },
+  {
+    "id": "gaur-rautahat",
+    "name": "Gaur",
+    "level": "Nagarpalika",
+    "district": "Rautahat",
+    "fId": 555
+  },
+  {
+    "id": "gujara-rautahat",
+    "name": "Gujara",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 544
+  },
+  {
+    "id": "ishanath-rautahat",
+    "name": "Ishanath",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 553
+  },
+  {
+    "id": "katahariya-rautahat",
+    "name": "Katahariya",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 546
+  },
+  {
+    "id": "madhav -narayan-rautahat",
+    "name": "Madhav Narayan",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 549
+  },
+  {
+    "id": "maulapur-rautahat",
+    "name": "Maulapur",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 545
+  },
+  {
+    "id": "paroha-rautahat",
+    "name": "Paroha",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 552
+  },
+  {
+    "id": "phatuwa -bijayapur-rauta",
+    "name": "Phatuwa Bijayapur",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 545
+  },
+  {
+    "id": "rajpur-rautahat",
+    "name": "Rajpur",
+    "level": "Gaunpalika",
+    "district": "Rautahat",
+    "fId": 554
+  },
+  {
+    "id": "duikholi-rolpa",
+    "name": "Duikholi",
+    "level": "Gaunpalika",
+    "district": "Rolpa",
+    "fId": 558
+  },
+  {
+    "id": "lungri-rolpa",
+    "name": "Lungri",
+    "level": "Gaunpalika",
+    "district": "Rolpa",
+    "fId": 560
+  },
+  {
+    "id": "madi-rolpa",
+    "name": "Madi",
+    "level": "Gaunpalika",
+    "district": "Rolpa",
+    "fId": 562
+  },
+  {
+    "id": "rolpa-rolpa",
+    "name": "Rolpa",
+    "level": "Nagarpalika",
+    "district": "Rolpa",
+    "fId": 564
+  },
+  {
+    "id": "runtigadhi-rolpa",
+    "name": "Runtigadhi",
+    "level": "Gaunpalika",
+    "district": "Rolpa",
+    "fId": 563
+  },
+  {
+    "id": "sukidaha-rolpa",
+    "name": "Sukidaha",
+    "level": "Gaunpalika",
+    "district": "Rolpa",
+    "fId": 561
+  },
+  {
+    "id": "sunchhahari-rolpa",
+    "name": "Sunchhahari",
+    "level": "Gaunpalika",
+    "district": "Rolpa",
+    "fId": 565
+  },
+  {
+    "id": "suwarnabati-rolpa",
+    "name": "Suwarnabati",
+    "level": "Gaunpalika",
+    "district": "Rolpa",
+    "fId": 566
+  },
+  {
+    "id": "thawang-rolpa",
+    "name": "Thawang",
+    "level": "Gaunpalika",
+    "district": "Rolpa",
+    "fId": 557
+  },
+  {
+    "id": "triveni-rolpa",
+    "name": "Triveni",
+    "level": "Gaunpalika",
+    "district": "Rolpa",
+    "fId": 559
+  },
+  {
+    "id": "aathbiskot-rukum",
+    "name": "Aathbiskot",
+    "level": "Nagarpalika",
+    "district": "Rukum",
+    "fId": 568
+  },
+  {
+    "id": "banfikot-rukum",
+    "name": "Banfikot",
+    "level": "Gaunpalika",
+    "district": "Rukum",
+    "fId": 567
+  },
+  {
+    "id": "bhume-rukum",
+    "name": "Bhume",
+    "level": "Gaunpalika",
+    "district": "Rukum",
+    "fId": 575
+  },
+  {
+    "id": "chaurjahari-rukum",
+    "name": "Chaurjahari",
+    "level": "Nagarpalika",
+    "district": "Rukum",
+    "fId": 571
+  },
+  {
+    "id": "dhorpatan -hunting -rese",
+    "name": "Dhorpatan Hunting Reserve",
+    "level": "hunting-reserve",
+    "district": "Rukum",
+    "fId": 573
+  },
+  {
+    "id": "musikot-rukum",
+    "name": "Musikot",
+    "level": "Nagarpalika",
+    "district": "Rukum",
+    "fId": 569
+  },
+  {
+    "id": "putha -uttarganga-rukum",
+    "name": "Putha Uttarganga",
+    "level": "Gaunpalika",
+    "district": "Rukum",
+    "fId": 574
+  },
+  {
+    "id": "sani -veri-rukum",
+    "name": "Sani Veri",
+    "level": "Gaunpalika",
+    "district": "Rukum",
+    "fId": 572
+  },
+  {
+    "id": "sisne -gaunpalika-rukum",
+    "name": "Sisne Gaunpalika",
+    "level": "Gaunpalika",
+    "district": "Rukum",
+    "fId": 576
+  },
+  {
+    "id": "tribeni-rukum",
+    "name": "Tribeni",
+    "level": "Gaunpalika",
+    "district": "Rukum",
+    "fId": 570
+  },
+  {
+    "id": "-rupandehi",
+    "name": "",
+    "level": "",
+    "district": "Rupandehi",
+    "fId": 577
+  },
+  {
+    "id": "butwal-rupandehi",
+    "name": "Butwal",
+    "level": "Upamahanagarpalika",
+    "district": "Rupandehi",
+    "fId": 579
+  },
+  {
+    "id": "devdaha-rupandehi",
+    "name": "Devdaha",
+    "level": "Nagarpalika",
+    "district": "Rupandehi",
+    "fId": 580
+  },
+  {
+    "id": "gaidahawa-rupandehi",
+    "name": "Gaidahawa",
+    "level": "Gaunpalika",
+    "district": "Rupandehi",
+    "fId": 584
+  },
+  {
+    "id": "kanchan-rupandehi",
+    "name": "Kanchan",
+    "level": "Gaunpalika",
+    "district": "Rupandehi",
+    "fId": 583
+  },
+  {
+    "id": "lumbini -sanskritik-rupa",
+    "name": "Lumbini Sanskritik",
+    "level": "Nagarpalika",
+    "district": "Rupandehi",
+    "fId": 592
+  },
+  {
+    "id": "marchawari-rupandehi",
+    "name": "Marchawari",
+    "level": "Gaunpalika",
+    "district": "Rupandehi",
+    "fId": 590
+  },
+  {
+    "id": "mayadevi-rupandehi",
+    "name": "Mayadevi",
+    "level": "Gaunpalika",
+    "district": "Rupandehi",
+    "fId": 591
+  },
+  {
+    "id": "omsatiya-rupandehi",
+    "name": "Omsatiya",
+    "level": "Gaunpalika",
+    "district": "Rupandehi",
+    "fId": 582
+  },
+  {
+    "id": "rohini-rupandehi",
+    "name": "Rohini",
+    "level": "Gaunpalika",
+    "district": "Rupandehi",
+    "fId": 581
+  },
+  {
+    "id": "sainamaina-rupandehi",
+    "name": "Sainamaina",
+    "level": "Nagarpalika",
+    "district": "Rupandehi",
+    "fId": 578
+  },
+  {
+    "id": "sammarimai-rupandehi",
+    "name": "Sammarimai",
+    "level": "Gaunpalika",
+    "district": "Rupandehi",
+    "fId": 588
+  },
+  {
+    "id": "sammarimai-rupandehi",
+    "name": "Sammarimai",
+    "level": "Gaunpalika",
+    "district": "Rupandehi",
+    "fId": 589
+  },
+  {
+    "id": "siddharthanagar-rupandeh",
+    "name": "Siddharthanagar",
+    "level": "Nagarpalika",
+    "district": "Rupandehi",
+    "fId": 593
+  },
+  {
+    "id": "siyari-rupandehi",
+    "name": "Siyari",
+    "level": "Gaunpalika",
+    "district": "Rupandehi",
+    "fId": 586
+  },
+  {
+    "id": "suddhodhan-rupandehi",
+    "name": "Suddhodhan",
+    "level": "Gaunpalika",
+    "district": "Rupandehi",
+    "fId": 585
+  },
+  {
+    "id": "tillotama-rupandehi",
+    "name": "Tillotama",
+    "level": "Nagarpalika",
+    "district": "Rupandehi",
+    "fId": 587
+  },
+  {
+    "id": "bagchaur-salyan",
+    "name": "Bagchaur",
+    "level": "Nagarpalika",
+    "district": "Salyan",
+    "fId": 599
+  },
+  {
+    "id": "bangad -kupinde-salyan",
+    "name": "Bangad Kupinde",
+    "level": "Nagarpalika",
+    "district": "Salyan",
+    "fId": 594
+  },
+  {
+    "id": "chhatreswari-salyan",
+    "name": "Chhatreswari",
+    "level": "Gaunpalika",
+    "district": "Salyan",
+    "fId": 601
+  },
+  {
+    "id": "darma-salyan",
+    "name": "Darma",
+    "level": "Gaunpalika",
+    "district": "Salyan",
+    "fId": 600
+  },
+  {
+    "id": "dhorchaur-salyan",
+    "name": "Dhorchaur",
+    "level": "Gaunpalika",
+    "district": "Salyan",
+    "fId": 597
+  },
+  {
+    "id": "kalimati-salyan",
+    "name": "Kalimati",
+    "level": "Gaunpalika",
+    "district": "Salyan",
+    "fId": 595
+  },
+  {
+    "id": "kapurkot-salyan",
+    "name": "Kapurkot",
+    "level": "Gaunpalika",
+    "district": "Salyan",
+    "fId": 602
+  },
+  {
+    "id": "kumakh -malika-salyan",
+    "name": "Kumakh Malika",
+    "level": "Gaunpalika",
+    "district": "Salyan",
+    "fId": 598
+  },
+  {
+    "id": "sarada-salyan",
+    "name": "Sarada",
+    "level": "Nagarpalika",
+    "district": "Salyan",
+    "fId": 596
+  },
+  {
+    "id": "tribeni-salyan",
+    "name": "Tribeni",
+    "level": "Gaunpalika",
+    "district": "Salyan",
+    "fId": 603
+  },
+  {
+    "id": "bhotkhola-sankhuwasabha",
+    "name": "Bhotkhola",
+    "level": "Gaunpalika",
+    "district": "Sankhuwasabha",
+    "fId": 613
+  },
+  {
+    "id": "chainpur-sankhuwasabha",
+    "name": "Chainpur",
+    "level": "Nagarpalika",
+    "district": "Sankhuwasabha",
+    "fId": 604
+  },
+  {
+    "id": "chichila-sankhuwasabha",
+    "name": "Chichila",
+    "level": "Gaunpalika",
+    "district": "Sankhuwasabha",
+    "fId": 610
+  },
+  {
+    "id": "dharmadevi-sankhuwasabha",
+    "name": "Dharmadevi",
+    "level": "Nagarpalika",
+    "district": "Sankhuwasabha",
+    "fId": 605
+  },
+  {
+    "id": "khandbari-sankhuwasabha",
+    "name": "Khandbari",
+    "level": "Nagarpalika",
+    "district": "Sankhuwasabha",
+    "fId": 609
+  },
+  {
+    "id": "madi-sankhuwasabha",
+    "name": "Madi",
+    "level": "Nagarpalika",
+    "district": "Sankhuwasabha",
+    "fId": 606
+  },
+  {
+    "id": "makalu-sankhuwasabha",
+    "name": "Makalu",
+    "level": "national-park",
+    "district": "Sankhuwasabha",
+    "fId": 612
+  },
+  {
+    "id": "makalu-sankhuwasabha",
+    "name": "Makalu",
+    "level": "Gaunpalika",
+    "district": "Sankhuwasabha",
+    "fId": 614
+  },
+  {
+    "id": "panchakhapan-sankhuwasab",
+    "name": "Panchakhapan",
+    "level": "Nagarpalika",
+    "district": "Sankhuwasabha",
+    "fId": 607
+  },
+  {
+    "id": "sabhapokhari-sankhuwasab",
+    "name": "Sabhapokhari",
+    "level": "Gaunpalika",
+    "district": "Sankhuwasabha",
+    "fId": 608
+  },
+  {
+    "id": "silichong-sankhuwasabha",
+    "name": "Silichong",
+    "level": "Gaunpalika",
+    "district": "Sankhuwasabha",
+    "fId": 611
+  },
+  {
+    "id": "belhi -chapena-saptari",
+    "name": "Belhi Chapena",
+    "level": "gaupaika",
+    "district": "Saptari",
+    "fId": 630
+  },
+  {
+    "id": "bishnupur-saptari",
+    "name": "Bishnupur",
+    "level": "Gaunpalika",
+    "district": "Saptari",
+    "fId": 623
+  },
+  {
+    "id": "bode -barsain-saptari",
+    "name": "Bode Barsain",
+    "level": "Nagarpalika",
+    "district": "Saptari",
+    "fId": 616
+  },
+  {
+    "id": "chhinnamasta-saptari",
+    "name": "Chhinnamasta",
+    "level": "Gaunpalika",
+    "district": "Saptari",
+    "fId": 624
+  },
+  {
+    "id": "dakneshwari-saptari",
+    "name": "Dakneshwari",
+    "level": "Nagarpalika",
+    "district": "Saptari",
+    "fId": 630
+  },
+  {
+    "id": "hanumannagar -kankalan-s",
+    "name": "Hanumannagar Kankalan",
+    "level": "Nagarpalika",
+    "district": "Saptari",
+    "fId": 617
+  },
+  {
+    "id": "kanchanrup-saptari",
+    "name": "Kanchanrup",
+    "level": "Nagarpalika",
+    "district": "Saptari",
+    "fId": 621
+  },
+  {
+    "id": "khadak-saptari",
+    "name": "Khadak",
+    "level": "Nagarpalika",
+    "district": "Saptari",
+    "fId": 628
+  },
+  {
+    "id": "koshi -tappu-saptari",
+    "name": "Koshi Tappu",
+    "level": "wildlife-reserve\n",
+    "district": "Saptari",
+    "fId": 629
+  },
+  {
+    "id": "krishna -sawaran-saptari",
+    "name": "Krishna Sawaran",
+    "level": "Gaunpalika",
+    "district": "Saptari",
+    "fId": 620
+  },
+  {
+    "id": "mahadewa-saptari",
+    "name": "Mahadewa",
+    "level": "Gaunpalika",
+    "district": "Saptari",
+    "fId": 627
+  },
+  {
+    "id": "rajbiraj-saptari",
+    "name": "Rajbiraj",
+    "level": "Nagarpalika",
+    "district": "Saptari",
+    "fId": 626
+  },
+  {
+    "id": "rupani-saptari",
+    "name": "Rupani",
+    "level": "Gaunpalika",
+    "district": "Saptari",
+    "fId": 622
+  },
+  {
+    "id": "saptakoshi-saptari",
+    "name": "Saptakoshi",
+    "level": "Gaunpalika",
+    "district": "Saptari",
+    "fId": 619
+  },
+  {
+    "id": "shambhunath-saptari",
+    "name": "Shambhunath",
+    "level": "gaupaika",
+    "district": "Saptari",
+    "fId": 630
+  },
+  {
+    "id": "surunga-saptari",
+    "name": "Surunga",
+    "level": "Nagarpalika",
+    "district": "Saptari",
+    "fId": 615
+  },
+  {
+    "id": "tilathi -koiladi-saptari",
+    "name": "Tilathi Koiladi",
+    "level": "Gaunpalika",
+    "district": "Saptari",
+    "fId": 625
+  },
+  {
+    "id": "tirahut-saptari",
+    "name": "Tirahut",
+    "level": "Gaunpalika",
+    "district": "Saptari",
+    "fId": 618
+  },
+  {
+    "id": "bagmati-sarlahi",
+    "name": "Bagmati",
+    "level": "Nagarpalika",
+    "district": "Sarlahi",
+    "fId": 644
+  },
+  {
+    "id": "balara-sarlahi",
+    "name": "Balara",
+    "level": "Nagarpalika",
+    "district": "Sarlahi",
+    "fId": 631
+  },
+  {
+    "id": "barahathawa-sarlahi",
+    "name": "Barahathawa",
+    "level": "Nagarpalika",
+    "district": "Sarlahi",
+    "fId": 646
+  },
+  {
+    "id": "bishnu-sarlahi",
+    "name": "Bishnu",
+    "level": "Gaunpalika",
+    "district": "Sarlahi",
+    "fId": 634
+  },
+  {
+    "id": "bramhapuri-sarlahi",
+    "name": "Bramhapuri",
+    "level": "Gaunpalika",
+    "district": "Sarlahi",
+    "fId": 637
+  },
+  {
+    "id": "chakraghatta-sarlahi",
+    "name": "Chakraghatta",
+    "level": "Gaunpalika",
+    "district": "Sarlahi",
+    "fId": 639
+  },
+  {
+    "id": "chandranagar-sarlahi",
+    "name": "Chandranagar",
+    "level": "Gaunpalika",
+    "district": "Sarlahi",
+    "fId": 636
+  },
+  {
+    "id": "dhankaul-sarlahi",
+    "name": "Dhankaul",
+    "level": "Gaunpalika",
+    "district": "Sarlahi",
+    "fId": 641
+  },
+  {
+    "id": "gaudeta-sarlahi",
+    "name": "Gaudeta",
+    "level": "Nagarpalika",
+    "district": "Sarlahi",
+    "fId": 633
+  },
+  {
+    "id": "haripur-sarlahi",
+    "name": "Haripur",
+    "level": "Nagarpalika",
+    "district": "Sarlahi",
+    "fId": 647
+  },
+  {
+    "id": "haripurwa-sarlahi",
+    "name": "Haripurwa",
+    "level": "Nagarpalika",
+    "district": "Sarlahi",
+    "fId": 638
+  },
+  {
+    "id": "hariwan-sarlahi",
+    "name": "Hariwan",
+    "level": "Nagarpalika",
+    "district": "Sarlahi",
+    "fId": 645
+  },
+  {
+    "id": "ishworpur-sarlahi",
+    "name": "Ishworpur",
+    "level": "Nagarpalika",
+    "district": "Sarlahi",
+    "fId": 642
+  },
+  {
+    "id": "kabilasi-sarlahi",
+    "name": "Kabilasi",
+    "level": "Gaunpalika",
+    "district": "Sarlahi",
+    "fId": 635
+  },
+  {
+    "id": "lalbandi-sarlahi",
+    "name": "Lalbandi",
+    "level": "Nagarpalika",
+    "district": "Sarlahi",
+    "fId": 643
+  },
+  {
+    "id": "malangawa-sarlahi",
+    "name": "Malangawa",
+    "level": "Nagarpalika",
+    "district": "Sarlahi",
+    "fId": 640
+  },
+  {
+    "id": "ramnagar-sarlahi",
+    "name": "Ramnagar",
+    "level": "Gaunpalika",
+    "district": "Sarlahi",
+    "fId": 632
+  },
+  {
+    "id": "dudhouli-sindhuli",
+    "name": "Dudhouli",
+    "level": "Nagarpalika",
+    "district": "Sindhuli",
+    "fId": 654
+  },
+  {
+    "id": "ghyanglekh-sindhuli",
+    "name": "Ghyanglekh",
+    "level": "Gaunpalika",
+    "district": "Sindhuli",
+    "fId": 650
+  },
+  {
+    "id": "golanjor-sindhuli",
+    "name": "Golanjor",
+    "level": "Gaunpalika",
+    "district": "Sindhuli",
+    "fId": 653
+  },
+  {
+    "id": "hariharpurgadhi-sindhuli",
+    "name": "Hariharpurgadhi",
+    "level": "Gaunpalika",
+    "district": "Sindhuli",
+    "fId": 648
+  },
+  {
+    "id": "kamalamai-sindhuli",
+    "name": "Kamalamai",
+    "level": "Nagarpalika",
+    "district": "Sindhuli",
+    "fId": 651
+  },
+  {
+    "id": "marin-sindhuli",
+    "name": "Marin",
+    "level": "Gaunpalika",
+    "district": "Sindhuli",
+    "fId": 649
+  },
+  {
+    "id": "phikkal-sindhuli",
+    "name": "Phikkal",
+    "level": "Gaunpalika",
+    "district": "Sindhuli",
+    "fId": 656
+  },
+  {
+    "id": "sunkoshi-sindhuli",
+    "name": "Sunkoshi",
+    "level": "Gaunpalika",
+    "district": "Sindhuli",
+    "fId": 652
+  },
+  {
+    "id": "tinpatan-sindhuli",
+    "name": "Tinpatan",
+    "level": "Gaunpalika",
+    "district": "Sindhuli",
+    "fId": 655
+  },
+  {
+    "id": "balefi-sindhupalchowk",
+    "name": "Balefi",
+    "level": "Gaunpalika",
+    "district": "Sindhupalchowk",
+    "fId": 662
+  },
+  {
+    "id": "barhabise-sindhupalchowk",
+    "name": "Barhabise",
+    "level": "Nagarpalika",
+    "district": "Sindhupalchowk",
+    "fId": 661
+  },
+  {
+    "id": "bhotekoshi-sindhupalchow",
+    "name": "Bhotekoshi",
+    "level": "Gaunpalika",
+    "district": "Sindhupalchowk",
+    "fId": 658
+  },
+  {
+    "id": "chautara -sangachokgadhi",
+    "name": "Chautara Sangachokgadhi",
+    "level": "Nagarpalika",
+    "district": "Sindhupalchowk",
+    "fId": 663
+  },
+  {
+    "id": "helambu-sindhupalchowk",
+    "name": "Helambu",
+    "level": "Gaunpalika",
+    "district": "Sindhupalchowk",
+    "fId": 660
+  },
+  {
+    "id": "indrawati-sindhupalchowk",
+    "name": "Indrawati",
+    "level": "Gaunpalika",
+    "district": "Sindhupalchowk",
+    "fId": 665
+  },
+  {
+    "id": "jugal-sindhupalchowk",
+    "name": "Jugal",
+    "level": "Gaunpalika",
+    "district": "Sindhupalchowk",
+    "fId": 657
+  },
+  {
+    "id": "lisangkhu -pakhar-sindhu",
+    "name": "Lisangkhu Pakhar",
+    "level": "Gaunpalika",
+    "district": "Sindhupalchowk",
+    "fId": 666
+  },
+  {
+    "id": "melamchi-sindhupalchowk",
+    "name": "Melamchi",
+    "level": "Nagarpalika",
+    "district": "Sindhupalchowk",
+    "fId": 664
+  },
+  {
+    "id": "panchpokhari -thangpal-s",
+    "name": "Panchpokhari Thangpal",
+    "level": "Gaunpalika",
+    "district": "Sindhupalchowk",
+    "fId": 659
+  },
+  {
+    "id": "sunkoshi-sindhupalchowk",
+    "name": "Sunkoshi",
+    "level": "Gaunpalika",
+    "district": "Sindhupalchowk",
+    "fId": 668
+  },
+  {
+    "id": "tripurasundari-sindhupal",
+    "name": "Tripurasundari",
+    "level": "Gaunpalika",
+    "district": "Sindhupalchowk",
+    "fId": 667
+  },
+  {
+    "id": "arnama-siraha",
+    "name": "Arnama",
+    "level": "Gaunpalika",
+    "district": "Siraha",
+    "fId": 671
+  },
+  {
+    "id": "aurahi-siraha",
+    "name": "Aurahi",
+    "level": "Gaunpalika",
+    "district": "Siraha",
+    "fId": 671
+  },
+  {
+    "id": "bariyarpatti-siraha",
+    "name": "Bariyarpatti",
+    "level": "Gaunpalika",
+    "district": "Siraha",
+    "fId": 678
+  },
+  {
+    "id": "bhagawanpur-siraha",
+    "name": "Bhagawanpur",
+    "level": "Gaunpalika",
+    "district": "Siraha",
+    "fId": 679
+  },
+  {
+    "id": "bishnupur-siraha",
+    "name": "Bishnupur",
+    "level": "Gaunpalika",
+    "district": "Siraha",
+    "fId": 672
+  },
+  {
+    "id": "dhangadhimai-siraha",
+    "name": "Dhangadhimai",
+    "level": "Nagarpalika",
+    "district": "Siraha",
+    "fId": 674
+  },
+  {
+    "id": "golbazar-siraha",
+    "name": "Golbazar",
+    "level": "Nagarpalika",
+    "district": "Siraha",
+    "fId": 673
+  },
+  {
+    "id": "kalyanpur-siraha",
+    "name": "Kalyanpur",
+    "level": "Nagarpalika",
+    "district": "Siraha",
+    "fId": 676
+  },
+  {
+    "id": "karjanha-siraha",
+    "name": "Karjanha",
+    "level": "Gaunpalika",
+    "district": "Siraha",
+    "fId": 669
+  },
+  {
+    "id": "lahan-siraha",
+    "name": "Lahan",
+    "level": "Nagarpalika",
+    "district": "Siraha",
+    "fId": 675
+  },
+  {
+    "id": "laxmi -patari-siraha",
+    "name": "Laxmi Patari",
+    "level": "Gaunpalika",
+    "district": "Siraha",
+    "fId": 678
+  },
+  {
+    "id": "mirchaiya-siraha",
+    "name": "Mirchaiya",
+    "level": "Nagarpalika",
+    "district": "Siraha",
+    "fId": 676
+  },
+  {
+    "id": "narha-siraha",
+    "name": "Narha",
+    "level": "Gaunpalika",
+    "district": "Siraha",
+    "fId": 672
+  },
+  {
+    "id": "nawarajpur-siraha",
+    "name": "Nawarajpur",
+    "level": "Gaunpalika",
+    "district": "Siraha",
+    "fId": 679
+  },
+  {
+    "id": "sakhuwa -nankarkatti-sir",
+    "name": "Sakhuwa Nankarkatti",
+    "level": "Gaunpalika",
+    "district": "Siraha",
+    "fId": 678
+  },
+  {
+    "id": "siraha-siraha",
+    "name": "Siraha",
+    "level": "Nagarpalika",
+    "district": "Siraha",
+    "fId": 680
+  },
+  {
+    "id": "siraha-siraha",
+    "name": "Siraha",
+    "level": "Nagarpalika",
+    "district": "Siraha",
+    "fId": 680
+  },
+  {
+    "id": "sukhipur-siraha",
+    "name": "Sukhipur",
+    "level": "Nagarpalika",
+    "district": "Siraha",
+    "fId": 671
+  },
+  {
+    "id": "dudhkaushika-solukhumbu",
+    "name": "Dudhkaushika",
+    "level": "Gaunpalika",
+    "district": "Solukhumbu",
+    "fId": 684
+  },
+  {
+    "id": "dudhkoshi-solukhumbu",
+    "name": "Dudhkoshi",
+    "level": "Gaunpalika",
+    "district": "Solukhumbu",
+    "fId": 686
+  },
+  {
+    "id": "khumbu -pasanglamhu-solu",
+    "name": "Khumbu Pasanglamhu",
+    "level": "Gaunpalika",
+    "district": "Solukhumbu",
+    "fId": 685
+  },
+  {
+    "id": "likhupike-solukhumbu",
+    "name": "Likhupike",
+    "level": "Gaunpalika",
+    "district": "Solukhumbu",
+    "fId": 681
+  },
+  {
+    "id": "mahakulung-solukhumbu",
+    "name": "Mahakulung",
+    "level": "Gaunpalika",
+    "district": "Solukhumbu",
+    "fId": 687
+  },
+  {
+    "id": "nechasalyan-solukhumbu",
+    "name": "Nechasalyan",
+    "level": "Gaunpalika",
+    "district": "Solukhumbu",
+    "fId": 683
+  },
+  {
+    "id": "solududhkunda-solukhumbu",
+    "name": "Solududhkunda",
+    "level": "Nagarpalika",
+    "district": "Solukhumbu",
+    "fId": 682
+  },
+  {
+    "id": "sotang-solukhumbu",
+    "name": "Sotang",
+    "level": "Gaunpalika",
+    "district": "Solukhumbu",
+    "fId": 688
+  },
+  {
+    "id": "barah-sunsari",
+    "name": "Barah",
+    "level": "Nagarpalika",
+    "district": "Sunsari",
+    "fId": 691
+  },
+  {
+    "id": "barju-sunsari",
+    "name": "Barju",
+    "level": "Gaunpalika",
+    "district": "Sunsari",
+    "fId": 694
+  },
+  {
+    "id": "bhokraha-sunsari",
+    "name": "Bhokraha",
+    "level": "Gaunpalika",
+    "district": "Sunsari",
+    "fId": 700
+  },
+  {
+    "id": "dewanganj-sunsari",
+    "name": "Dewanganj",
+    "level": "Gaunpalika",
+    "district": "Sunsari",
+    "fId": 701
+  },
+  {
+    "id": "dharan-sunsari",
+    "name": "Dharan",
+    "level": "Upamahanagarpalika",
+    "district": "Sunsari",
+    "fId": 692
+  },
+  {
+    "id": "duhabi-sunsari",
+    "name": "Duhabi",
+    "level": "Nagarpalika",
+    "district": "Sunsari",
+    "fId": 697
+  },
+  {
+    "id": "gadhi-sunsari",
+    "name": "Gadhi",
+    "level": "Gaunpalika",
+    "district": "Sunsari",
+    "fId": 695
+  },
+  {
+    "id": "harinagara-sunsari",
+    "name": "Harinagara",
+    "level": "Gaunpalika",
+    "district": "Sunsari",
+    "fId": 696
+  },
+  {
+    "id": "inaruwa-sunsari",
+    "name": "Inaruwa",
+    "level": "Nagarpalika",
+    "district": "Sunsari",
+    "fId": 699
+  },
+  {
+    "id": "itahari-sunsari",
+    "name": "Itahari",
+    "level": "Upamahanagarpalika",
+    "district": "Sunsari",
+    "fId": 693
+  },
+  {
+    "id": "koshi-sunsari",
+    "name": "Koshi",
+    "level": "Gaunpalika",
+    "district": "Sunsari",
+    "fId": 690
+  },
+  {
+    "id": "koshi -tappu-sunsari",
+    "name": "Koshi Tappu",
+    "level": "wildlife-reserve\n",
+    "district": "Sunsari",
+    "fId": 689
+  },
+  {
+    "id": "ramdhuni-sunsari",
+    "name": "Ramdhuni",
+    "level": "Nagarpalika",
+    "district": "Sunsari",
+    "fId": 698
+  },
+  {
+    "id": "barahtaal-surkhet",
+    "name": "Barahtaal",
+    "level": "Gaunpalika",
+    "district": "Surkhet",
+    "fId": 707
+  },
+  {
+    "id": "bheriganga-surkhet",
+    "name": "Bheriganga",
+    "level": "Nagarpalika",
+    "district": "Surkhet",
+    "fId": 705
+  },
+  {
+    "id": "birendranagar-surkhet",
+    "name": "Birendranagar",
+    "level": "Nagarpalika",
+    "district": "Surkhet",
+    "fId": 710
+  },
+  {
+    "id": "chaukune-surkhet",
+    "name": "Chaukune",
+    "level": "Gaunpalika",
+    "district": "Surkhet",
+    "fId": 709
+  },
+  {
+    "id": "chingad-surkhet",
+    "name": "Chingad",
+    "level": "Gaunpalika",
+    "district": "Surkhet",
+    "fId": 703
+  },
+  {
+    "id": "gurbhakot-surkhet",
+    "name": "Gurbhakot",
+    "level": "Nagarpalika",
+    "district": "Surkhet",
+    "fId": 704
+  },
+  {
+    "id": "lekbeshi-surkhet",
+    "name": "Lekbeshi",
+    "level": "Nagarpalika",
+    "district": "Surkhet",
+    "fId": 706
+  },
+  {
+    "id": "panchpuri-surkhet",
+    "name": "Panchpuri",
+    "level": "Nagarpalika",
+    "district": "Surkhet",
+    "fId": 708
+  },
+  {
+    "id": "simta-surkhet",
+    "name": "Simta",
+    "level": "Gaunpalika",
+    "district": "Surkhet",
+    "fId": 702
+  },
+  {
+    "id": "aandhikhola-syangja",
+    "name": "Aandhikhola",
+    "level": "Gaunpalika",
+    "district": "Syangja",
+    "fId": 718
+  },
+  {
+    "id": "arjunchaupri-syangja",
+    "name": "Arjunchaupri",
+    "level": "Gaunpalika",
+    "district": "Syangja",
+    "fId": 713
+  },
+  {
+    "id": "bhirkot-syangja",
+    "name": "Bhirkot",
+    "level": "Nagarpalika",
+    "district": "Syangja",
+    "fId": 714
+  },
+  {
+    "id": "biruwa-syangja",
+    "name": "Biruwa",
+    "level": "Gaunpalika",
+    "district": "Syangja",
+    "fId": 717
+  },
+  {
+    "id": "chapakot-syangja",
+    "name": "Chapakot",
+    "level": "Nagarpalika",
+    "district": "Syangja",
+    "fId": 716
+  },
+  {
+    "id": "galyang-syangja",
+    "name": "Galyang",
+    "level": "Nagarpalika",
+    "district": "Syangja",
+    "fId": 715
+  },
+  {
+    "id": "harinas-syangja",
+    "name": "Harinas",
+    "level": "Gaunpalika",
+    "district": "Syangja",
+    "fId": 721
+  },
+  {
+    "id": "kaligandagkii-syangja",
+    "name": "Kaligandagkii",
+    "level": "Gaunpalika",
+    "district": "Syangja",
+    "fId": 711
+  },
+  {
+    "id": "phedikhola-syangja",
+    "name": "Phedikhola",
+    "level": "Gaunpalika",
+    "district": "Syangja",
+    "fId": 720
+  },
+  {
+    "id": "putalibazar-syangja",
+    "name": "Putalibazar",
+    "level": "Nagarpalika",
+    "district": "Syangja",
+    "fId": 712
+  },
+  {
+    "id": "waling-syangja",
+    "name": "Waling",
+    "level": "Nagarpalika",
+    "district": "Syangja",
+    "fId": 719
+  },
+  {
+    "id": "aabunkhareni-tanahun",
+    "name": "Aabunkhareni",
+    "level": "Gaunpalika",
+    "district": "Tanahun",
+    "fId": 730
+  },
+  {
+    "id": "bandipur-tanahun",
+    "name": "Bandipur",
+    "level": "Gaunpalika",
+    "district": "Tanahun",
+    "fId": 729
+  },
+  {
+    "id": "bhanu-tanahun",
+    "name": "Bhanu",
+    "level": "Nagarpalika",
+    "district": "Tanahun",
+    "fId": 728
+  },
+  {
+    "id": "bhimad-tanahun",
+    "name": "Bhimad",
+    "level": "Nagarpalika",
+    "district": "Tanahun",
+    "fId": 725
+  },
+  {
+    "id": "byas-tanahun",
+    "name": "Byas",
+    "level": "Nagarpalika",
+    "district": "Tanahun",
+    "fId": 727
+  },
+  {
+    "id": "devghat-tanahun",
+    "name": "Devghat",
+    "level": "Gaunpalika",
+    "district": "Tanahun",
+    "fId": 731
+  },
+  {
+    "id": "ghiring-tanahun",
+    "name": "Ghiring",
+    "level": "Gaunpalika",
+    "district": "Tanahun",
+    "fId": 724
+  },
+  {
+    "id": "myagde-tanahun",
+    "name": "Myagde",
+    "level": "Gaunpalika",
+    "district": "Tanahun",
+    "fId": 726
+  },
+  {
+    "id": "rhising-tanahun",
+    "name": "Rhising",
+    "level": "Gaunpalika",
+    "district": "Tanahun",
+    "fId": 723
+  },
+  {
+    "id": "shuklagandaki-tanahun",
+    "name": "Shuklagandaki",
+    "level": "Nagarpalika",
+    "district": "Tanahun",
+    "fId": 722
+  },
+  {
+    "id": "aathrai -tribeni-tapleju",
+    "name": "Aathrai Tribeni",
+    "level": "Gaunpalika",
+    "district": "Taplejung",
+    "fId": 734
+  },
+  {
+    "id": "maiwakhola-taplejung",
+    "name": "Maiwakhola",
+    "level": "Gaunpalika",
+    "district": "Taplejung",
+    "fId": 733
+  },
+  {
+    "id": "meringden-taplejung",
+    "name": "Meringden",
+    "level": "Gaunpalika",
+    "district": "Taplejung",
+    "fId": 732
+  },
+  {
+    "id": "meringden-taplejung",
+    "name": "Meringden",
+    "level": "Gaunpalika",
+    "district": "Taplejung",
+    "fId": 735
+  },
+  {
+    "id": "mikwakhola-taplejung",
+    "name": "Mikwakhola",
+    "level": "Gaunpalika",
+    "district": "Taplejung",
+    "fId": 741
+  },
+  {
+    "id": "phaktanglung-taplejung",
+    "name": "Phaktanglung",
+    "level": "Gaunpalika",
+    "district": "Taplejung",
+    "fId": 740
+  },
+  {
+    "id": "phungling-taplejung",
+    "name": "Phungling",
+    "level": "Nagarpalika",
+    "district": "Taplejung",
+    "fId": 738
+  },
+  {
+    "id": "sidingba-taplejung",
+    "name": "Sidingba",
+    "level": "Gaunpalika",
+    "district": "Taplejung",
+    "fId": 736
+  },
+  {
+    "id": "sirijangha-taplejung",
+    "name": "Sirijangha",
+    "level": "Gaunpalika",
+    "district": "Taplejung",
+    "fId": 739
+  },
+  {
+    "id": "yangwarak-taplejung",
+    "name": "Yangwarak",
+    "level": "Gaunpalika",
+    "district": "Taplejung",
+    "fId": 737
+  },
+  {
+    "id": "aathrai-terathum",
+    "name": "Aathrai",
+    "level": "Gaunpalika",
+    "district": "Terathum",
+    "fId": 744
+  },
+  {
+    "id": "chhathar-terathum",
+    "name": "Chhathar",
+    "level": "Gaunpalika",
+    "district": "Terathum",
+    "fId": 747
+  },
+  {
+    "id": "laliguras-terathum",
+    "name": "Laliguras",
+    "level": "Nagarpalika",
+    "district": "Terathum",
+    "fId": 746
+  },
+  {
+    "id": "menchhayam-terathum",
+    "name": "Menchhayam",
+    "level": "Gaunpalika",
+    "district": "Terathum",
+    "fId": 742
+  },
+  {
+    "id": "myanglung-terathum",
+    "name": "Myanglung",
+    "level": "Nagarpalika",
+    "district": "Terathum",
+    "fId": 745
+  },
+  {
+    "id": "phedap-terathum",
+    "name": "Phedap",
+    "level": "Gaunpalika",
+    "district": "Terathum",
+    "fId": 743
+  },
+  {
+    "id": "belaka-udayapur",
+    "name": "Belaka",
+    "level": "Nagarpalika",
+    "district": "Udayapur",
+    "fId": 756
+  },
+  {
+    "id": "chaudandigadi-udayapur",
+    "name": "Chaudandigadi",
+    "level": "Nagarpalika",
+    "district": "Udayapur",
+    "fId": 755
+  },
+  {
+    "id": "katari-udayapur",
+    "name": "Katari",
+    "level": "Nagarpalika",
+    "district": "Udayapur",
+    "fId": 749
+  },
+  {
+    "id": "koshi -tappu-udayapur",
+    "name": "Koshi Tappu",
+    "level": "wildlife-reserve\n",
+    "district": "Udayapur",
+    "fId": 748
+  },
+  {
+    "id": "rautamai-udayapur",
+    "name": "Rautamai",
+    "level": "Gaunpalika",
+    "district": "Udayapur",
+    "fId": 751
+  },
+  {
+    "id": "sunkoshi-udayapur",
+    "name": "Sunkoshi",
+    "level": "Gaunpalika",
+    "district": "Udayapur",
+    "fId": 753
+  },
+  {
+    "id": "tapli-udayapur",
+    "name": "Tapli",
+    "level": "Gaunpalika",
+    "district": "Udayapur",
+    "fId": 752
+  },
+  {
+    "id": "triyuga-udayapur",
+    "name": "Triyuga",
+    "level": "Nagarpalika",
+    "district": "Udayapur",
+    "fId": 754
+  },
+  {
+    "id": "udayapurgadhi-udayapur",
+    "name": "Udayapurgadhi",
+    "level": "Gaunpalika",
+    "district": "Udayapur",
+    "fId": 750
+  }
+]

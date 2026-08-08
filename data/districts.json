@@ -1,0 +1,387 @@
+[
+  {
+    "DISTRICT": "JHAPA",
+    "HQ": "BHADRAPUR",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "ILAM",
+    "HQ": "ILAM",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "PANCHTHAR",
+    "HQ": "PHIDIM",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "TAPLEJUNG",
+    "HQ": "TAPLEJUNG",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "MORANG",
+    "HQ": "BIRATNAGAR",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "SUNSARI",
+    "HQ": "INARUWA",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "BHOJPUR",
+    "HQ": "BHOJPUR",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "DHANKUTA",
+    "HQ": "DHANKUTA",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "TEHRATHUM",
+    "HQ": "MYANGLUNG",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "SANKHUWASABHA",
+    "HQ": "KHANDBARI",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "SAPTARI",
+    "HQ": "RAJBIRAJ",
+    "PROVINCE": 2
+  },
+  {
+    "DISTRICT": "SIRAHA",
+    "HQ": "SIRAHA",
+    "PROVINCE": 2
+  },
+  {
+    "DISTRICT": "UDAYAPUR",
+    "HQ": "TRIYUGA",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "KHOTANG",
+    "HQ": "DIKTEL",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "OKHALDHUNGA",
+    "HQ": "SIDDHICHARAN",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "SOLUKHUMBU",
+    "HQ": "DUDHKUNDA",
+    "PROVINCE": 1
+  },
+  {
+    "DISTRICT": "DHANUSA",
+    "HQ": "JANAKPUR",
+    "PROVINCE": 2
+  },
+  {
+    "DISTRICT": "MAHOTTARI",
+    "HQ": "JALESHWAR",
+    "PROVINCE": 2
+  },
+  {
+    "DISTRICT": "SARLAHI",
+    "HQ": "MALANGWA",
+    "PROVINCE": 2
+  },
+  {
+    "DISTRICT": "SINDHULI",
+    "HQ": "KAMALAMAI",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "RAMECHHAP",
+    "HQ": "MANTHALI",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "DOLAKHA",
+    "HQ": "BHIMESHWAR",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "BHAKTAPUR",
+    "HQ": "BHAKTAPUR",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "DHADING",
+    "HQ": "NILKANTHA",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "KATHMANDU",
+    "HQ": "KATHMANDU",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "KAVREPALANCHOWK",
+    "HQ": "DHULIKHEL",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "LALITPUR",
+    "HQ": "LALITPUR",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "NUWAKOT",
+    "HQ": "BIDUR",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "RASUWA",
+    "HQ": "DHUNCHE",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "SINDHUPALCHOK",
+    "HQ": "CHAUTARA",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "BARA",
+    "HQ": "KALAIYA",
+    "PROVINCE": 2
+  },
+  {
+    "DISTRICT": "PARSA",
+    "HQ": "BIRGANJ",
+    "PROVINCE": 2
+  },
+  {
+    "DISTRICT": "RAUTAHAT",
+    "HQ": "GAUR",
+    "PROVINCE": 2
+  },
+  {
+    "DISTRICT": "CHITWAN",
+    "HQ": "BHARATPUR",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "MAKWANPUR",
+    "HQ": "HETAUDA",
+    "PROVINCE": 3
+  },
+  {
+    "DISTRICT": "GORKHA",
+    "HQ": "GORKHA",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "KASKI",
+    "HQ": "POKHARA",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "LAMJUNG",
+    "HQ": "BESISAHAR",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "SYANGJA",
+    "HQ": "PUTALIBAZAR",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "TANAHU",
+    "HQ": "BYAS",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "MANANG",
+    "HQ": "CHAME",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "KAPILVASTU",
+    "HQ": "KAPILVASTU",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "NAWALPUR",
+    "HQ": "KAWASOTI",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "PARASI",
+    "HQ": "PARASI",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "RUPANDEHI",
+    "HQ": "SIDDHARTHANAGAR",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "ARGHAKHANCHI",
+    "HQ": "SANDHIKHARKA",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "GULMI",
+    "HQ": "RESUNGA",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "PALPA",
+    "HQ": "TANSEN",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "BAGLUNG",
+    "HQ": "BAGLUNG",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "MYAGDI",
+    "HQ": "BENI",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "PARBAT",
+    "HQ": "KUSMA",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "MUSTANG",
+    "HQ": "JOMSOM",
+    "PROVINCE": 4
+  },
+  {
+    "DISTRICT": "DANG",
+    "HQ": "TRIBHUWANNAGAR",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "PYUTHAN",
+    "HQ": "PYUTHAN",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "ROLPA",
+    "HQ": "LIWANG",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "EASTERN RUKUM",
+    "HQ": "RUKUMKOT",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "WESTERN RUKUM",
+    "HQ": "MUSIKOT",
+    "PROVINCE": 6
+  },
+  {
+    "DISTRICT": "SALYAN",
+    "HQ": "SALYAN",
+    "PROVINCE": 6
+  },
+  {
+    "DISTRICT": "DOLPA",
+    "HQ": "DUNAI",
+    "PROVINCE": 6
+  },
+  {
+    "DISTRICT": "HUMLA",
+    "HQ": "SIMIKOT",
+    "PROVINCE": 6
+  },
+  {
+    "DISTRICT": "JUMLA",
+    "HQ": "CHANDANNATH",
+    "PROVINCE": 6
+  },
+  {
+    "DISTRICT": "KALIKOT",
+    "HQ": "MANMA",
+    "PROVINCE": 6
+  },
+  {
+    "DISTRICT": "MUGU",
+    "HQ": "GAMGHADI",
+    "PROVINCE": 6
+  },
+  {
+    "DISTRICT": "BANKE",
+    "HQ": "NEPALGANJ",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "BARDIYA",
+    "HQ": "GULARIYA",
+    "PROVINCE": 5
+  },
+  {
+    "DISTRICT": "SURKHET",
+    "HQ": "BIRENDRANAGAR",
+    "PROVINCE": 6
+  },
+  {
+    "DISTRICT": "DAILEKH",
+    "HQ": "NARAYAN",
+    "PROVINCE": 6
+  },
+  {
+    "DISTRICT": "JAJARKOT",
+    "HQ": "KHALANGA",
+    "PROVINCE": 6
+  },
+  {
+    "DISTRICT": "KAILALI",
+    "HQ": "DHANGADHI",
+    "PROVINCE": 7
+  },
+  {
+    "DISTRICT": "ACHHAM",
+    "HQ": "MANGALSEN",
+    "PROVINCE": 7
+  },
+  {
+    "DISTRICT": "DOTI",
+    "HQ": "DIPAYAL SILGADHI",
+    "PROVINCE": 7
+  },
+  {
+    "DISTRICT": "BAJHANG",
+    "HQ": "JAYAPRITHVI",
+    "PROVINCE": 7
+  },
+  {
+    "DISTRICT": "BAJURA",
+    "HQ": "MARTADI",
+    "PROVINCE": 7
+  },
+  {
+    "DISTRICT": "KANCHANPUR",
+    "HQ": "BHIMDATTA",
+    "PROVINCE": 7
+  },
+  {
+    "DISTRICT": "DADELDHURA",
+    "HQ": "AMARGADHI",
+    "PROVINCE": 7
+  },
+  {
+    "DISTRICT": "BAITADI",
+    "HQ": "DASHARATHCHAND",
+    "PROVINCE": 7
+  },
+  {
+    "DISTRICT": "DARCHULA",
+    "HQ": "DARCHULA",
+    "PROVINCE": 7
+  }
+]

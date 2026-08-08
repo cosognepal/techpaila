@@ -1,0 +1,14 @@
+zerops:
+  - setup: nodejs
+    build:
+      base: nodejs@24
+      buildCommands:
+        - npm install
+        - npm run build
+      deployFiles: .
+    run:
+      base: nodejs@24
+      ports:
+        - port: 3000
+          httpSupport: true
+      start: npm start

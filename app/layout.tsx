@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Rubik, Open_Sans } from "next/font/google";
+import "leaflet/dist/leaflet.css";
 import "./globals.css";
 
 const rubik = Rubik({
@@ -14,7 +15,8 @@ const openSans = Open_Sans({
 
 export const metadata: Metadata = {
   title: "TechPaila",
-  description: "Interactive map of the schools offering technical and vocational education in Nepal.",
+  description:
+    "Interactive map of the schools offering technical and vocational education in Nepal.",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {

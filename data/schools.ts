@@ -2,19 +2,17 @@ export type ProgramSlug =
   | "computer_engineering"
   | "civil_engineering"
   | "electrical_engineering"
-  | "agriculture"
-  | "hotel_management"
   | "animal_science"
-  | "plant_science";
+  | "plant_science"
+  | "music";
 
 export const PROGRAM_OPTIONS: { value: ProgramSlug; label: string }[] = [
   { value: "computer_engineering", label: "Computer Engineering" },
   { value: "civil_engineering", label: "Civil Engineering" },
   { value: "electrical_engineering", label: "Electrical Engineering" },
-  { value: "agriculture", label: "Agriculture" },
-  { value: "hotel_management", label: "Hotel Management" },
   { value: "animal_science", label: "Animal Science" },
-  { value: "plant_science", label: "Plant Science" }
+  { value: "plant_science", label: "Plant Science" },
+  { value: "music", label: "Music" },
 ];
 
 export type School = {
@@ -68,7 +66,7 @@ export const schools: School[] = [
     "lng": null,
     "programs": [
       "electrical_engineering",
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -88,7 +86,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -129,7 +127,7 @@ export const schools: School[] = [
     "lng": null,
     "programs": [
       "electrical_engineering",
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -210,7 +208,7 @@ export const schools: School[] = [
     "lng": null,
     "programs": [
       "electrical_engineering",
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -251,7 +249,7 @@ export const schools: School[] = [
     "lng": null,
     "programs": [
       "electrical_engineering",
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -271,7 +269,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -392,7 +390,7 @@ export const schools: School[] = [
     "lng": null,
     "programs": [
       "electrical_engineering",
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -432,7 +430,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture",
+      "plant_science",
       "animal_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -473,7 +471,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture",
+      "plant_science",
       "animal_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -494,7 +492,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -534,7 +532,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -554,7 +552,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management",
+      "music",
       "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -575,7 +573,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -595,7 +593,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -615,7 +613,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management",
+      "music",
       "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -656,7 +654,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -676,7 +674,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -696,7 +694,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management",
+      "music",
       "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -737,7 +735,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -757,7 +755,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management",
+      "music",
       "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -778,7 +776,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -798,7 +796,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management",
+      "music",
       "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -819,7 +817,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -839,7 +837,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management",
+      "music",
       "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -880,7 +878,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -900,7 +898,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -920,7 +918,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -940,7 +938,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management",
+      "music",
       "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -981,7 +979,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture",
+      "plant_science",
       "animal_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -1002,7 +1000,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -1022,7 +1020,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management",
+      "music",
       "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
@@ -1043,7 +1041,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -1104,7 +1102,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -1165,7 +1163,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -1226,7 +1224,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -1246,7 +1244,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -1429,7 +1427,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -1470,7 +1468,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -1490,7 +1488,7 @@ export const schools: School[] = [
     "lat": null,
     "lng": null,
     "programs": [
-      "hotel_management"
+      "music"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -2059,7 +2057,7 @@ export const schools: School[] = [
     "lng": null,
     "programs": [
       "civil_engineering",
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -2100,7 +2098,7 @@ export const schools: School[] = [
     "lng": null,
     "programs": [
       "civil_engineering",
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -2201,7 +2199,7 @@ export const schools: School[] = [
     "lng": null,
     "programs": [
       "civil_engineering",
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -2242,7 +2240,7 @@ export const schools: School[] = [
     "lng": null,
     "programs": [
       "civil_engineering",
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",
@@ -2323,7 +2321,7 @@ export const schools: School[] = [
     "lng": null,
     "programs": [
       "civil_engineering",
-      "agriculture"
+      "plant_science"
     ],
     "admission_requirements": "Completed Grade 8; entrance interview",
     "course_structure": "Grades 9–12, technical stream",

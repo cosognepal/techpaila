@@ -28,11 +28,17 @@ import {
   municipalityStyle,
   provinceHoverStyle,
   provinceStyle,
-  titleCaseDistrict,
   type DistrictFeatureProps,
   type MunicipalityFeatureProps,
   type ProvinceFeatureProps,
 } from "@/lib/map";
+import { useLocale } from "@/hooks/useLocale";
+import {
+  districtLabel,
+  municipalityLabel,
+  municipalityLevelLabel,
+  provinceLabel,
+} from "@/lib/i18n/place-names";
 
 type MapViewProps = {
   provinceId: number | null;
@@ -142,6 +148,7 @@ export default function MapView({
   onDistrictSelect,
   onMunicipalitySelect,
 }: MapViewProps) {
+  const { t, locale } = useLocale();
   // Avoid Leaflet init during SSR / Strict Mode / HMR before a real container exists.
   const [mapKey, setMapKey] = useState(0);
   const [provinces, setProvinces] = useState<FeatureCollection<
@@ -221,7 +228,10 @@ export default function MapView({
   ) => {
     const path = layer as Path;
     const id = feature.properties?.id;
-    const name = feature.properties?.name ?? "Province";
+    const name =
+      id != null
+        ? provinceLabel(locale, id, feature.properties?.name)
+        : (feature.properties?.name ?? t("map.provinceFallback"));
     path.bindTooltip(name, { sticky: true });
 
     path.on({
@@ -240,7 +250,7 @@ export default function MapView({
   ) => {
     const path = layer as Path;
     const name = feature.properties?.DISTRICT ?? "";
-    path.bindTooltip(titleCaseDistrict(name), { sticky: true });
+    path.bindTooltip(districtLabel(locale, name), { sticky: true });
 
     path.on({
       mouseover: () => path.setStyle(districtHoverStyle),
@@ -257,8 +267,12 @@ export default function MapView({
   ) => {
     const path = layer as Path;
     const id = municipalityIdFromProps(feature.properties);
-    const label = feature.properties?.NAME ?? "Municipality";
-    const level = feature.properties?.LEVEL;
+    const englishName =
+      feature.properties?.NAME ?? t("map.municipalityFallback");
+    const label = id
+      ? municipalityLabel(locale, id, englishName)
+      : englishName;
+    const level = municipalityLevelLabel(locale, feature.properties?.LEVEL);
     path.bindTooltip(level ? `${label} (${level})` : label, { sticky: true });
 
     path.on({
@@ -274,7 +288,7 @@ export default function MapView({
   // First paint (mapKey === 0) skips MapContainer so Leaflet never binds to a
   // container that React Strict Mode / HMR is about to tear down.
   if (mapKey === 0) {
-    return <div className="map-loading">Loading map…</div>;
+    return <div className="map-loading">{t("map.loading")}</div>;
   }
 
   return (
@@ -302,7 +316,7 @@ export default function MapView({
 
       {provinceId == null && provinces && (
         <GeoJSON
-          key="provinces"
+          key={`provinces-${locale}`}
           data={provinces}
           style={(feature) =>
             provinceStyle(
@@ -316,7 +330,7 @@ export default function MapView({
 
       {provinceId != null && !districtName && districtLayer && (
         <GeoJSON
-          key={`districts-${provinceId}`}
+          key={`districts-${provinceId}-${locale}`}
           data={districtLayer}
           style={(feature) =>
             districtStyle(feature?.properties?.DISTRICT === districtName)
@@ -327,7 +341,7 @@ export default function MapView({
 
       {districtName && municipalityLayer && (
         <GeoJSON
-          key={`muni-${districtName}-${municipalityId ?? "all"}`}
+          key={`muni-${districtName}-${municipalityId ?? "all"}-${locale}`}
           data={municipalityLayer}
           style={(feature) =>
             municipalityStyle(

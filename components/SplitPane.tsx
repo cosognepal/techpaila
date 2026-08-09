@@ -8,6 +8,7 @@ import {
   type PointerEvent as ReactPointerEvent,
   type ReactNode,
 } from "react";
+import { useLocale } from "@/hooks/useLocale";
 
 const MIN_PCT = 28;
 const MAX_PCT = 78;
@@ -24,6 +25,7 @@ export default function SplitPane({
   right,
   defaultLeftPct = 70,
 }: SplitPaneProps) {
+  const { t } = useLocale();
   const [leftPct, setLeftPct] = useState(defaultLeftPct);
   const [dragging, setDragging] = useState(false);
   const shellRef = useRef<HTMLDivElement>(null);
@@ -109,7 +111,7 @@ export default function SplitPane({
       <button
         type="button"
         className="split-handle"
-        aria-label="Resize map and school list"
+        aria-label={t("map.resizeAria")}
         aria-orientation="vertical"
         aria-valuemin={MIN_PCT}
         aria-valuemax={MAX_PCT}

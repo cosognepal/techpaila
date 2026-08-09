@@ -36,7 +36,7 @@ It is especially useful because there are hundreds of students who lack essentia
 - **Tech** — technical and vocational education
 - **Paila** (पाइला) — Nepali for *footstep* / *step*
 
-Together: a first step into technical education in Nepal.
+Together: a first step into technical education in Nepal. [Watch the full video](https://youtu.be/S9zZ-BcKtRI)
 
 ---
 

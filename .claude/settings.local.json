@@ -1,7 +1,8 @@
 {
   "permissions": {
     "allow": [
-      "mcp__zerops__*"
+      "mcp__zerops__*",
+      "Bash(rsync -a --exclude='.git' --exclude='node_modules' --exclude='.next' --exclude='nodejs' --exclude='.zcp' --exclude='out' --exclude='coverage' /var/www/ /var/www/nodejs/)"
     ]
   }
 }

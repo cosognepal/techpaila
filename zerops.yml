@@ -12,3 +12,9 @@ zerops:
         - port: 3000
           httpSupport: true
       start: npm start
+      envVariables:
+        S3_ENDPOINT: ${storage_apiUrl}
+        S3_BUCKET: ${storage_bucketName}
+        S3_KEY: ${storage_accessKeyId}
+        S3_SECRET: ${storage_secretAccessKey}
+        S3_REGION: us-east-1

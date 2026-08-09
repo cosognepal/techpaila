@@ -79,3 +79,13 @@ Shape: `{code, error, suggestion?, apiCode?, diagnostic?, apiMeta?, checks?, rec
 
 > This is a historical record. Verify current state via `zerops_discover`.
 <!-- /ZEROPS:REFLOG -->
+
+<!-- ZEROPS:REFLOG -->
+### 2026-08-09 — Bootstrap: Add an Object Storage service to this project so the nodejs app can reference logo/brand assets from it
+
+- **Runtime:** nodejs (alpine/nodejs@24, dev)
+- **Dependencies:** storage (object-storage)
+- **Session:** 14f93d8de5b14205
+
+> This is a historical record. Verify current state via `zerops_discover`.
+<!-- /ZEROPS:REFLOG -->

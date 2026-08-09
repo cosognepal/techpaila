@@ -10,6 +10,7 @@ import { useLocale } from "@/hooks/useLocale";
 import districts from "@/data/districts.json";
 import Image from "next/image";
 import Link from "next/link";
+import { LOGO_ICON_URL } from "@/lib/assets";
 
 function MapLoading() {
   const { t } = useLocale();
@@ -119,11 +120,12 @@ export default function MapExplorer() {
           <div className="explorer-header-left">
             <Link href="/" className="brand" aria-label={t("nav.homeAria")}>
               <Image
-                src="/techpaila-icon.svg"
+                src={LOGO_ICON_URL}
                 alt=""
                 width={48}
                 height={48}
                 className="brand-icon"
+                unoptimized
               />
             </Link>
             <div className="header-copy">

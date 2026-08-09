@@ -86,12 +86,13 @@ Leaflet is loaded client-only (`dynamic` + `ssr: false`) because it needs `windo
 ## Tools & credits
 
 
-|                     |                                                                                       |
-| ------------------- | ------------------------------------------------------------------------------------- |
-| **Stack**           | Next.js 16 (App Router), React 19, Leaflet, TypeScript, Tailwind 4, Zerops            |
-| **Boundaries**      | [mesaugat/geoJSON-Nepal](https://github.com/mesaugat/geoJSON-Nepal)                   |
-| **Map inspiration** | [Election Result Map 2082](https://result.election.gov.np/MapElectionResult2082.aspx) |
-| **Deploy**          | [Zerops](https://zerops.io) + ZCP                                                     |
+|                     |                                                                                                       |
+| ------------------- | ------------------------------------------------------------------------------------------------------|
+| **Stack**           | Next.js 16 (App Router), React 19, Leaflet, TypeScript, Tailwind 4, Zerops, Zerops Object Storage     |
+| **Zerops services** | `zcp` (control plane), `nodejs` (alpine/nodejs@24 runtime), `storage` (object-storage, public-read — logo/brand assets) |
+| **Boundaries**      | [mesaugat/geoJSON-Nepal](https://github.com/mesaugat/geoJSON-Nepal)                                   |
+| **Map inspiration** | [Election Result Map 2082](https://result.election.gov.np/MapElectionResult2082.aspx)                 |
+| **Deploy**          | [Zerops](https://zerops.io) + ZCP                                                                     |
 
 
 ### AI usage

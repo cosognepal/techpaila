@@ -1,6 +1,7 @@
 # TechPaila
 
-Interactive map of Nepal for finding government technical and vocational secondary schools.
+Interactive map of Nepal for finding government technical and vocational secondary schools. 
+App link: https://nodejs-134-3000.sea1.zerops.app/
 
 ---
 
@@ -14,14 +15,17 @@ Interactive map of Nepal for finding government technical and vocational seconda
 6. [Tools & credits](#tools--credits)
 7. [Feedback for Zerops](#feedback-for-zerops)
 8. [Run locally](#run-locally)
+9. [Live link](https://nodejs-134-3000.sea1.zerops.app/)
 
 ---
 
 ## Problem statement
 
-Nepal has hundreds of government secondary schools that run technical and vocational programs (computer engineering, civil, electrical, plant science, animal science, and more). The official lists exist in PDFs and tables (unofficially), but there is no simple way for a student or parent to answer: *“Where near me can I study this program?”*
+Nepal has hundreds of government secondary schools that run technical and vocational programs (computer engineering, civil, electrical, plant science, animal science, and more). The (unofficial) lists exist in PDFs and tables, but there is no simple way for a student or parent to answer: *“Where near me can I study this program?”*
 
 TechPaila turns that data into a map and a short recommendation flow so location and program choice come first.
+
+It is especially useful because there are hundreds of students who lack essential resources like a computers, but are interested in computer science. Luckily, the government has put out resources but they aren't visible. I'm currently in bachelors but I was in the same shoes 5 years ago, and finding the nearest school and studying this course has really helped me.
 
 ---
 
@@ -47,7 +51,9 @@ Together: a first step into technical education in Nepal.
 
 ### Screenshots
 
+<img width="1710" height="1034" alt="image" src="https://github.com/user-attachments/assets/b9efcf12-9650-4433-83ae-ce17f24952de" />
 
+> Screenshot of the project, with an interactive map
 
 ---
 

@@ -122,9 +122,9 @@ export const wardHoverStyle: PathOptions = {
 /** Map our UPPERCASE district key → mesaugat Title-Case district labels. */
 export function mesaugatDistrictNames(ourDistrict: string): string[] {
   const extras =
-    (
-      districtNameMap.ourToTheirsExtras as Record<string, string[]>
-    )[ourDistrict] ??
+    (districtNameMap.ourToTheirsExtras as Record<string, string[]>)[
+      ourDistrict
+    ] ??
     (districtNameMap.ourToTheirsExtras as Record<string, string[]>)[
       ourDistrict.replace(/-/g, " ")
     ] ??
@@ -211,7 +211,8 @@ export function findMunicipalityFeature(
   return collection.features.find((f) => {
     const p = f.properties;
     if (!p) return false;
-    const id = p.N_ID || `${p.NAME}-${p.DISTRICT}`.toLowerCase().replace(/ /g, "-");
+    const id =
+      p.N_ID || `${p.NAME}-${p.DISTRICT}`.toLowerCase().replace(/ /g, "-");
     return id === municipalityId || String(p.F_ID) === municipalityId;
   });
 }
@@ -234,7 +235,9 @@ export function municipalityIdFromProps(
   return p.N_ID || `${p.NAME}-${p.DISTRICT}`.toLowerCase().replace(/ /g, "-");
 }
 
-export function wardIdFromProps(p: WardFeatureProps | undefined): string | null {
+export function wardIdFromProps(
+  p: WardFeatureProps | undefined,
+): string | null {
   if (!p) return null;
   const id = p.VDC_CODE ?? p.P_CODE;
   return id == null ? null : String(id);

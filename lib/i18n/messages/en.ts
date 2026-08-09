@@ -39,6 +39,7 @@ export type Messages = {
     programs: string;
     contact: string;
     website: string;
+    facebook: string;
     lastUpdated: string;
     source: string;
     hideDetails: string;
@@ -98,6 +99,7 @@ export const en: Messages = {
     programs: "Programs",
     contact: "Contact",
     website: "Website",
+    facebook: "Facebook",
     lastUpdated: "Last updated",
     source: "Source",
     hideDetails: "Hide details",

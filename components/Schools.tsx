@@ -24,32 +24,32 @@ type SchoolsProps = {
   municipalityId: string | null;
 };
 
-function fullLocation(school: School): string {
-  if (school.address) {
-    return school.address;
-  }
-
-  const parts = [
-    school.address,
-    school.municipality,
-    school.district,
-    school.province,
-  ].filter(Boolean);
-  return parts.filter((part, i) => part !== parts[i - 1]).join(", ");
-}
-
-function SchoolCard({ school }: { school: School }) {
+function SchoolCard({
+  school,
+  locale,
+}: {
+  school: School;
+  locale: "en" | "ne";
+}) {
   const { t } = useLocale();
   const [expanded, setExpanded] = useState(false);
+
+  const name = locale === "ne" ? school.name_ne : school.name_en;
+  const location =
+    locale === "ne"
+      ? [school.municipality_ne, school.district_ne].filter(Boolean).join(", ")
+      : [school.municipality_en, school.district].filter(Boolean).join(", ");
 
   return (
     <li className={`school-item${expanded ? " is-expanded" : ""}`}>
       <div className="school-item-main">
         <div className="school-item-copy">
-          <p className="school-name">{school.name}</p>
-          <p className="school-location">{fullLocation(school)}</p>
+          <p className="school-name">{name}</p>
+          <p className="school-location">{location}</p>
           <div className="school-programs">
-            <span className="school-field-label">{t("schools.programs")}: </span>
+            <span className="school-field-label">
+              {t("schools.programs")}:{" "}
+            </span>
             {school.programs.map((slug, i) => (
               <span key={slug} className="school-program-chip">
                 {t(`programs.${slug}` as MessageKey)}
@@ -89,42 +89,77 @@ function SchoolCard({ school }: { school: School }) {
 
       {expanded ? (
         <div className="school-item-details">
-          <div className="school-detail-block">
-            <span className="school-field-label">{t("schools.contact")}</span>
-            <p className="school-detail-line">
-              <a href={`tel:${school.contact_phone}`}>{school.contact_phone}</a>
-            </p>
-            <p className="school-detail-line">
-              <a href={`mailto:${school.contact_email}`}>
-                {school.contact_email}
-              </a>
-            </p>
-          </div>
+          {(school.contact_phone || school.contact_email) && (
+            <div className="school-detail-block">
+              <span className="school-field-label">{t("schools.contact")}</span>
+              {school.contact_phone && (
+                <p className="school-detail-line">
+                  <a href={`tel:${school.contact_phone}`}>
+                    {school.contact_phone}
+                  </a>
+                </p>
+              )}
+              {school.contact_email && (
+                <p className="school-detail-line">
+                  <a href={`mailto:${school.contact_email}`}>
+                    {school.contact_email}
+                  </a>
+                </p>
+              )}
+            </div>
+          )}
 
-          <div className="school-detail-block">
-            <span className="school-field-label">{t("schools.website")}</span>
-            <p className="school-detail-line">
-              <a
-                href={school.official_link}
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                {school.official_link.replace(/^https?:\/\//, "")}
-              </a>
-            </p>
-          </div>
+          {school.official_link && (
+            <div className="school-detail-block">
+              <span className="school-field-label">
+                {t("schools.website")}
+              </span>
+              <p className="school-detail-line">
+                <a
+                  href={school.official_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {school.official_link.replace(/^https?:\/\//, "")}
+                </a>
+              </p>
+            </div>
+          )}
+
+          {school.facebook && (
+            <div className="school-detail-block">
+              <span className="school-field-label">
+                {t("schools.facebook")}
+              </span>
+              <p className="school-detail-line">
+                <a
+                  href={school.facebook}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {school.facebook.replace(/^https?:\/\/(www\.)?/, "")}
+                </a>
+              </p>
+            </div>
+          )}
 
           <div className="school-detail-meta">
-            <p>
-              <span className="school-field-label">
-                {t("schools.lastUpdated")}
-              </span>{" "}
-              {school.last_updated}
-            </p>
-            <p>
-              <span className="school-field-label">{t("schools.source")}</span>{" "}
-              {school.source}
-            </p>
+            {school.last_updated && (
+              <p>
+                <span className="school-field-label">
+                  {t("schools.lastUpdated")}
+                </span>{" "}
+                {school.last_updated}
+              </p>
+            )}
+            {school.source && (
+              <p>
+                <span className="school-field-label">
+                  {t("schools.source")}
+                </span>{" "}
+                {school.source}
+              </p>
+            )}
           </div>
         </div>
       ) : null}
@@ -145,6 +180,7 @@ export default function Schools({
     provinceId != null ? provinces.find((p) => p.id === provinceId) : null;
   const provinceName = provinceRecord?.name ?? null;
   const districtTitle = districtName ? titleCaseDistrict(districtName) : null;
+
   const municipalityRecord = municipalityId
     ? municipalities.find((m) => m.id === municipalityId)
     : null;
@@ -221,7 +257,7 @@ export default function Schools({
       ) : (
         <ul className="schools-list">
           {schools.map((school) => (
-            <SchoolCard key={school.id} school={school} />
+            <SchoolCard key={school.id} school={school} locale={locale} />
           ))}
         </ul>
       )}

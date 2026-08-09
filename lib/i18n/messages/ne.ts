@@ -41,6 +41,7 @@ export const ne: Messages = {
     programs: "कार्यक्रमहरू",
     contact: "सम्पर्क",
     website: "वेबसाइट",
+    facebook: "फेसबुक",
     lastUpdated: "अन्तिम अपडेट",
     source: "स्रोत",
     hideDetails: "विवरण लुकाउनुहोस्",

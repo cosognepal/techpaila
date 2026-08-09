@@ -81,12 +81,14 @@ export default function MapExplorer() {
 
   useEffect(() => {
     document.body.style.overflow = fullscreen ? "hidden" : "";
+    document.body.dataset.fullscreen = fullscreen ? "true" : "";
     const tmr = window.setTimeout(() => {
       window.dispatchEvent(new Event("resize"));
     }, 50);
     return () => {
       window.clearTimeout(tmr);
       document.body.style.overflow = "";
+      document.body.dataset.fullscreen = "";
     };
   }, [fullscreen]);
 

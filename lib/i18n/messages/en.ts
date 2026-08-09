@@ -56,6 +56,22 @@ export type Messages = {
     plant_science: string;
     music: string;
   };
+  recommend: {
+    title: string;
+    stepProgram: string;
+    stepLocation: string;
+    outsideNepal: string;
+    locationDenied: string;
+    districtLabel: string;
+    programLabel: string;
+    allDistricts: string;
+    allPrograms: string;
+    changeDistrict: string;
+    tierLocal: string;
+    tierNearby: string;
+    noResults: string;
+    noProgram: string;
+  };
 };
 
 export const en: Messages = {
@@ -115,5 +131,21 @@ export const en: Messages = {
     animal_science: "Animal Science",
     plant_science: "Plant Science",
     music: "Music",
+  },
+  recommend: {
+    title: "Find a School",
+    stepProgram: "What do you want to study?",
+    stepLocation: "Detecting your location…",
+    outsideNepal: "You're not in Nepal, but you can select a district to continue.",
+    locationDenied: "Location access denied. Please select your district.",
+    districtLabel: "Your district",
+    programLabel: "Program",
+    allDistricts: "Select district",
+    allPrograms: "Select program",
+    changeDistrict: "Change",
+    tierLocal: "In your district",
+    tierNearby: "Within 30 km",
+    noResults: "No schools found offering this program in your area.",
+    noProgram: "Select a program to get started.",
   },
 };

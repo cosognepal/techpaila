@@ -1,0 +1,310 @@
+{
+  "JHAPA": {
+    "lat": 26.5853,
+    "lng": 87.9346
+  },
+  "ILAM": {
+    "lat": 26.8651,
+    "lng": 87.9355
+  },
+  "PANCHTHAR": {
+    "lat": 27.1554,
+    "lng": 87.8084
+  },
+  "TAPLEJUNG": {
+    "lat": 27.5998,
+    "lng": 87.8284
+  },
+  "MORANG": {
+    "lat": 26.6036,
+    "lng": 87.4616
+  },
+  "SUNSARI": {
+    "lat": 26.6388,
+    "lng": 87.1713
+  },
+  "BHOJPUR": {
+    "lat": 27.182,
+    "lng": 87.0722
+  },
+  "DHANKUTA": {
+    "lat": 26.9919,
+    "lng": 87.3422
+  },
+  "TEHRATHUM": {
+    "lat": 27.1425,
+    "lng": 87.5323
+  },
+  "SANKHUWASABHA": {
+    "lat": 27.5909,
+    "lng": 87.2954
+  },
+  "SAPTARI": {
+    "lat": 26.6215,
+    "lng": 86.7465
+  },
+  "SIRAHA": {
+    "lat": 26.744,
+    "lng": 86.3225
+  },
+  "UDAYAPUR": {
+    "lat": 26.9161,
+    "lng": 86.7346
+  },
+  "KHOTANG": {
+    "lat": 27.1759,
+    "lng": 86.7956
+  },
+  "OKHALDHUNGA": {
+    "lat": 27.3156,
+    "lng": 86.4046
+  },
+  "SOLUKHUMBU": {
+    "lat": 27.7759,
+    "lng": 86.7277
+  },
+  "DHANUSA": {
+    "lat": 26.7961,
+    "lng": 86.0189
+  },
+  "MAHOTTARI": {
+    "lat": 26.8653,
+    "lng": 85.8321
+  },
+  "SARLAHI": {
+    "lat": 26.9607,
+    "lng": 85.5366
+  },
+  "SINDHULI": {
+    "lat": 27.2125,
+    "lng": 85.877
+  },
+  "RAMECHHAP": {
+    "lat": 27.5445,
+    "lng": 86.2049
+  },
+  "DOLAKHA": {
+    "lat": 27.7859,
+    "lng": 86.1919
+  },
+  "BHAKTAPUR": {
+    "lat": 27.6813,
+    "lng": 85.4382
+  },
+  "DHADING": {
+    "lat": 27.933,
+    "lng": 84.9757
+  },
+  "KATHMANDU": {
+    "lat": 27.7045,
+    "lng": 85.3392
+  },
+  "KAVREPALANCHOWK": {
+    "lat": 27.5313,
+    "lng": 85.6218
+  },
+  "LALITPUR": {
+    "lat": 27.5528,
+    "lng": 85.3489
+  },
+  "NUWAKOT": {
+    "lat": 27.921,
+    "lng": 85.225
+  },
+  "RASUWA": {
+    "lat": 28.2117,
+    "lng": 85.4185
+  },
+  "SINDHUPALCHOK": {
+    "lat": 27.8865,
+    "lng": 85.7685
+  },
+  "BARA": {
+    "lat": 27.1077,
+    "lng": 85.0567
+  },
+  "PARSA": {
+    "lat": 27.2386,
+    "lng": 84.7641
+  },
+  "RAUTAHAT": {
+    "lat": 26.9999,
+    "lng": 85.329
+  },
+  "CHITWAN": {
+    "lat": 27.5736,
+    "lng": 84.4017
+  },
+  "MAKWANPUR": {
+    "lat": 27.4451,
+    "lng": 85.1561
+  },
+  "GORKHA": {
+    "lat": 28.2928,
+    "lng": 84.7642
+  },
+  "KASKI": {
+    "lat": 28.3237,
+    "lng": 84.0012
+  },
+  "LAMJUNG": {
+    "lat": 28.258,
+    "lng": 84.4224
+  },
+  "SYANGJA": {
+    "lat": 28.0017,
+    "lng": 83.753
+  },
+  "TANAHU": {
+    "lat": 27.94,
+    "lng": 84.2481
+  },
+  "MANANG": {
+    "lat": 28.6865,
+    "lng": 84.2165
+  },
+  "KAPILVASTU": {
+    "lat": 27.6328,
+    "lng": 82.9485
+  },
+  "NAWALPUR": {
+    "lat": 27.7567,
+    "lng": 84.1405
+  },
+  "PARASI": {
+    "lat": 27.523,
+    "lng": 83.7787
+  },
+  "RUPANDEHI": {
+    "lat": 27.5714,
+    "lng": 83.3912
+  },
+  "ARGHAKHANCHI": {
+    "lat": 27.9104,
+    "lng": 83.0511
+  },
+  "GULMI": {
+    "lat": 28.099,
+    "lng": 83.351
+  },
+  "PALPA": {
+    "lat": 27.8515,
+    "lng": 83.6573
+  },
+  "BAGLUNG": {
+    "lat": 28.3534,
+    "lng": 83.2501
+  },
+  "MYAGDI": {
+    "lat": 28.5433,
+    "lng": 83.4744
+  },
+  "PARBAT": {
+    "lat": 28.212,
+    "lng": 83.6788
+  },
+  "MUSTANG": {
+    "lat": 28.9936,
+    "lng": 83.8578
+  },
+  "DANG": {
+    "lat": 27.9864,
+    "lng": 82.4512
+  },
+  "PYUTHAN": {
+    "lat": 28.1242,
+    "lng": 82.8883
+  },
+  "ROLPA": {
+    "lat": 28.3274,
+    "lng": 82.6246
+  },
+  "EASTERN RUKUM": {
+    "lat": 28.6516,
+    "lng": 82.8041
+  },
+  "WESTERN RUKUM": {
+    "lat": 28.7305,
+    "lng": 82.4558
+  },
+  "SALYAN": {
+    "lat": 28.411,
+    "lng": 82.0961
+  },
+  "DOLPA": {
+    "lat": 29.2055,
+    "lng": 83.0769
+  },
+  "HUMLA": {
+    "lat": 29.9793,
+    "lng": 81.8223
+  },
+  "JUMLA": {
+    "lat": 29.2649,
+    "lng": 82.2183
+  },
+  "KALIKOT": {
+    "lat": 29.2069,
+    "lng": 81.7706
+  },
+  "MUGU": {
+    "lat": 29.6424,
+    "lng": 82.3499
+  },
+  "BANKE": {
+    "lat": 28.0834,
+    "lng": 81.7988
+  },
+  "BARDIYA": {
+    "lat": 28.3467,
+    "lng": 81.4105
+  },
+  "SURKHET": {
+    "lat": 28.6922,
+    "lng": 81.5189
+  },
+  "DAILEKH": {
+    "lat": 28.8973,
+    "lng": 81.631
+  },
+  "JAJARKOT": {
+    "lat": 28.87,
+    "lng": 82.1863
+  },
+  "KAILALI": {
+    "lat": 28.8317,
+    "lng": 80.8718
+  },
+  "ACHHAM": {
+    "lat": 29.0791,
+    "lng": 81.2867
+  },
+  "DOTI": {
+    "lat": 29.1217,
+    "lng": 80.9005
+  },
+  "BAJHANG": {
+    "lat": 29.7619,
+    "lng": 81.1512
+  },
+  "BAJURA": {
+    "lat": 29.5936,
+    "lng": 81.5406
+  },
+  "KANCHANPUR": {
+    "lat": 28.8341,
+    "lng": 80.3196
+  },
+  "DADELDHURA": {
+    "lat": 29.2187,
+    "lng": 80.4595
+  },
+  "BAITADI": {
+    "lat": 29.4902,
+    "lng": 80.5518
+  },
+  "DARCHULA": {
+    "lat": 29.9869,
+    "lng": 80.7458
+  }
+}

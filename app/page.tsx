@@ -3,6 +3,7 @@
 import { useEffect, useState } from "react";
 import AnimatedLogo from "@/app/components/AnimatedLogo";
 import MapExplorer from "@/components/MapExplorer";
+import Recommend from "@/components/Recommend";
 import { useLocale } from "@/hooks/useLocale";
 
 const SPLASH_MS = 2900;
@@ -28,5 +29,10 @@ export default function Home() {
     );
   }
 
-  return <MapExplorer />;
+  return (
+    <>
+      <MapExplorer />
+      <Recommend />
+    </>
+  );
 }

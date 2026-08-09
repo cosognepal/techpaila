@@ -6,6 +6,7 @@ import {
   PROGRAM_OPTIONS,
   programLabel,
   type ProgramSlug,
+  type School,
 } from "@/data/schools";
 import provinces from "@/data/provinces.json";
 import municipalities from "@/data/municipalities.json";
@@ -31,6 +32,106 @@ function scopeLabel(
     return provinces.find((p) => p.id === provinceId)?.name ?? "province";
   }
   return "Nepal";
+}
+
+function fullLocation(school: School): string {
+  const parts = [
+    school.address,
+    school.municipality,
+    school.district,
+    school.province,
+  ].filter(Boolean);
+  // Avoid repeating the same place name twice in a row
+  return parts.filter((part, i) => part !== parts[i - 1]).join(", ");
+}
+
+function SchoolCard({ school }: { school: School }) {
+  const [expanded, setExpanded] = useState(false);
+
+  return (
+    <li className={`school-item${expanded ? " is-expanded" : ""}`}>
+      <div className="school-item-main">
+        <div className="school-item-copy">
+          <p className="school-name">{school.name}</p>
+          <p className="school-location">{fullLocation(school)}</p>
+          <div className="school-programs">
+            <span className="school-field-label">Programs</span>
+            <ul className="school-program-list">
+              {school.programs.map((slug) => (
+                <li key={slug} className="school-program-chip">
+                  {programLabel(slug)}
+                </li>
+              ))}
+            </ul>
+          </div>
+        </div>
+        <button
+          type="button"
+          className="school-expand-btn"
+          aria-expanded={expanded}
+          aria-label={expanded ? "Hide details" : "Show more details"}
+          onClick={() => setExpanded((v) => !v)}
+        >
+          <svg
+            viewBox="0 0 24 24"
+            width="18"
+            height="18"
+            fill="none"
+            stroke="currentColor"
+            strokeWidth="2"
+            strokeLinecap="round"
+            strokeLinejoin="round"
+            aria-hidden="true"
+          >
+            {expanded ? (
+              <path d="M18 15l-6-6-6 6" />
+            ) : (
+              <path d="M6 9l6 6 6-6" />
+            )}
+          </svg>
+        </button>
+      </div>
+
+      {expanded ? (
+        <div className="school-item-details">
+          <div className="school-detail-block">
+            <span className="school-field-label">Contact</span>
+            <p className="school-detail-line">
+              <a href={`tel:${school.contact_phone}`}>{school.contact_phone}</a>
+            </p>
+            <p className="school-detail-line">
+              <a href={`mailto:${school.contact_email}`}>
+                {school.contact_email}
+              </a>
+            </p>
+          </div>
+
+          <div className="school-detail-block">
+            <span className="school-field-label">Website</span>
+            <p className="school-detail-line">
+              <a
+                href={school.official_link}
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {school.official_link.replace(/^https?:\/\//, "")}
+              </a>
+            </p>
+          </div>
+
+          <div className="school-detail-meta">
+            <p>
+              <span className="school-field-label">Last updated</span>{" "}
+              {school.last_updated}
+            </p>
+            <p>
+              <span className="school-field-label">Source</span> {school.source}
+            </p>
+          </div>
+        </div>
+      ) : null}
+    </li>
+  );
 }
 
 export default function Schools({
@@ -109,15 +210,7 @@ export default function Schools({
       ) : (
         <ul className="schools-list">
           {schools.map((school) => (
-            <li key={school.id} className="school-item">
-              <p className="school-name">{school.name}</p>
-              <p className="school-location">
-                {school.municipality}, {school.district}
-              </p>
-              <p className="school-program">
-                {school.programs.map(programLabel).join(" · ")}
-              </p>
-            </li>
+            <SchoolCard key={school.id} school={school} />
           ))}
         </ul>
       )}

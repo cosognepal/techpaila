@@ -500,23 +500,146 @@ h6 {
   flex-shrink: 0;
 }
 
+.school-item-main {
+  display: flex;
+  align-items: flex-start;
+  gap: 0.5rem;
+}
+
+.school-item-copy {
+  min-width: 0;
+  flex: 1;
+}
+
 .school-name {
   margin: 0;
   font-size: 0.95rem;
   font-weight: 600;
   color: var(--ink);
+  line-height: 1.3;
 }
 
 .school-location {
-  margin: 0.25rem 0 0;
+  margin: 0.3rem 0 0;
   font-size: 0.8rem;
+  line-height: 1.4;
   color: var(--brand);
 }
 
-.school-program {
-  margin: 0.3rem 0 0;
-  font-size: 0.82rem;
+.school-programs {
+  margin-top: 0.55rem;
+}
+
+.school-field-label {
+  display: block;
+  font-size: 0.68rem;
+  font-weight: 650;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
   color: var(--ink-muted);
+  margin-bottom: 0.25rem;
+}
+
+.school-program-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.school-program-chip {
+  margin: 0;
+  padding: 0.2rem 0.45rem;
+  font-size: 0.75rem;
+  line-height: 1.3;
+  color: var(--ink);
+  background: var(--surface);
+  border: 1px solid var(--rule);
+  border-radius: 0.25rem;
+}
+
+.school-expand-btn {
+  flex-shrink: 0;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.85rem;
+  height: 1.85rem;
+  margin: 0;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 0.35rem;
+  background: var(--surface);
+  color: var(--ink-muted);
+  cursor: pointer;
+}
+
+.school-expand-btn:hover {
+  color: var(--brand);
+  border-color: #c5d2e3;
+  background: #fff;
+}
+
+.school-expand-btn:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.school-item.is-expanded .school-expand-btn {
+  color: var(--brand);
+  border-color: var(--brand);
+}
+
+.school-item-details {
+  margin-top: 0.75rem;
+  padding-top: 0.75rem;
+  border-top: 1px solid #d5dde8;
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
+}
+
+.school-detail-block .school-field-label {
+  margin-bottom: 0.2rem;
+}
+
+.school-detail-line {
+  margin: 0.1rem 0 0;
+  font-size: 0.82rem;
+  line-height: 1.4;
+  color: var(--ink);
+  word-break: break-word;
+}
+
+.school-detail-line a {
+  color: var(--brand);
+  text-decoration: underline;
+  text-underline-offset: 2px;
+}
+
+.school-detail-line a:hover {
+  color: var(--brand-hover);
+}
+
+.school-detail-meta {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.school-detail-meta p {
+  margin: 0;
+  font-size: 0.78rem;
+  line-height: 1.4;
+  color: var(--ink-muted);
+}
+
+.school-detail-meta .school-field-label {
+  display: inline;
+  margin: 0;
+  font-size: 0.68rem;
 }
 
 .leaflet-container {

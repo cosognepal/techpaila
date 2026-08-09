@@ -71,6 +71,22 @@ export default function MapExplorer() {
   }, []);
 
   useEffect(() => {
+    function onZoomToSchool(e: Event) {
+      const { districtKey, municipalityId: muniId } = (e as CustomEvent).detail;
+      if (districtKey) {
+        const match = districts.find((d) => d.DISTRICT === districtKey);
+        if (match) setProvinceId(match.PROVINCE);
+        setDistrictName(districtKey);
+      }
+      if (muniId) {
+        setMunicipalityId(muniId);
+      }
+    }
+    window.addEventListener("techpaila:zoom-school", onZoomToSchool);
+    return () => window.removeEventListener("techpaila:zoom-school", onZoomToSchool);
+  }, []);
+
+  useEffect(() => {
     if (!fullscreen) return;
     const onKeyDown = (e: KeyboardEvent) => {
       if (e.key === "Escape") setFullscreen(false);

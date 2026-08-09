@@ -225,6 +225,23 @@ export default function Recommend() {
   );
 }
 
+function deriveMunicipalityId(municipalityEn: string, district: string): string {
+  const name = municipalityEn
+    .replace(/\s*(Rural Municipality|Municipality|Sub-Metropolitan City|Metropolitan City|Sub-metropolitan City|Metropolitan city)\s*$/i, "")
+    .trim();
+  return `${name}-${district}`.toLowerCase().replace(/ /g, "-");
+}
+
+function handleZoomToSchool(school: RankedSchool["school"]) {
+  const districtKey = school.district.toUpperCase();
+  const municipalityId = deriveMunicipalityId(school.municipality_en, school.district);
+  window.dispatchEvent(
+    new CustomEvent("techpaila:zoom-school", {
+      detail: { districtKey, municipalityId },
+    }),
+  );
+}
+
 function TierSection({
   label,
   items,
@@ -242,9 +259,21 @@ function TierSection({
       <ul className="recommend-tier-list">
         {items.map((r) => (
           <li key={r.school.id} className="recommend-item">
-            <span className="recommend-item-name">
-              {locale === "ne" ? r.school.name_ne : r.school.name_en}
-            </span>
+            <div className="recommend-item-top">
+              <span className="recommend-item-name">
+                {locale === "ne" ? r.school.name_ne : r.school.name_en}
+              </span>
+              <button
+                className="recommend-pin-btn"
+                onClick={() => handleZoomToSchool(r.school)}
+                aria-label="Show on map"
+              >
+                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                  <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" />
+                  <circle cx="12" cy="10" r="3" />
+                </svg>
+              </button>
+            </div>
             <span className="recommend-item-reason">
               {locale === "ne" ? r.reason_ne : r.reason_en}
             </span>

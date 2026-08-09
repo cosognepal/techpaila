@@ -1179,9 +1179,33 @@ body[data-fullscreen="true"] .recommend-widget {
   border: 1px solid #dde4ec;
 }
 
+.recommend-item-top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.4rem;
+}
+
 .recommend-item-name {
   font-weight: 600;
   font-size: 0.88rem;
+}
+
+.recommend-pin-btn {
+  flex-shrink: 0;
+  background: none;
+  border: none;
+  color: var(--brand);
+  cursor: pointer;
+  padding: 0.2rem;
+  border-radius: 0.25rem;
+  display: flex;
+  align-items: center;
+  transition: background 0.15s;
+}
+
+.recommend-pin-btn:hover {
+  background: rgba(0, 0, 0, 0.06);
 }
 
 .recommend-item-reason {

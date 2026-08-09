@@ -1,6 +1,12 @@
 "use client";
 
-import { getSchools } from "@/data/schools";
+import { useMemo, useState } from "react";
+import {
+  getSchools,
+  PROGRAM_OPTIONS,
+  programLabel,
+  type ProgramSlug,
+} from "@/data/schools";
 import provinces from "@/data/provinces.json";
 import municipalities from "@/data/municipalities.json";
 import { titleCaseDistrict } from "@/lib/map";
@@ -32,32 +38,89 @@ export default function Schools({
   districtName,
   municipalityId,
 }: SchoolsProps) {
-  const schools = getSchools({ provinceId, districtName, municipalityId });
+  const [query, setQuery] = useState("");
+  const [program, setProgram] = useState<ProgramSlug | "">("");
+
+  const provinceName =
+    provinceId != null
+      ? (provinces.find((p) => p.id === provinceId)?.name ?? null)
+      : null;
+  const districtTitle = districtName ? titleCaseDistrict(districtName) : null;
+  const municipalityName = municipalityId
+    ? (municipalities.find((m) => m.id === municipalityId)?.name ?? null)
+    : null;
+
+  const schools = useMemo(
+    () =>
+      getSchools({
+        provinceName,
+        districtTitle,
+        municipalityName,
+        query,
+        program: program || null,
+      }),
+    [provinceName, districtTitle, municipalityName, query, program],
+  );
+
   const label = scopeLabel(provinceId, districtName, municipalityId);
 
   return (
-    <aside className="schools-panel">
-      <h2 className="schools-title">Schools in {label}</h2>
+    <section className="schools-panel p-2">
+      <div className="schools-heading">
+        <h2 className="schools-title">Schools in {label}</h2>
+      </div>
+
+      <div className="schools-toolbar">
+        <label className="schools-search">
+          <span className="control-label">Search</span>
+          <input
+            type="search"
+            value={query}
+            onChange={(e) => setQuery(e.target.value)}
+            placeholder="Search by school name"
+          />
+        </label>
+        <label className="control-field schools-program">
+          <span className="control-label">Program</span>
+          <select
+            value={program}
+            onChange={(e) =>
+              setProgram((e.target.value || "") as ProgramSlug | "")
+            }
+          >
+            <option value="">All programs</option>
+            {PROGRAM_OPTIONS.map((p) => (
+              <option key={p.value} value={p.value}>
+                {p.label}
+              </option>
+            ))}
+          </select>
+        </label>
+      </div>
+
       <p className="schools-count">
-        {schools.length} school{schools.length === 1 ? "" : "s"}
+        Found {schools.length} school{schools.length === 1 ? "" : "s"}
       </p>
+
       {schools.length === 0 ? (
         <p className="schools-empty">
-          No placeholder schools listed for this selection yet.
+          No schools match this search and filter selection.
         </p>
       ) : (
         <ul className="schools-list">
           {schools.map((school) => (
             <li key={school.id} className="school-item">
               <p className="school-name">{school.name}</p>
-              <p className="school-program">{school.program}</p>
-              {school.municipalityName ? (
-                <p className="school-meta">{school.municipalityName}</p>
-              ) : null}
+              <p className="school-location">
+                {school.municipality}, {school.district}
+              </p>
+              <p className="school-program">
+                {school.programs.map(programLabel).join(" · ")}
+              </p>
             </li>
           ))}
         </ul>
       )}
-    </aside>
+    </section>
   );
 }

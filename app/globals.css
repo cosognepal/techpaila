@@ -42,7 +42,7 @@
 }
 
 body {
-  background: var(--paper);
+  background: var(--surface);
   color: var(--ink);
   font-family: var(--font-sans), Arial, Helvetica, sans-serif;
 }
@@ -72,22 +72,22 @@ h6 {
 }
 
 .explorer {
+  min-height: 100dvh;
+  padding: 1.25rem 1rem 2.5rem;
+}
+
+.explorer-shell {
+  width: 100%;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
-  min-height: 100dvh;
-  height: 100dvh;
+  gap: 1.25rem;
 }
 
 .explorer-header {
   display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem 1.5rem;
-  padding: 0.85rem 1.25rem;
-  background: var(--surface);
-  border-bottom: 1px solid var(--rule);
-  z-index: 500;
+  align-items: flex-start;
+  gap: 1rem;
 }
 
 .brand {
@@ -108,21 +108,38 @@ h6 {
   border-radius: 0.55rem;
 }
 
+.header-copy {
+  min-width: 0;
+  padding-top: 0.15rem;
+}
+
+.site-title {
+  margin: 0;
+  font-size: clamp(1.5rem, 2.5vw, 1.85rem);
+  font-weight: 700;
+  color: var(--brand);
+  line-height: 1.15;
+}
+
+.site-tagline {
+  margin: 0.35rem 0 0;
+  max-width: 40rem;
+  font-size: 0.95rem;
+  line-height: 1.45;
+  color: var(--ink-muted);
+}
+
 .controls {
-  display: flex;
-  flex-wrap: wrap;
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 0.75rem 1rem;
-  justify-content: flex-end;
-  flex: 1;
 }
 
 .control-field {
   display: flex;
   flex-direction: column;
   gap: 0.25rem;
-  min-width: 9.5rem;
-  max-width: 14rem;
-  flex: 1 1 9.5rem;
+  min-width: 0;
 }
 
 .control-label {
@@ -133,15 +150,21 @@ h6 {
   color: var(--ink-muted);
 }
 
-.control-field select {
+.control-field select,
+.schools-search input {
   appearance: none;
-  background: var(--paper);
-  border: 1px solid var(--rule);
-  border-radius: 0.4rem;
+  width: 100%;
+  background: var(--surface);
+  border: 1px solid #c9c9c9;
+  border-radius: 0.25rem;
   color: var(--ink);
   font: inherit;
   font-size: 0.9rem;
-  padding: 0.45rem 2rem 0.45rem 0.7rem;
+  padding: 0.5rem 0.7rem;
+}
+
+.control-field select {
+  padding-right: 2rem;
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%235f5f5f' d='M1 1l5 5 5-5'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
   background-position: right 0.7rem center;
@@ -153,22 +176,243 @@ h6 {
   cursor: not-allowed;
 }
 
-.control-field select:focus {
+.control-field select:focus,
+.schools-search input:focus {
   outline: 2px solid var(--brand);
   outline-offset: 1px;
 }
 
-.explorer-body {
-  display: grid;
-  grid-template-columns: 1fr minmax(16rem, 20rem);
-  flex: 1;
-  min-height: 0;
+.clean-view-toggle {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.65rem;
+  cursor: pointer;
+  user-select: none;
+  width: fit-content;
 }
 
-.map-panel {
-  position: relative;
+.workspace {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  padding: 0.5rem;
+}
+
+.workspace-toolbar {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 0.75rem 1rem;
+}
+
+.workspace-toolbar-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  min-width: 0;
+  flex: 1;
+}
+
+.workspace-toggles {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1.25rem 1.75rem;
+}
+
+.fullscreen-icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  width: 2.35rem;
+  height: 2.35rem;
+  margin-top: 0.15rem;
+  padding: 0;
+  border: 1px solid var(--rule);
+  border-radius: 0.4rem;
+  background: var(--surface);
+  color: var(--ink);
+  cursor: pointer;
+}
+
+.fullscreen-icon-btn:hover {
+  background: var(--brand-wash);
+  border-color: #c5d2e3;
+  color: var(--brand);
+}
+
+.fullscreen-icon-btn:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.fullscreen-icon-btn[aria-pressed="true"] {
+  background: var(--brand-wash);
+  border-color: var(--brand);
+  color: var(--brand);
+}
+
+.fullscreen-icon {
+  display: block;
+}
+
+.workspace-body {
   min-height: 0;
+  flex: 1;
+}
+
+.workspace.is-fullscreen {
+  position: fixed;
+  inset: 0;
+  z-index: 1000;
+  width: 100vw;
+  height: 100dvh;
+  margin: 0;
+  padding: 0.85rem 1rem 1rem;
+  background: var(--surface);
+  box-sizing: border-box;
+}
+
+.workspace.is-fullscreen .workspace-body,
+.workspace.is-fullscreen .split-pane {
+  flex: 1;
+  min-height: 0;
+  height: 100%;
+}
+
+.workspace.is-fullscreen .map-box {
+  height: auto;
+  min-height: 0;
+  flex: 1;
+}
+
+.clean-view-label {
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: var(--ink);
+}
+
+.toggle-switch {
+  position: relative;
+  width: 2.5rem;
+  height: 1.35rem;
+  padding: 0;
+  border: none;
+  border-radius: 999px;
+  background: #cfc9be;
+  cursor: pointer;
+  flex-shrink: 0;
+  transition: background 0.15s ease;
+}
+
+.toggle-switch.is-on {
+  background: var(--brand);
+}
+
+.toggle-thumb {
+  position: absolute;
+  top: 0.15rem;
+  left: 0.15rem;
+  width: 1.05rem;
+  height: 1.05rem;
+  border-radius: 50%;
+  background: #fff;
+  box-shadow: 0 1px 2px rgb(0 0 0 / 18%);
+  transition: transform 0.15s ease;
+}
+
+.toggle-switch.is-on .toggle-thumb {
+  transform: translateX(1.15rem);
+}
+
+.toggle-switch:focus-visible {
+  outline: 2px solid var(--brand);
+  outline-offset: 2px;
+}
+
+.map-box {
+  position: relative;
+  width: 100%;
+  height: min(62vh, 560px);
+  min-height: 320px;
+  border: 1px solid #1a1a1a;
   background: #dfe6ee;
+  overflow: hidden;
+  flex: 1;
+}
+
+.map-column {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  min-width: 0;
+  height: 100%;
+}
+
+.split-pane {
+  display: flex;
+  align-items: stretch;
+  width: 100%;
+  min-height: min(70vh, 640px);
+  height: min(72vh, 680px);
+}
+
+.split-pane-left,
+.split-pane-right {
+  min-width: 0;
+  height: 100%;
+  overflow: hidden;
+}
+
+.split-pane-right {
+  display: flex;
+  flex-direction: column;
+}
+
+.split-handle {
+  flex: 0 0 5px;
+  width: 5px;
+  margin: 0;
+  padding: 0 2px;
+  border: none;
+  border-radius: 0;
+  background: transparent;
+  cursor: col-resize;
+  touch-action: none;
+  align-self: stretch;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.split-handle::after {
+  content: "";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 50%;
+  width: 1px;
+  transform: translateX(-50%);
+  background: var(--rule);
+}
+
+.split-handle:hover,
+.split-pane.is-dragging .split-handle {
+  background: transparent;
+}
+
+.split-handle:hover::after,
+.split-pane.is-dragging .split-handle::after {
+  background: var(--brand);
+}
+
+.split-pane.is-dragging {
+  user-select: none;
+  cursor: col-resize;
+}
+
+.split-pane.is-dragging iframe {
+  pointer-events: none;
 }
 
 .map-canvas {
@@ -188,56 +432,89 @@ h6 {
 .schools-panel {
   display: flex;
   flex-direction: column;
-  gap: 0.75rem;
-  padding: 1rem 1.1rem;
-  background: var(--surface);
-  border-left: 1px solid var(--rule);
-  overflow: auto;
+  gap: 0.9rem;
+  min-height: 0;
+  height: 100%;
+  /* padding: 0 0 0 0.15rem; */
+  overflow: hidden;
+}
+
+.schools-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.5rem 1rem;
+  flex-shrink: 0;
 }
 
 .schools-title {
   margin: 0;
-  font-size: 1.05rem;
+  font-size: 1.15rem;
   font-weight: 650;
   color: var(--brand);
 }
 
 .schools-count {
-  margin: -0.35rem 0 0;
-  font-size: 0.8rem;
+  margin: 0;
+  font-size: 0.85rem;
   color: var(--ink-muted);
 }
 
-.school-meta {
-  margin: 0.15rem 0 0;
-  font-size: 0.78rem;
-  color: var(--brand);
+.schools-toolbar {
+  display: grid;
+  grid-template-columns: minmax(0, 1.6fr) minmax(0, 1fr);
+  gap: 0.75rem 1rem;
+  flex-shrink: 0;
+}
+
+.schools-search {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  min-width: 0;
+}
+
+.schools-empty {
+  margin: 0;
+  font-size: 0.9rem;
+  color: var(--ink-muted);
+  line-height: 1.45;
 }
 
 .schools-list {
   list-style: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0.15rem 0.25rem 0;
   display: flex;
   flex-direction: column;
   gap: 0.65rem;
+  overflow: auto;
+  flex: 1;
+  min-height: 0;
 }
 
 .school-item {
-  padding: 0.7rem 0.75rem;
+  padding: 0.85rem 0.9rem;
   background: var(--brand-wash);
   border-left: 3px solid var(--accent);
+  flex-shrink: 0;
 }
 
 .school-name {
   margin: 0;
-  font-size: 0.92rem;
+  font-size: 0.95rem;
   font-weight: 600;
   color: var(--ink);
 }
 
+.school-location {
+  margin: 0.25rem 0 0;
+  font-size: 0.8rem;
+  color: var(--brand);
+}
+
 .school-program {
-  margin: 0.2rem 0 0;
+  margin: 0.3rem 0 0;
   font-size: 0.82rem;
   color: var(--ink-muted);
 }
@@ -247,25 +524,87 @@ h6 {
   background: #dfe6ee;
 }
 
-@media (max-width: 860px) {
+@media (min-width: 1024px) {
   .explorer {
-    height: auto;
-    min-height: 100dvh;
+    padding: 1.5rem 1.25rem 2.5rem;
   }
 
-  .explorer-body {
-    grid-template-columns: 1fr;
-    grid-template-rows: minmax(55vh, 65vh) auto;
+  .explorer-shell {
+    width: 90%;
+    max-width: none;
+  }
+
+  .map-box {
+    height: auto;
+    min-height: 0;
+  }
+
+  .controls {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .workspace.is-fullscreen .split-pane {
+    height: 100%;
+    min-height: 0;
+  }
+}
+
+@media (max-width: 1023px) {
+  .split-pane {
+    flex-direction: column;
+    height: auto;
+    min-height: 0;
+    gap: 1.25rem;
+  }
+
+  .split-pane-left,
+  .split-pane-right {
+    width: 100% !important;
+    height: auto;
+    overflow: visible;
+  }
+
+  .split-handle {
+    display: none;
+  }
+
+  .map-box {
+    height: min(55vh, 480px);
+    flex: none;
   }
 
   .schools-panel {
-    border-left: none;
-    border-top: 1px solid var(--rule);
-    max-height: none;
+    height: auto;
+    overflow: visible;
+    padding: 0;
   }
 
-  .control-field {
-    min-width: 9.5rem;
-    flex: 1;
+  .schools-list {
+    max-height: 28rem;
+  }
+
+  .workspace.is-fullscreen .split-pane {
+    flex-direction: column;
+    height: 100%;
+    overflow: auto;
+  }
+
+  .workspace.is-fullscreen .map-box {
+    height: min(50dvh, 420px);
+    flex: none;
+  }
+}
+
+@media (max-width: 767px) {
+  .controls {
+    grid-template-columns: 1fr;
+  }
+
+  .schools-toolbar {
+    grid-template-columns: 1fr;
+  }
+
+  .explorer-header {
+    align-items: center;
   }
 }

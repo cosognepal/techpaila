@@ -5,6 +5,9 @@ import { GeoJSON, MapContainer, TileLayer, useMap } from "react-leaflet";
 import type { Feature, FeatureCollection, Geometry } from "geojson";
 import type { Layer, Path } from "leaflet";
 import L from "leaflet";
+import "leaflet/dist/leaflet.css";
+
+// our own compiled data
 import {
   DISTRICTS_GEOJSON_URL,
   MUNICIPALITIES_GEOJSON_URL,
@@ -35,6 +38,7 @@ type MapViewProps = {
   provinceId: number | null;
   districtName: string | null;
   municipalityId: string | null;
+  cleanView: boolean;
   onProvinceSelect: (provinceId: number) => void;
   onDistrictSelect: (districtName: string) => void;
   onMunicipalitySelect: (municipalityId: string) => void;
@@ -133,10 +137,13 @@ export default function MapView({
   provinceId,
   districtName,
   municipalityId,
+  cleanView,
   onProvinceSelect,
   onDistrictSelect,
   onMunicipalitySelect,
 }: MapViewProps) {
+  // Avoid Leaflet init during SSR / Strict Mode / HMR before a real container exists.
+  const [mapKey, setMapKey] = useState(0);
   const [provinces, setProvinces] = useState<FeatureCollection<
     Geometry,
     ProvinceFeatureProps
@@ -150,6 +157,10 @@ export default function MapView({
     MunicipalityFeatureProps
   > | null>(null);
   const muniLoaded = useRef(false);
+
+  useEffect(() => {
+    setMapKey((k) => k + 1);
+  }, []);
 
   useEffect(() => {
     let cancelled = false;
@@ -260,15 +271,25 @@ export default function MapView({
     });
   };
 
+  // First paint (mapKey === 0) skips MapContainer so Leaflet never binds to a
+  // container that React Strict Mode / HMR is about to tear down.
+  if (mapKey === 0) {
+    return <div className="map-loading">Loading map…</div>;
+  }
+
   return (
     <MapContainer
+      key={mapKey}
       center={NEPAL_CENTER}
       zoom={NEPAL_ZOOM}
       className="map-canvas"
+      style={{ width: "100%", height: "100%", paddingRight: "2px" }}
       minZoom={5}
       scrollWheelZoom
     >
-      <TileLayer attribution={OSM_ATTRIBUTION} url={OSM_TILE_URL} />
+      {cleanView ? null : (
+        <TileLayer attribution={OSM_ATTRIBUTION} url={OSM_TILE_URL} />
+      )}
       <InvalidateSize />
       <FitSelection
         provinces={provinces}

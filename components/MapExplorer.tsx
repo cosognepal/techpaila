@@ -1,10 +1,13 @@
 "use client";
 
 import dynamic from "next/dynamic";
-import { useCallback, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 import Controls from "@/components/Controls";
 import Schools from "@/components/Schools";
+import SplitPane from "@/components/SplitPane";
 import districts from "@/data/districts.json";
+import Image from "next/image";
+import Link from "next/link";
 
 const MapView = dynamic(() => import("@/components/MapView"), {
   ssr: false,
@@ -15,6 +18,8 @@ export default function MapExplorer() {
   const [provinceId, setProvinceId] = useState<number | null>(null);
   const [districtName, setDistrictName] = useState<string | null>(null);
   const [municipalityId, setMunicipalityId] = useState<string | null>(null);
+  const [cleanView, setCleanView] = useState(false);
+  const [fullscreen, setFullscreen] = useState(false);
 
   const handleProvinceChange = useCallback((next: number | null) => {
     setProvinceId(next);
@@ -57,44 +62,154 @@ export default function MapExplorer() {
     setMunicipalityId(id);
   }, []);
 
+  useEffect(() => {
+    if (!fullscreen) return;
+    const onKeyDown = (e: KeyboardEvent) => {
+      if (e.key === "Escape") setFullscreen(false);
+    };
+    window.addEventListener("keydown", onKeyDown);
+    return () => window.removeEventListener("keydown", onKeyDown);
+  }, [fullscreen]);
+
+  useEffect(() => {
+    document.body.style.overflow = fullscreen ? "hidden" : "";
+    // Leaflet needs a resize after layout changes.
+    const t = window.setTimeout(() => {
+      window.dispatchEvent(new Event("resize"));
+    }, 50);
+    return () => {
+      window.clearTimeout(t);
+      document.body.style.overflow = "";
+    };
+  }, [fullscreen]);
+
   return (
     <div className="explorer">
-      <header className="explorer-header">
-        <a href="/" className="brand" aria-label="TechPaila home">
-          <img
-            src="/techpaila-icon.svg"
-            alt="TechPaila"
-            width={40}
-            height={40}
-            className="brand-icon"
-          />
-        </a>
-        <Controls
-          provinceId={provinceId}
-          districtName={districtName}
-          municipalityId={municipalityId}
-          onProvinceChange={handleProvinceChange}
-          onDistrictChange={handleDistrictChange}
-          onMunicipalityChange={handleMunicipalityChange}
-        />
-      </header>
+      <div className="explorer-shell">
+        <header className="explorer-header flex items-center">
+          <Link href="/" className="brand" aria-label="TechPaila home">
+            <Image
+              src="/techpaila-icon.svg"
+              alt=""
+              width={48}
+              height={48}
+              className="brand-icon"
+            />
+          </Link>
+          <div className="header-copy">
+            <h1 className="site-title">
+              Tech<span className="text-amber-500 pl-0 ml-0">Paila</span>
+            </h1>
+          </div>
+        </header>
 
-      <div className="explorer-body">
-        <div className="map-panel">
-          <MapView
-            provinceId={provinceId}
-            districtName={districtName}
-            municipalityId={municipalityId}
-            onProvinceSelect={handleProvinceSelect}
-            onDistrictSelect={handleDistrictSelect}
-            onMunicipalitySelect={handleMunicipalitySelect}
-          />
+        <div className={`workspace${fullscreen ? " is-fullscreen" : ""}`}>
+          <div className="workspace-toolbar">
+            <div className="workspace-toolbar-main">
+              <Controls
+                provinceId={provinceId}
+                districtName={districtName}
+                municipalityId={municipalityId}
+                onProvinceChange={handleProvinceChange}
+                onDistrictChange={handleDistrictChange}
+                onMunicipalityChange={handleMunicipalityChange}
+              />
+
+              <div className="workspace-toggles">
+                <div className="clean-view-toggle">
+                  <span className="clean-view-label" id="clean-view-label">
+                    Clean view
+                  </span>
+                  <button
+                    type="button"
+                    role="switch"
+                    aria-checked={cleanView}
+                    aria-labelledby="clean-view-label"
+                    className={`toggle-switch${cleanView ? " is-on" : ""}`}
+                    onClick={() => setCleanView((v) => !v)}
+                  >
+                    <span className="toggle-thumb" />
+                  </button>
+                </div>
+
+                <button
+                  type="button"
+                  className="fullscreen-icon-btn ml-auto"
+                  aria-pressed={fullscreen}
+                  aria-label={fullscreen ? "Exit fullscreen" : "Enter fullscreen"}
+                  title={fullscreen ? "Exit fullscreen" : "Enter fullscreen"}
+                  onClick={() => setFullscreen((v) => !v)}
+                >
+                  {fullscreen ? (
+                    <svg
+                      className="fullscreen-icon"
+                      viewBox="0 0 24 24"
+                      width="22"
+                      height="22"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="square"
+                      aria-hidden="true"
+                    >
+                      <path d="M9 3v6H3" />
+                      <path d="M15 3v6h6" />
+                      <path d="M9 21v-6H3" />
+                      <path d="M15 21v-6h6" />
+                    </svg>
+                  ) : (
+                    <svg
+                      className="fullscreen-icon"
+                      viewBox="0 0 24 24"
+                      width="22"
+                      height="22"
+                      fill="none"
+                      stroke="currentColor"
+                      strokeWidth="2"
+                      strokeLinecap="square"
+                      aria-hidden="true"
+                    >
+                      <path d="M3 9V3h6" />
+                      <path d="M15 3h6v6" />
+                      <path d="M21 15v6h-6" />
+                      <path d="M9 21H3v-6" />
+                    </svg>
+                  )}
+                </button>
+              </div>
+            </div>
+
+
+          </div>
+
+          <div className="workspace-body">
+            <SplitPane
+              defaultLeftPct={66}
+              left={
+                <div className="map-column">
+                  <div className="map-box">
+                    <MapView
+                      provinceId={provinceId}
+                      districtName={districtName}
+                      municipalityId={municipalityId}
+                      cleanView={cleanView}
+                      onProvinceSelect={handleProvinceSelect}
+                      onDistrictSelect={handleDistrictSelect}
+                      onMunicipalitySelect={handleMunicipalitySelect}
+                    />
+                  </div>
+                </div>
+              }
+              right={
+                <Schools
+                  provinceId={provinceId}
+                  districtName={districtName}
+                  municipalityId={municipalityId}
+                />
+              }
+            />
+          </div>
         </div>
-        <Schools
-          provinceId={provinceId}
-          districtName={districtName}
-          municipalityId={municipalityId}
-        />
       </div>
     </div>
   );

@@ -60,48 +60,48 @@ export type MunicipalityFeature = Feature<Geometry, MunicipalityFeatureProps>;
 export type WardFeature = Feature<Geometry, WardFeatureProps>;
 
 export const provinceStyle = (selected = false): PathOptions => ({
-  color: "#16457a",
-  weight: selected ? 2.5 : 1.5,
+  color: "#2e2e2e",
+  weight: selected ? 3 : 2.25,
   opacity: 1,
   fillColor: selected ? "#e8a33d" : "#16457a",
-  fillOpacity: selected ? 0.45 : 0.28,
+  fillOpacity: selected ? 0.7 : 0.45,
 });
 
 export const provinceHoverStyle: PathOptions = {
-  color: "#0f3560",
-  weight: 2.5,
+  color: "#2e2e2e",
+  weight: 3,
   fillColor: "#e8a33d",
-  fillOpacity: 0.4,
+  fillOpacity: 0.65,
 };
 
 export const districtStyle = (selected = false): PathOptions => ({
-  color: "#16457a",
-  weight: selected ? 2.5 : 1.25,
+  color: "#2e2e2e",
+  weight: selected ? 3 : 2,
   opacity: 1,
   fillColor: selected ? "#e8a33d" : "#16457a",
-  fillOpacity: selected ? 0.5 : 0.22,
+  fillOpacity: selected ? 0.75 : 0.35,
 });
 
 export const districtHoverStyle: PathOptions = {
-  color: "#0f3560",
-  weight: 2,
+  color: "#2e2e2e",
+  weight: 2.5,
   fillColor: "#e8a33d",
-  fillOpacity: 0.4,
+  fillOpacity: 0.6,
 };
 
 export const municipalityStyle = (selected = false): PathOptions => ({
-  color: "#16457a",
-  weight: selected ? 2.25 : 1,
+  color: "#2e2e2e",
+  weight: selected ? 2.75 : 1.75,
   opacity: 1,
   fillColor: selected ? "#e8a33d" : "#16457a",
-  fillOpacity: selected ? 0.55 : 0.2,
+  fillOpacity: selected ? 0.8 : 0.3,
 });
 
 export const municipalityHoverStyle: PathOptions = {
-  color: "#0f3560",
-  weight: 2,
+  color: "#2e2e2e",
+  weight: 2.5,
   fillColor: "#e8a33d",
-  fillOpacity: 0.4,
+  fillOpacity: 0.55,
 };
 
 export const wardStyle = (selected = false): PathOptions => ({

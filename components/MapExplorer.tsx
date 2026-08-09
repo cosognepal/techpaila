@@ -98,7 +98,7 @@ export default function MapExplorer() {
           </Link>
           <div className="header-copy">
             <h1 className="site-title">
-              Tech<span className="text-amber-500 pl-0 ml-0">Paila</span>
+              Tech<span className="site-title-accent">Paila</span>
             </h1>
           </div>
         </header>

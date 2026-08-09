@@ -35,6 +35,10 @@ function scopeLabel(
 }
 
 function fullLocation(school: School): string {
+  if(school.address){
+    return school.address;
+  }
+
   const parts = [
     school.address,
     school.municipality,
@@ -55,14 +59,14 @@ function SchoolCard({ school }: { school: School }) {
           <p className="school-name">{school.name}</p>
           <p className="school-location">{fullLocation(school)}</p>
           <div className="school-programs">
-            <span className="school-field-label">Programs</span>
-            <ul className="school-program-list">
-              {school.programs.map((slug) => (
-                <li key={slug} className="school-program-chip">
+            <span className="school-field-label">Programs: </span>
+              {school.programs.map((slug, i) => (
+                <span key={slug} className="school-program-chip">
                   {programLabel(slug)}
-                </li>
+                  {i < school.programs.length - 1 && ", "}
+                </span>
               ))}
-            </ul>
+         
           </div>
         </div>
         <button

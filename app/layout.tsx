@@ -3,6 +3,7 @@ import { Rubik, Open_Sans, Noto_Sans_Devanagari } from "next/font/google";
 import "leaflet/dist/leaflet.css";
 import "./globals.css";
 import { LocaleProvider } from "@/components/LocaleProvider";
+import { LOGO_ICON_URL } from "@/lib/assets";
 
 const rubik = Rubik({
   variable: "--font-rubik",
@@ -25,16 +26,16 @@ export const metadata: Metadata = {
   description:
     "Interactive map of the schools offering technical and vocational education in Nepal.",
   icons: {
-    icon: [{ url: "/techpaila-icon.svg", type: "image/svg+xml" }],
-    apple: [{ url: "/techpaila-icon.svg", type: "image/svg+xml" }],
-    shortcut: "/techpaila-icon.svg",
+    icon: [{ url: LOGO_ICON_URL, type: "image/svg+xml" }],
+    apple: [{ url: LOGO_ICON_URL, type: "image/svg+xml" }],
+    shortcut: LOGO_ICON_URL,
   },
   openGraph: {
     title: "TechPaila",
     description:
       "Interactive map of the schools offering technical and vocational education in Nepal.",
     images: [
-      { url: "/techpaila-icon.svg", width: 240, height: 240, alt: "TechPaila" },
+      { url: LOGO_ICON_URL, width: 240, height: 240, alt: "TechPaila" },
     ],
   },
   twitter: {
@@ -42,7 +43,7 @@ export const metadata: Metadata = {
     title: "TechPaila",
     description:
       "Interactive map of the schools offering technical and vocational education in Nepal.",
-    images: ["/techpaila-icon.svg"],
+    images: [LOGO_ICON_URL],
   },
 };
 

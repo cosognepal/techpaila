@@ -1,7 +1,8 @@
 {
   "hostname": "nodejs",
   "mode": "dev",
-  "closeDeployMode": "unset",
+  "closeDeployMode": "auto",
+  "closeDeployModeConfirmed": true,
   "gitPushState": "unconfigured",
   "buildIntegration": "none",
   "bootstrapSession": "",

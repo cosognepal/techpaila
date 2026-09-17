@@ -4,6 +4,7 @@ export const ne: Messages = {
   nav: {
     homeAria: "टेकपाइला गृहपृष्ठ",
     cleanView: "सफा दृश्य",
+    showSchools: "विद्यालय देखाउनुहोस्",
     fullscreenEnter: "पूर्ण स्क्रिन खोल्नुहोस्",
     fullscreenExit: "पूर्ण स्क्रिन बन्द गर्नुहोस्",
     language: "भाषा",
@@ -42,6 +43,7 @@ export const ne: Messages = {
     contact: "सम्पर्क",
     website: "वेबसाइट",
     facebook: "फेसबुक",
+    googleMaps: "गुगल नक्सा",
     lastUpdated: "अन्तिम अपडेट",
     source: "स्रोत",
     hideDetails: "विवरण लुकाउनुहोस्",
@@ -51,6 +53,7 @@ export const ne: Messages = {
     loadingAria: "टेकपाइला लोड हुँदै",
   },
   programs: {
+    agriculture: "कृषि प्राविधिक",
     computer_engineering: "कम्प्युटर इन्जिनियरिङ",
     civil_engineering: "सिभिल इन्जिनियरिङ",
     electrical_engineering: "इलेक्ट्रिकल इन्जिनियरिङ",

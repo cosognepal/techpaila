@@ -9,11 +9,9 @@ Interactive map of Nepal for finding government technical and vocational seconda
 1. [Problem statement](#problem-statement)
 2. [Introduction](#introduction)
 3. [Features](#features)
-4. [How Zerops is used](#how-zerops-is-used)
-5. [Architecture](#architecture)
-6. [Tools & credits](#tools--credits)
-7. [Feedback for Zerops](#feedback-for-zerops)
-8. [Run locally](#run-locally)
+4. [Architecture](#architecture)
+5. [Tools & credits](#tools--credits)
+6. [Run locally](#run-locally)
 
 ---
 
@@ -24,6 +22,8 @@ Nepal has hundreds of government secondary schools that run technical and vocati
 TechPaila turns that data into a map and a short recommendation flow so location and program choice come first.
 
 ---
+
+
 
 ## Introduction
 
@@ -36,6 +36,8 @@ Together: a first step into technical education in Nepal.
 
 ---
 
+
+
 ## Features
 
 - **Nepal map explorer** — click province → district → municipality; dropdowns stay in sync with the map
@@ -45,18 +47,13 @@ Together: a first step into technical education in Nepal.
 - **EN / NE UI** — language toggle for labels and place names
 - **Fullscreen map mode** — recommendation FAB hides while exploring
 
+
+
 ### Screenshots
 
-
-
 ---
 
-## How Zerops is used
 
-- **ZCP (Zerops Control Plane)** — project was built and iterated against the live Node.js service (edit on the service filesystem, run builds/dev over SSH, env and deploys via Zerops tools).
-- **Zerops** — hosting and deploy: `zerops.yml` builds with `npm install && npm run build` and runs `npm start` on port 3000 for the `nodejs` service.
-
----
 
 ## Architecture
 
@@ -83,31 +80,21 @@ Leaflet is loaded client-only (`dynamic` + `ssr: false`) because it needs `windo
 
 ---
 
+
+
 ## Tools & credits
 
 
 |                     |                                                                                       |
 | ------------------- | ------------------------------------------------------------------------------------- |
-| **Stack**           | Next.js 16 (App Router), React 19, Leaflet, TypeScript, Tailwind 4, Zerops            |
+| **Stack**           | Next.js 16 (App Router), React 19, Leaflet, TypeScript, Tailwind 4                    |
 | **Boundaries**      | [mesaugat/geoJSON-Nepal](https://github.com/mesaugat/geoJSON-Nepal)                   |
 | **Map inspiration** | [Election Result Map 2082](https://result.election.gov.np/MapElectionResult2082.aspx) |
-| **Deploy**          | [Zerops](https://zerops.io) + ZCP                                                     |
 
-
-### AI usage
-
-While working in ZCP, I used Claude Code for small functions and features. Most of the design help came from AI (on a related note, I’m not strong in colors and designs) including adapting the site to neo-brutalism, generating the SVG logo, and the initial loading animation.
 
 ---
 
-## Feedback for Zerops
 
-Notes for Zerops (and Francesco Ciulla) from my side:
-
-1. **Browser IDE felt slow.** Sometimes it stopped being usable, so I switched back to a local IDE for a while. I’d like to open the Zerops environment and connect it to local VS Code the way GitHub Codespaces does.
-2. **Random disconnects** while I was gathering data / researching in another tab. Good: it remembered the session and restarted the Next.js dev server. Bad: it messed up the Claude Code prompt so I had to redo that work, and after reload I had to re-authenticate for git pull/push — that part was a poor experience.
-
----
 
 ## Run locally
 

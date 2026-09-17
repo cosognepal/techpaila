@@ -38,6 +38,7 @@ for (const d of districts) {
 
 // Program aliases
 const PROGRAM_NE: Record<string, string> = {
+  agriculture: "कृषि प्राविधिक",
   computer_engineering: "कम्प्युटर इन्जिनियरिङ",
   civil_engineering: "सिभिल इन्जिनियरिङ",
   electrical_engineering: "इलेक्ट्रिकल इन्जिनियरिङ",

@@ -1,6 +1,7 @@
 import schoolsData from "./schools.json";
 
 export type ProgramSlug =
+  | "agriculture"
   | "computer_engineering"
   | "civil_engineering"
   | "electrical_engineering"
@@ -9,6 +10,7 @@ export type ProgramSlug =
   | "music";
 
 export const PROGRAM_OPTIONS: { value: ProgramSlug; label: string }[] = [
+  { value: "agriculture", label: "Agriculture" },
   { value: "computer_engineering", label: "Computer Engineering" },
   { value: "civil_engineering", label: "Civil Engineering" },
   { value: "electrical_engineering", label: "Electrical Engineering" },
@@ -26,9 +28,11 @@ export type School = {
   district_ne: string;
   municipality_en: string;
   municipality_ne: string;
+  municipality_id?: string;
   ward: number | null;
-  lat: number | null;
-  lng: number | null;
+  lat?: number;
+  lng?: number;
+  google_maps_link?: string;
   programs: ProgramSlug[];
   source: string;
   address?: string;
@@ -45,6 +49,7 @@ export type SchoolFilter = {
   provinceName?: string | null;
   districtTitle?: string | null;
   municipalityName?: string | null;
+  municipalityId?: string | null;
   query?: string | null;
   program?: ProgramSlug | "" | null;
 };
@@ -54,6 +59,7 @@ export function getSchools(filter: SchoolFilter = {}): School[] {
     provinceName = null,
     districtTitle = null,
     municipalityName = null,
+    municipalityId = null,
     query = null,
     program = null,
   } = filter;
@@ -75,7 +81,9 @@ export function getSchools(filter: SchoolFilter = {}): School[] {
   if (municipalityName) {
     const mLower = municipalityName.toLowerCase();
     list = list.filter(
-      (s) => s.municipality_en.toLowerCase().includes(mLower),
+      (s) =>
+        (municipalityId != null && s.municipality_id === municipalityId) ||
+        s.municipality_en.toLowerCase().includes(mLower),
     );
   }
   if (program) {

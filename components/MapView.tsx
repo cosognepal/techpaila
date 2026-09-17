@@ -1,11 +1,19 @@
 "use client";
 
 import { useEffect, useMemo, useRef, useState } from "react";
-import { GeoJSON, MapContainer, TileLayer, useMap } from "react-leaflet";
+import {
+  GeoJSON,
+  MapContainer,
+  Marker,
+  Popup,
+  TileLayer,
+  useMap,
+} from "react-leaflet";
 import type { Feature, FeatureCollection, Geometry } from "geojson";
 import type { Layer, Path } from "leaflet";
 import L from "leaflet";
 import "leaflet/dist/leaflet.css";
+import { schools, type School } from "@/data/schools";
 
 // our own compiled data
 import {
@@ -45,10 +53,21 @@ type MapViewProps = {
   districtName: string | null;
   municipalityId: string | null;
   cleanView: boolean;
+  showSchools: boolean;
   onProvinceSelect: (provinceId: number) => void;
   onDistrictSelect: (districtName: string) => void;
   onMunicipalitySelect: (municipalityId: string) => void;
 };
+
+function normalizeMunicipalityName(name: string): string {
+  return name
+    .replace(
+      /\s*(Rural Municipality|Municipality|Sub-Metropolitan City|Metropolitan City)$/i,
+      "",
+    )
+    .replace(/[^a-z0-9]/gi, "")
+    .toLowerCase();
+}
 
 function FitSelection({
   provinces,
@@ -144,6 +163,7 @@ export default function MapView({
   districtName,
   municipalityId,
   cleanView,
+  showSchools,
   onProvinceSelect,
   onDistrictSelect,
   onMunicipalitySelect,
@@ -166,6 +186,8 @@ export default function MapView({
   const muniLoaded = useRef(false);
 
   useEffect(() => {
+    // Leaflet must mount after React has committed a stable client container.
+    // eslint-disable-next-line react-hooks/set-state-in-effect
     setMapKey((k) => k + 1);
   }, []);
 
@@ -221,6 +243,67 @@ export default function MapView({
     if (!municipalities || !districtName) return null;
     return filterMunicipalitiesByDistrict(municipalities, districtName);
   }, [municipalities, districtName]);
+
+  const schoolMarkers = useMemo(() => {
+    const selectedMunicipality =
+      municipalityId && municipalities
+        ? findMunicipalityFeature(municipalities, municipalityId)
+        : null;
+    const selectedMunicipalityName = selectedMunicipality?.properties?.NAME;
+
+    return schools.filter(
+      (school): school is School & { lat: number; lng: number } => {
+        if (school.lat == null || school.lng == null) return false;
+        if (
+          districtName &&
+          school.district.toUpperCase() !== districtName.toUpperCase()
+        ) {
+          return false;
+        }
+        if (provinceId != null && !districtName) {
+          const schoolDistrict = districts?.features.find(
+            (feature) =>
+              feature.properties?.DISTRICT === school.district.toUpperCase(),
+          );
+          if (schoolDistrict?.properties?.PROVINCE !== provinceId) return false;
+        }
+        if (
+          selectedMunicipalityName &&
+          school.municipality_id !== municipalityId &&
+          normalizeMunicipalityName(school.municipality_en) !==
+            normalizeMunicipalityName(selectedMunicipalityName)
+        ) {
+          return false;
+        }
+        return true;
+      },
+    );
+  }, [
+    districts,
+    provinceId,
+    districtName,
+    municipalities,
+    municipalityId,
+  ]);
+
+  const schoolMarkerIcon = useMemo(() => {
+    const size = municipalityId ? 30 : districtName ? 26 : provinceId ? 22 : 16;
+
+    return L.divIcon({
+      className: "school-map-marker",
+      html: `
+        <svg viewBox="0 0 24 24" aria-hidden="true">
+          <path d="M3 10 12 4l9 6" />
+          <path d="M5 10v9h14v-9" />
+          <path d="M9 19v-5h6v5" />
+          <path d="M3 19h18" />
+        </svg>
+      `,
+      iconSize: [size, size],
+      iconAnchor: [size / 2, size / 2],
+      popupAnchor: [0, -(size / 2 + 4)],
+    });
+  }, [provinceId, districtName, municipalityId]);
 
   const onEachProvince = (
     feature: Feature<Geometry, ProvinceFeatureProps>,
@@ -351,6 +434,37 @@ export default function MapView({
           onEachFeature={onEachMunicipality}
         />
       )}
+
+      {showSchools &&
+        schoolMarkers.map((school) => (
+        <Marker
+          key={school.id}
+          position={[school.lat, school.lng]}
+          icon={schoolMarkerIcon}
+        >
+          <Popup>
+            <strong>
+              {locale === "ne" ? school.name_ne : school.name_en}
+            </strong>
+            <br />
+            {locale === "ne"
+              ? `${school.municipality_ne}, ${school.district_ne}`
+              : `${school.municipality_en}, ${school.district}`}
+            {school.google_maps_link && (
+              <>
+                <br />
+                <a
+                  href={school.google_maps_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t("schools.googleMaps")}
+                </a>
+              </>
+            )}
+          </Popup>
+        </Marker>
+        ))}
     </MapContainer>
   );
 }

@@ -1,6 +1,6 @@
 "use client";
 
-import { useMemo, useState } from "react";
+import { useState } from "react";
 import {
   getSchools,
   PROGRAM_OPTIONS,
@@ -143,6 +143,23 @@ function SchoolCard({
             </div>
           )}
 
+          {school.google_maps_link && (
+            <div className="school-detail-block">
+              <span className="school-field-label">
+                {t("schools.googleMaps")}
+              </span>
+              <p className="school-detail-line">
+                <a
+                  href={school.google_maps_link}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  {t("schools.googleMaps")}
+                </a>
+              </p>
+            </div>
+          )}
+
           <div className="school-detail-meta">
             {school.last_updated && (
               <p>
@@ -186,17 +203,14 @@ export default function Schools({
     : null;
   const municipalityName = municipalityRecord?.name ?? null;
 
-  const schools = useMemo(
-    () =>
-      getSchools({
-        provinceName,
-        districtTitle,
-        municipalityName,
-        query,
-        program: program || null,
-      }),
-    [provinceName, districtTitle, municipalityName, query, program],
-  );
+  const schools = getSchools({
+    provinceName,
+    districtTitle,
+    municipalityName,
+    municipalityId,
+    query,
+    program: program || null,
+  });
 
   const scope = (() => {
     if (municipalityId && municipalityRecord) {

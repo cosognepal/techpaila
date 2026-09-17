@@ -10,12 +10,9 @@ App link: https://nodejs-134-3000.sea1.zerops.app/
 1. [Problem statement](#problem-statement)
 2. [Introduction](#introduction)
 3. [Features](#features)
-4. [How Zerops is used](#how-zerops-is-used)
-5. [Architecture](#architecture)
-6. [Tools & credits](#tools--credits)
-7. [Feedback for Zerops](#feedback-for-zerops)
-8. [Run locally](#run-locally)
-9. [Live link](https://nodejs-134-3000.sea1.zerops.app/)
+4. [Architecture](#architecture)
+5. [Tools & credits](#tools--credits)
+6. [Run locally](#run-locally)
 
 ---
 
@@ -29,6 +26,8 @@ It is especially useful because there are hundreds of students who lack essentia
 
 ---
 
+
+
 ## Introduction
 
 **TechPaila** is two words:
@@ -40,6 +39,8 @@ Together: a first step into technical education in Nepal. [Watch the full video]
 
 ---
 
+
+
 ## Features
 
 - **Nepal map explorer** — click province → district → municipality; dropdowns stay in sync with the map
@@ -49,6 +50,8 @@ Together: a first step into technical education in Nepal. [Watch the full video]
 - **EN / NE UI** — language toggle for labels and place names
 - **Fullscreen map mode** — recommendation FAB hides while exploring
 
+
+
 ### Screenshots
 
 <img width="1710" height="1034" alt="image" src="https://github.com/user-attachments/assets/b9efcf12-9650-4433-83ae-ce17f24952de" />
@@ -57,12 +60,7 @@ Together: a first step into technical education in Nepal. [Watch the full video]
 
 ---
 
-## How Zerops is used
 
-- **ZCP (Zerops Control Plane)** — project was built and iterated against the live Node.js service (edit on the service filesystem, run builds/dev over SSH, env and deploys via Zerops tools).
-- **Zerops** — hosting and deploy: `zerops.yml` builds with `npm install && npm run build` and runs `npm start` on port 3000 for the `nodejs` service.
-
----
 
 ## Architecture
 
@@ -89,32 +87,21 @@ Leaflet is loaded client-only (`dynamic` + `ssr: false`) because it needs `windo
 
 ---
 
+
+
 ## Tools & credits
 
 
-|                     |                                                                                                       |
-| ------------------- | ------------------------------------------------------------------------------------------------------|
-| **Stack**           | Next.js 16 (App Router), React 19, Leaflet, TypeScript, Tailwind 4, Zerops, Zerops Object Storage     |
-| **Zerops services** | `zcp` (control plane), `nodejs` (alpine/nodejs@24 runtime), `storage` (object-storage, public-read — logo/brand assets) |
-| **Boundaries**      | [mesaugat/geoJSON-Nepal](https://github.com/mesaugat/geoJSON-Nepal)                                   |
-| **Map inspiration** | [Election Result Map 2082](https://result.election.gov.np/MapElectionResult2082.aspx)                 |
-| **Deploy**          | [Zerops](https://zerops.io) + ZCP                                                                     |
+|                     |                                                                                       |
+| ------------------- | ------------------------------------------------------------------------------------- |
+| **Stack**           | Next.js 16 (App Router), React 19, Leaflet, TypeScript, Tailwind 4                    |
+| **Boundaries**      | [mesaugat/geoJSON-Nepal](https://github.com/mesaugat/geoJSON-Nepal)                   |
+| **Map inspiration** | [Election Result Map 2082](https://result.election.gov.np/MapElectionResult2082.aspx) |
 
-
-### AI usage
-
-While working in ZCP, I used Claude Code for small functions and features. Most of the design help came from AI (on a related note, I’m not strong in colors and designs) including adapting the site to neo-brutalism, generating the SVG logo, and the initial loading animation.
 
 ---
 
-## Feedback for Zerops
 
-Notes for Zerops (and Francesco Ciulla) from my side:
-
-1. **Browser IDE felt slow.** Sometimes it stopped being usable, so I switched back to a local IDE for a while. I’d like to open the Zerops environment and connect it to local VS Code the way GitHub Codespaces does.
-2. **Random disconnects** while I was gathering data / researching in another tab. Good: it remembered the session and restarted the Next.js dev server. Bad: it messed up the Claude Code prompt so I had to redo that work, and after reload I had to re-authenticate for git pull/push — that part was a poor experience.
-
----
 
 ## Run locally
 

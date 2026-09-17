@@ -2,6 +2,7 @@ export type Messages = {
   nav: {
     homeAria: string;
     cleanView: string;
+    showSchools: string;
     fullscreenEnter: string;
     fullscreenExit: string;
     language: string;
@@ -40,6 +41,7 @@ export type Messages = {
     contact: string;
     website: string;
     facebook: string;
+    googleMaps: string;
     lastUpdated: string;
     source: string;
     hideDetails: string;
@@ -49,6 +51,7 @@ export type Messages = {
     loadingAria: string;
   };
   programs: {
+    agriculture: string;
     computer_engineering: string;
     civil_engineering: string;
     electrical_engineering: string;
@@ -78,6 +81,7 @@ export const en: Messages = {
   nav: {
     homeAria: "TechPaila home",
     cleanView: "Clean view",
+    showSchools: "Show schools",
     fullscreenEnter: "Enter fullscreen",
     fullscreenExit: "Exit fullscreen",
     language: "Language",
@@ -116,6 +120,7 @@ export const en: Messages = {
     contact: "Contact",
     website: "Website",
     facebook: "Facebook",
+    googleMaps: "Google Maps",
     lastUpdated: "Last updated",
     source: "Source",
     hideDetails: "Hide details",
@@ -125,6 +130,7 @@ export const en: Messages = {
     loadingAria: "Loading TechPaila",
   },
   programs: {
+    agriculture: "Agriculture",
     computer_engineering: "Computer Engineering",
     civil_engineering: "Civil Engineering",
     electrical_engineering: "Electrical Engineering",

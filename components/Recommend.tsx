@@ -1,6 +1,6 @@
 "use client";
 
-import { useCallback, useEffect, useMemo, useState } from "react";
+import { useCallback, useMemo, useState } from "react";
 import districts from "@/data/districts.json";
 import { PROGRAM_OPTIONS, type ProgramSlug } from "@/data/schools";
 import { useLocale } from "@/hooks/useLocale";
@@ -234,7 +234,9 @@ function deriveMunicipalityId(municipalityEn: string, district: string): string 
 
 function handleZoomToSchool(school: RankedSchool["school"]) {
   const districtKey = school.district.toUpperCase();
-  const municipalityId = deriveMunicipalityId(school.municipality_en, school.district);
+  const municipalityId =
+    school.municipality_id ??
+    deriveMunicipalityId(school.municipality_en, school.district);
   window.dispatchEvent(
     new CustomEvent("techpaila:zoom-school", {
       detail: { districtKey, municipalityId },

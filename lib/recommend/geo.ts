@@ -79,12 +79,17 @@ for (const m of muniData) {
 
 /**
  * Get the best centroid for a school, using the most granular data available:
- * 1. Municipality centroid (matched by municipality_en + district)
- * 2. District centroid (fallback)
+ * 1. Verified school coordinates
+ * 2. Municipality centroid (matched by municipality_en + district)
+ * 3. District centroid (fallback)
  */
 export function getSchoolCentroid(
   school: School,
 ): { lat: number; lng: number } | null {
+  if (school.lat != null && school.lng != null) {
+    return { lat: school.lat, lng: school.lng };
+  }
+
   // Try municipality match: strip level suffix for matching
   const muniName = school.municipality_en
     .replace(/\s*(Rural Municipality|Municipality|Sub-Metropolitan City|Metropolitan City|Sub-metropolitan City|Metropolitan city)\s*$/i, "")

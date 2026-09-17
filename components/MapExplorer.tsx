@@ -28,6 +28,7 @@ export default function MapExplorer() {
   const [districtName, setDistrictName] = useState<string | null>(null);
   const [municipalityId, setMunicipalityId] = useState<string | null>(null);
   const [cleanView, setCleanView] = useState(false);
+  const [showSchools, setShowSchools] = useState(false);
   const [fullscreen, setFullscreen] = useState(false);
 
   const handleProvinceChange = useCallback((next: number | null) => {
@@ -165,6 +166,21 @@ export default function MapExplorer() {
                     <span className="toggle-thumb" />
                   </button>
                 </div>
+                <div className="clean-view-toggle">
+                  <span className="clean-view-label" id="show-schools-label">
+                    {t("nav.showSchools")}
+                  </span>
+                  <button
+                    type="button"
+                    role="switch"
+                    aria-checked={showSchools}
+                    aria-labelledby="show-schools-label"
+                    className={`toggle-switch${showSchools ? " is-on" : ""}`}
+                    onClick={() => setShowSchools((value) => !value)}
+                  >
+                    <span className="toggle-thumb" />
+                  </button>
+                </div>
               </div>
             </div>
 
@@ -225,6 +241,7 @@ export default function MapExplorer() {
                       districtName={districtName}
                       municipalityId={municipalityId}
                       cleanView={cleanView}
+                      showSchools={showSchools}
                       onProvinceSelect={handleProvinceSelect}
                       onDistrictSelect={handleDistrictSelect}
                       onMunicipalitySelect={handleMunicipalitySelect}

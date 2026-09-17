@@ -1,13 +1,11 @@
 import { schools, type ProgramSlug, type School } from "@/data/schools";
 import placeNames from "@/data/place-names.json";
-import { districtToProvince } from "./constants";
 import { getDistrictCentroid, getSchoolCentroid, haversineKm } from "./geo";
 
-const provincesEn = placeNames.provinces.en as Record<string, string>;
-const provincesNe = placeNames.provinces.ne as Record<string, string>;
 const districtsNe = placeNames.districts.ne as Record<string, string>;
 
 const PROGRAM_LABELS_EN: Record<string, string> = {
+  agriculture: "Agriculture",
   computer_engineering: "Computer Engineering",
   civil_engineering: "Civil Engineering",
   electrical_engineering: "Electrical Engineering",
@@ -17,6 +15,7 @@ const PROGRAM_LABELS_EN: Record<string, string> = {
 };
 
 const PROGRAM_LABELS_NE: Record<string, string> = {
+  agriculture: "कृषि प्राविधिक",
   computer_engineering: "कम्प्युटर इन्जिनियरिङ",
   civil_engineering: "सिभिल इन्जिनियरिङ",
   electrical_engineering: "इलेक्ट्रिकल इन्जिनियरिङ",
